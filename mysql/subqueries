@@ -1,0 +1,104 @@
+# A subquery is a nested query where the results of one query can be
+# used in another query via a relational operator or aggregation
+# function
+
+use sakila;
+
+select cust.customer_id, cust.first_name, cust.last_name
+from customer cust
+where cust.customer_id in 
+(
+	select ren.customer_id
+	from rental ren
+	where ren.inventory_id in
+	(
+		select inv.inventory_id
+		from inventory inv
+		where inv.film_id in
+		(
+			select fl.film_id
+			from film fl
+			where fl.film_id in 
+			(
+				select fc.film_id 
+				from film_category fc
+				where fc.category_id in
+				(
+					select cat.category_id
+					from category cat
+					where cat.name = 'Action'
+				)
+			)
+		)
+	)
+)
+order by cust.customer_id, cust.first_name, cust.last_name;
+
+# vs join equivalent
+select distinct cust.customer_id, cust.first_name, cust.last_name
+from customer cust
+inner join rental ren on ren.customer_id = cust.customer_id
+inner join inventory inv on inv.inventory_id = ren.inventory_id
+inner join film fl on fl.film_id = inv.film_id
+inner join film_category fc on fc.film_id = fl.film_id
+inner join category cat on cat.category_id = fc.category_id
+where cat.name = 'Action'
+order by cust.customer_id, cust.first_name, cust.last_name;
+
+# using aggregate function
+select fm.title, cat.name, dt.CountofCategory
+from film fm 
+inner join film_category fc on fc.film_id = fm.film_id
+inner join category cat on cat.category_id = fc.category_id
+inner join 
+	(
+		select count(*) as CountofCategory, fc.category_id
+		from film_category fc
+		group by fc.category_id
+	) dt on dt.category_id = fc.category_id;
+
+# corelated subqueries
+# A correlated subquery is a subquery that is executed once for each
+# row
+# A correlated subquery returns results based on the column of the
+# main query
+
+select payment_id, cust.first_name, cust.last_name, amount
+from payment pt
+inner join customer cust on cust.customer_id = pt.customer_id
+where amount > 
+	( 
+		select avg(amount)
+		from payment pt1
+		where pt1.customer_id = pt.customer_id
+	)
+order by cust.customer_id;
+
+select payment_id, cust.first_name, cust.last_name, count(payment_id) CountOfPayment
+from payment pt
+inner join customer cust on cust.customer_id = pt.customer_id
+where amount > 
+	( 
+		select avg(amount)
+		from payment pt1
+		where pt1.customer_id = pt.customer_id
+	)
+order by cust.customer_id;
+
+select avg(amount), cust.first_name, cust.last_name
+from payment pt
+inner join customer cust on cust.customer_id = pt.customer_id
+group by cust.first_name, cust.last_name
+order by cust.customer_id;
+
+# puzzle subquery to outer join 
+use test;
+
+SELECT t1.*
+FROM table1 t1
+WHERE t1.ID NOT IN (SELECT t2.ID FROM table2 t2);
+
+select t1.*, t2.*
+from table1 t1
+left outer join table2 t2 on t1.ID = t2.ID
+where t2.ID is null;

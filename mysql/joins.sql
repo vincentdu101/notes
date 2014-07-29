@@ -167,3 +167,66 @@ select e1.name as employee_name, e2.name as manager_name
 from test.employee e1
 inner join test.employee e2
 on e1.manager_id = e2.employee_id;
+
+# A NATURAL join is kind of join which joins two (or more) tables based
+# on all the columns in the two tables with the same name
+# inner or outer join
+
+select  t1.ID as T1ID, t1.Value as T1Value,
+		t2.ID as T2ID, t2.Value as T2Value
+from test.table1 t1
+natural join test.table2 t2;
+
+select  t1.ID as T1ID, t1.Value as T1Value,
+		t2.ID as T2ID, t2.Value as T2Value
+from test.table1 t1
+natural left join test.table2 t2;
+
+# USING keyword simplifies syntax for joining tables when the columns
+# have the same name in both the tables
+
+select  t1.ID as t1ID, t1.Value as t1Value,
+		t2.ID as t2ID, t2.Value as t2Value
+from test.table1 t1
+inner join test.table2 t2 using (ID);
+
+select  t1.ID as t1ID, t1.Value as t1Value,
+		t2.ID as t2ID, t2.Value as t2Value
+from test.table1 t1
+inner join test.table2 t2 on t1.ID = t2.ID and t1.Value = t2.Value;
+
+select  t1.ID as t1ID, t1.Value as t1Value,
+		t2.ID as t2ID, t2.Value as t2Value
+from test.table1 t1
+inner join test.table2 t2 using (ID, Value);
+
+select  t1.ID as T1ID, t1.Value as T1Value,
+		t2.ID as T2ID, t2.Value as T2Value
+from test.table1 t1
+left join test.table2 t2 using (ID);
+
+# UNION - combines rows
+# tables must have equal columns
+select t1.ID as T1ID, t1.Value as T1Value
+from test.table1 t1
+union
+select t2.ID as T2ID, t2.Value as T2Value
+from test.table2 t2;
+
+select  t1.ID as T1ID, t1.Value as T1Value,
+		t2.ID as T2ID, t2.Value as T2Value
+from test.table1 t1
+left join test.table2 t2 on t1.ID = t2.ID
+union
+select  t1.ID as T1ID, t1.Value as T1Value,
+		t2.ID as T2ID, t2.Value as T2Value
+from test.table1 t1
+right outer join test.table2 t2 on t1.ID = t2.ID;
+
+
+select t1.ID as T1ID, t1.Value as T1Value
+from test.table1 t1
+union all
+select t2.ID as T2ID, t2.Value as T2Value
+from test.table2 t2
+order by T1Value desc;
