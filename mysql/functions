@@ -1,0 +1,8 @@
+use platinum_development;
+
+select * from users;
+select * from advertisers;
+select * from campaigns;
+
+select * from sites;
+select * from creatives;
