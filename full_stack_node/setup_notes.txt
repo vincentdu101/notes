@@ -1,0 +1,38 @@
+# install express.js
+npm install -g express
+
+# for express commands
+sudo apt-get install node-express
+
+# new express project
+express new ProjectName
+
+# install dependencies
+cd ProjectName
+npm install
+
+# view list of modules installed locally
+npm list 
+
+# view list of modules installed globally
+npm list -g 
+
+# install and add to package.json
+npm install coffee-script --save
+
+# allow node.js to compile coffeescript for use
+require('coffee-script').register();
+
+# node-dev for continuous running
+npm install node-dev --save
+./node_modules/node-dev/bin/node-dev server.js
+
+# install mocha
+npm install mocha --save
+
+chmod +x bin/test
+
+# install redis components
+npm install redis hiredis connect-redis express-session --save
+express_session = require("express-session"),
+RedisStore = require("connect-redis")(express_session)

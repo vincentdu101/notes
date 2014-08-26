@@ -13,7 +13,7 @@ function merge(left, right){
         result.push(right[ir++]);
     }
   }
-
+  console.log("result ", result.concat(left.slice(il)).concat(right.slice(ir)));
   return result.concat(left.slice(il)).concat(right.slice(ir));
 }
 
