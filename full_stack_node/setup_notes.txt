@@ -36,3 +36,6 @@ chmod +x bin/test
 npm install redis hiredis connect-redis express-session --save
 express_session = require("express-session"),
 RedisStore = require("connect-redis")(express_session)
+
+# install bower
+npm install -g bower

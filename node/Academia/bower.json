@@ -1,0 +1,17 @@
+{
+  "name": "Academia",
+  "version": "0.0.1",
+  "authors": [
+    "vdu <vincentdu101@gmail.com>"
+  ],
+  "description": "\"Extreme Training\"",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "d3": "~3.4.11",
+    "bootstrap": "~3.2.0",
+    "angular": "~1.2.25",
+    "angular-ui-bootstrap": "~0.11.0",
+    "jquery": "~2.1.1"
+  }
+}
