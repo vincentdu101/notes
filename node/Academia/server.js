@@ -21,6 +21,7 @@ var app = express();
 
 // Configuration - All Environments
 app.set('port', process.env.PORT || 3000);
+app.use(express.static(__dirname + '/public'));
 app.set('views', path.join(__dirname, "/server/views"));
 app.set('view engine', 'jade');
 app.use(favicon(__dirname + "/public/images/polar_bear.ico"));
@@ -33,7 +34,6 @@ app.use(session({ resave: true,
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(multer());
-app.use(express.static(path.join(__dirname, 'server')));
 
 if ('developement' == app.get('env')){
   app.use(errorHandler());

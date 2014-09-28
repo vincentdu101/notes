@@ -1,6 +1,9 @@
-!!!
-html
+!doctype
+html(ng-app="myApp")
   head
     title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/public/stylesheets/style.css')
   body!= body
+
+
+    script(data-main="/public/javascripts/main.js", src="../../bower_components/requirejs/require.js")
