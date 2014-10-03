@@ -1,0 +1,73 @@
+<a class='adv-op-opener' ng-if="start_closed != undefined" ng-click="toggle_advance_visibility()" style="margin-bottom:10px;">
+  {{resource_name}}
+  <i class='icon-caret-up' ng-hide="start_closed"></i>
+  <i class='icon-caret-down' ng-show="start_closed"></i>
+</a>
+<select ng-model="ngModel[resourceModel]" ng-options="resource.name for resource in select_data" style="display:none;" multiple="multiple">
+</select>
+<div class='adv-op-wrap' ng-hide="start_closed" ng-class="{'compact': compact, 'vertical minimized': minimized}">
+  <div class='adv-op-right'>
+    <div class='bulk-box'>
+      <span class='count'>{{selected_data.length}} selected
+        <a ng-click="delete_resource()" class="btn btn-danger live-delete-submit" ng-disabled="selected_data.length == 0" ng-show="destroy !== undefined">
+          Delete
+        </a>
+      </span>
+      <a class='adv-op-expand' title='Toggle layout' ng-click="minimize()" ng-show="minimized"><i class='icon-resize-full'></i></a>
+      <a class='adv-op-expand' title='Toggle layout' ng-click="minimize()" ng-hide="minimized"><i class='icon-resize-horizontal'></i></a>      
+      <a class='remove-all' ng-click="remove_all()" ng-show="multiple">Remove All</a>
+    </div>
+    <div class='option-scroller' ui-sortable="sortable_events" ng-model="selected_data">
+      <div class="option" ng-repeat="resource in selected_data">
+        <i class="icon-reorder"></i>
+        <a ng-click="preview(resource[id])" class="adv-op-action preview-icon" ng-show="preview"><i class="icon-search subtle"></i></a>        
+        <span class="name-output">{{resource[output]}}<div class="fader"></div></span>
+        <a ng-click="remove_resource(resource[id])" class="adv-op-action remove-link">
+          <i class="icon-remove"></i>
+        </a>
+      </div>
+    </div>
+
+    <a class="add-more-link" title="Add" ng-show="minimized" ng-click="unminimize()">
+      <span ng-show="multiple"><i class="icon-plus-sign"></i> Add more</span>
+      <span ng-hide="multiple"><i class="icon-exchange"></i> Change</span>
+    </a>
+
+    <div class='create-box' ng-show="create && compact == false" style="height:46px;"></div>
+  </div>
+  <div class='adv-op-left'>
+    <div class='bulk-box'>
+      <div class='live-search'><i class='icon-search'></i>
+        <input type='text' class='live-search-input' ng-model="search">
+      </div>
+      <span class='count'>{{select_data.length}} items</span>
+      <a class='adv-op-expand' title='Toggle layout' ng-click="minimize()" ng-show="compact"><i class='icon-resize-full'></i></a>
+      <a class='add-all' ng-click="add_all()" ng-show="multiple">Add All</a>
+    </div>
+
+    <div class='option-scroller' ng-if="ajax_search == undefined">
+      <div class='option' ng-animate="'animate'" ng-repeat="resource in select_data | filter:search">
+        <i class="icon-reorder"></i>
+        <a ng-click="preview(resource[id])" class="adv-op-action" ng-show="preview"><i class="icon-search subtle" style="position:absolute; right: 30px; top:3px;"></i></a>           
+        <span class="name-output">{{resource[output]}}</span>
+        <a ng-click="add_resource(resource[id])" class="add-link adv-op-action" ng-hide="single_lock">Add</a>
+      </div>
+    </div>
+
+    <div class='option-scroller' ng-if="ajax_search != undefined">
+      <div class='option' ng-animate="'animate'" ng-repeat="resource in select_data">
+        <i class="icon-reorder"></i>
+        <a ng-click="preview(resource[id])" class="adv-op-action" ng-show="preview"  style="position:absolute; right: 30px; top: 3px;"><i class="icon-search subtle"></i></a>           
+        <span class="name-output">{{resource[output]}}</span>
+        <a ng-click="add_resource(resource[id])" class="add-link adv-op-action" ng-hide="single_lock">Add</a>
+      </div>
+    </div>
+
+    <div class='create-box' ng-show="create">
+      <div class='create-input-div'>
+        <input type='text' id='live-create-input' class='live-create-input' placeholder='Create new' ng-model="new_item" />
+        <a class='btn btn-primary live-create-submit' ng-click="create_item()" title='Add now'>Create</a>
+      <i class='icon-spinner icon-spin' style='display:none;'></i></div>
+    </div>
+  </div>
+</div>
