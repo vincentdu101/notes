@@ -1,5 +1,5 @@
 angular.module('sampleApp').controller("SampleNewCtrl", [
-  "$scope", "regexService", "shareNav", 'Resource', function($scope, regexService, shareNav, Resource) {
+  "$scope", "regexService", "navigation", 'Resource', function($scope, regexService, navigation, Resource) {
 
     // initialize resource and helper methods extended from injected service
     $scope.resource = {};
@@ -51,7 +51,7 @@ angular.module('sampleApp').controller("SampleNewCtrl", [
             // module to display flash messages and service to redirect user to specific url
             // I did not develop this so I did not include these 
             ViewUpdater.flashMessage("Successfully created resource \"" + data.resource.name + "\".", "success");
-            shareNav.view_resource(data.resource.id);
+            navigation.view_resource(data.resource.id);
           }
         });
       }
