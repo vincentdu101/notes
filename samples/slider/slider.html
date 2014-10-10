@@ -1,0 +1,24 @@
+<ul class="sliderContent" style="list-style: none;">
+  <li class="sliderImage" ng-repeat="slide in items" ng-show="slide.visible" style="padding-right:40px; min-width:92px;">
+    <a href=""><img src="{{slide.img}}" alt="1" style="width:700px; height:200px" /></a>
+    <div class="alert alert-warning" style="background: url('modules/core/img/slider/transparent.png'); color:white; margin-top:10px;">
+      <strong>{{slide.title}}</strong>
+      <br />{{slide.description}}
+    </div>
+  </li>
+</ul>
+
+<a ng-click="prevSlide()" class="btn btn-default">
+  <i class="fa fa-chevron-left"></i>
+</a>
+<span ng-repeat="slide in items">
+  <a ng-click="setCurrentSlide($index)" style="cursor:pointer;">
+    <i class="fa fa-circle-o" ng-show="$index != current" class="slide-bullet"></i>
+  </a>
+  <a ng-click="setCurrentSlide($index)" style="cursor:pointer;">
+    <i class="fa fa-circle" ng-click="setCurrentSlide($index)" ng-show="$index == current" class="slide-bullet"></i>
+  </a>  
+</span>
+<a ng-click="nextSlide()" class="btn btn-default">
+  <i class="fa fa-chevron-right"></i>
+</a>

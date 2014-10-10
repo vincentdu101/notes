@@ -12,3 +12,8 @@ elements.
 
 ### Regex Auto Complete
 App that allows auto highlighting of user input based on matching keys. Keys can be loaded in via the regexService. Takes into account any user interaction and contains list of chosen selects that allows users to update the keys.
+
+
+### Slider
+Utilizes Angular techniques and declarative approach to developing a slider. Relies on ng-show to trigger the display of each slide
+based on index. Further development would include animations and more animated captions. 
