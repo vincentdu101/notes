@@ -1,3 +1,7 @@
+.item-key {
+  border: 2px solid red;
+}
+
 /* css for selectionTool plugin */
 
 .adv-op-wrap {
@@ -33,6 +37,7 @@
     top: 0;
     line-height: 20px;
     color: #0088CC;
+    cursor: pointer;
   }
   .option {
     clear: both;
@@ -51,6 +56,7 @@
   a.remove-link {
     color: #CCCCCC;
     font-size: 11px;
+    cursor: pointer;
   }
   .adv-op-right .bulk-box {
     height:40px;
@@ -145,6 +151,8 @@
   cursor: move;
   position: relative;
   padding-left: 25px;
+  border: 1px solid #CCC8C4;
+  padding-right: 10px;
 }
 
 .error {
@@ -227,7 +235,8 @@
     padding-right: 50px;
   }
   &.vertical .adv-op-right a.adv-op-action, &.compact .adv-op-right a.adv-op-action {
-    left: 325px;    
+    // left: 325px;
+    left: 320px;    
   }
   
   &.vertical .adv-op-left .bulk-box, &.compact .adv-op-left .bulk-box {

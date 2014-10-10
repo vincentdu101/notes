@@ -1,14 +1,19 @@
-angular.module('sampleApp').factory('appService', [
-  "applicationService", function(applicationService) {
+"use strict";
+
+angular.module("core").factory("regexService", [function() {
 
     // extend applicationService which returns an object
-    var methods = applicationService;
+    var methods = {};
 
     // returns the types available for format
     methods["item_types"] = function(format) {
       var output = {};
-      types = Enums.itemType;
-      Object.key(types).forEach(function(key){
+      var types = {
+        "html_snippet": {format: "display", text: "HTML Snippet"},
+        "iframe": {format: "display", text: "Iframe"},
+        "vast_url": {format: "video", text: "Vast URL"}
+      };
+      Object.keys(types).forEach(function(key){
         if (types[key]["format"] === format && key !== "not_allowed") {
           output[key] = types[key]["text"];
         }
@@ -20,16 +25,16 @@ angular.module('sampleApp').factory('appService', [
     methods["keys"] = function() {
       return {
         video: {
-          test: "color",
-          fake: "yes"
-          sound: "volume",
-          vcr: "system",
-          dvd: "blue"
+          color: "color",
+          yes: "yes",
+          volume: "volume",
+          system: "system",
+          blue: "blue"
         },
         display: {
-          picture: "frame",
-          door: "mat",
-          windows: "glass"
+          frame: "frame",
+          mat: "mat",
+          glass: "glass"
         }
       };
     };
@@ -47,13 +52,11 @@ angular.module('sampleApp').factory('appService', [
     methods["add_empty_key"] = function($scope, options) {
       var duplicate;
       if (options == null) {
-        options = {
-          first: false
-        };
+        options = {first: false};
       }
 
       // match for duplicates - do not add if it is a duplicate
-      duplicate = $scope.base === "&TEMPLATE[]__" || $scope.base === "&[]";
+      duplicate = $scope.base === "&__TEMPLATE[]__" || $scope.base === "&[]";
       
       if (options.first && duplicate) {
         $scope.base = "";
@@ -62,7 +65,7 @@ angular.module('sampleApp').factory('appService', [
       
       // add template and highlight
       if ($scope.format === "video") {
-        $scope.base += "&TEMPLATE[]__";
+        $scope.base += "&__TEMPLATE[]__";
         $scope.highlighted += "&\<\i class\=\"item-key\"\>\_\_TEMPLATE\[\]\_\_\<\/\i\>";
       } else {
         $scope.base += "&[]";
@@ -77,7 +80,7 @@ angular.module('sampleApp').factory('appService', [
     // try to match for key template
     methods["key_matched"] = function($scope, key) {
       if ($scope.format === "video") {
-        return $scope.base.match(new RegExp("\\_\\TEMPLATE\\[" + key + "\\]\\_\\_"));
+        return $scope.base.match(new RegExp("\\_\\_TEMPLATE\\[" + key + "\\]\\_\\_"));
       } else {
         return $scope.base.match(new RegExp("\\[" + key + "\\]"));
       }
@@ -92,9 +95,9 @@ angular.module('sampleApp').factory('appService', [
       }
       if ($scope.format === "video" && $scope.base !== void 0) {
         if (item.old_value !== "") {
-          return "\_TEMPLATE\[" + item.old_value + "\]\_\_";
+          return "\_\_TEMPLATE\[" + item.old_value + "\]\_\_";
         }
-        return "\_TEMPLATE\[\]\_\_";
+        return "\_\_TEMPLATE\[\]\_\_";
       } else if ($scope.format === "display" && $scope.base !== void 0) {
         if (item.old_value !== "") {
           return "\[" + item.old_value + "\]";
@@ -106,7 +109,7 @@ angular.module('sampleApp').factory('appService', [
     // match and return replacement value regex
     methods["new_key_regex"] = function($scope, key) {
       if ($scope.format === "video") {
-        return "TEMPLATE[" + key + "]__";
+        return "__TEMPLATE[" + key + "]__";
       } else if ($scope.format === "display") {
         return "[" + key + "]";
       }
@@ -121,9 +124,9 @@ angular.module('sampleApp').factory('appService', [
       }
       if ($scope.format === "video") {
         if (item.old_value !== "") {
-          return "\<i class=\"item-key\"\>\_TEMPLATE\[" + item.old_value + "\]\_\_\<\/i\>";
+          return "\<i class=\"item-key\"\>\_\_TEMPLATE\[" + item.old_value + "\]\_\_\<\/i\>";
         }
-        return "\<i class=\"item-key\"\>\_TEMPLATE\[\]\_\_\<\/i\>";
+        return "\<i class=\"item-key\"\>\_\_TEMPLATE\[\]\_\_\<\/i\>";
       } else if ($scope.format === "display") {
         if (item.old_value !== "") {
           return "\<i class=\"item-key\"\>\[" + item.old_value + "\]\<\/i\>";
@@ -135,7 +138,7 @@ angular.module('sampleApp').factory('appService', [
     // return regex for highlighted regex for new key
     methods["new_ad_key_regex"] = function($scope, key) {
       if ($scope.format === "video") {
-        return "\<i class=\"item-key\">\_TEMPLATE\[" + key + "\]\_\_\<\/i\>";
+        return "\<i class=\"item-key\"\>\_\_TEMPLATE\[" + key + "\]\_\_\<\/i\>";
       } else if ($scope.format === "display") {
         return "\<i class=\"item-key\"\>\[" + key + "\]\<\/i\>";
       }
@@ -145,8 +148,8 @@ angular.module('sampleApp').factory('appService', [
     // updates key borders when new key is selected
     methods["update_bordered_keys"] = function($scope, keys, key) {
       var $bordered_key, count, key_reg_exp;
-      key_reg_exp = new RegExp("\\_\\TEMPLATE\\[" + keys[key] + "\\]\\_\\_", "g");
-      $bordered_key = "\<\i class\=\"item-key\"\>\_\TEMPLATE\[" + key + "\]\_\_\<\/\i\>";
+      key_reg_exp = new RegExp("\\_\\_TEMPLATE\\[" + keys[key] + "\\]\\_\\_", "g");
+      $bordered_key = "\<\i class\=\"item-key\"\>\_\_TEMPLATE\[" + key + "\]\_\_\<\/\i\>";
       if ($scope.format === "display") {
         key_reg_exp = new RegExp("\\[" + keys[key] + "\\]", "g");
         $bordered_key = "\<\i class\=\"item-key\"\>\[" + key + "\]\<\/\i\>";
@@ -210,11 +213,11 @@ angular.module('sampleApp').factory('appService', [
       }
       if ($scope.format === "video") {
         if (options.single === false) {
-          $scope.base = $scope.base.replace(new RegExp("&\\_\\TEMPLATE\\[" + key + "\\]\\_\\_", "g"), "");
+          $scope.base = $scope.base.replace(new RegExp("&\\_\\_TEMPLATE\\[" + key + "\\]\\_\\_", "g"), "");
         }
-        $scope.base = $scope.base.replace(new RegExp("\\_\\TEMPLATE\\[" + key + "\\]\\_\\_", "g"), "");
-        $scope.highlighted = $scope.highlighted.replace(new RegExp("&\<i class=\"item-key\"\>\_TEMPLATE\\[" + key + "\\]\_\_\<\/i\>", "g"), "");
-        $scope.highlighted = $scope.highlighted.replace(new RegExp("\<i class=\"item-key\"\>\_TEMPLATE\\[" + key + "\\]\_\_\<\/i\>", "g"), "");
+        $scope.base = $scope.base.replace(new RegExp("\\_\\_TEMPLATE\\[" + key + "\\]\\_\\_", "g"), "");
+        $scope.highlighted = $scope.highlighted.replace(new RegExp("&\<i class=\"item-key\"\>\_\_TEMPLATE\\[" + key + "\\]\_\_\<\/i\>", "g"), "");
+        $scope.highlighted = $scope.highlighted.replace(new RegExp("\<i class=\"item-key\"\>\_\_TEMPLATE\\[" + key + "\\]\_\_\<\/i\>", "g"), "");
         return true;
       } else {
         if (options.single === false) {

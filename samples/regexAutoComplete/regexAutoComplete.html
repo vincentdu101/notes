@@ -1,17 +1,10 @@
-<!-- Highlights matching words -->
-<link rel="stylesheet" type="text/css">
-  .creative-macro {
-    border: 2px solid red;
-  }
-</link>
-
 <!-- types represent the different available formats that can be selected -->
 <div class="form-group">
   <label class="col-sm-2 control-label" for="type">Type of key
     <span ng-bind-html="name_popover"></span>
   </label>
   <div class="col-sm-10">
-    <select chosen data-placeholder="" disable-search="true" ng-model="key.type" ng-options="value for (key, value) in types" class="input-large" id="type" ng-init="key.type = types[first_key]" ng-change="change_type(key.type)" style="width:315px;">
+    <select chosen data-placeholder="" disable-search="true" ng-model="key.type" ng-options="value for (key, value) in types" class="input-large form-control" id="type" ng-init="key.type = types[first_key]" ng-change="change_type(key.type)" style="width:315px;">
       <option value=""></option>
     </select>
   </div>
@@ -33,7 +26,7 @@
             data-placeholder=""
             ng-model="result.key"
             ng-options="value for (key, value) in helpers.keys()[format]"
-            class="input-large chosen-select"
+            class="input-large chosen-select form-control"
             id="keys"
             ng-change="determine_output_results(result.key, result.row)"
             style="width:330px;"
@@ -51,11 +44,11 @@
         </div>
         <div class="col-lg-2">
           <span>
-            <a class="dupe-control-group" ng-click="add_new_key()">
-              <i class="icon-plus-sign"></i>
+            <a class="dupe-control-group btn btn-primary" ng-click="add_new_key()">
+              +
             </a>
-            <a class="remove-control-group" ng-click="remove_key(result.key, result.row)">
-              <i class="icon-minus-sign"></i>
+            <a class="remove-control-group btn btn-default" ng-click="remove_key(result.key, result.row)">
+              -
             </a>
           </span>
         </div>
@@ -74,7 +67,8 @@
     </label>
     <div class="col-sm-10">
       <div class="col-sm-12 col-md-10" style="padding-left:0px;">
-        <textarea id="key_base" ng-model="base" class="form-control" style="height:156px;" ng-change="update_keys(base)" />
+        <textarea id="key_base" ng-model="base" class="form-control" style="height:156px;" ng-change="update_keys(base)">
+        </textarea>
       </div>
     </div>
   </div>
@@ -82,13 +76,12 @@
   <!-- this area tracks the users' changes and highlights any matching keys -->
   <div class="form-group">
     <label class="col-sm-2 control-label" for="keys">Location of keys
-      <span ng-bind-html="name_popover"></span>
     </label>
     <div class="col-sm-10">
       <div class="col-sm-12 col-md-10" style="padding-left:0px;">
         <label id="keys" class="form-control" style="height:156px; overflow-y:auto; word-wrap:break-word;">
-          <span ng-bind-html="keys"></span>
-        <label>
+          <span ng-bind-html="highlighted"></span>
+        </label>
       </div>
     </div>
   </div>

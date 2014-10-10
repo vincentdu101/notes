@@ -1,9 +1,9 @@
-angular.module('sampleApp').directive("regexAutocomplete", [
+angular.module("core").directive("regexAutocomplete", [
   "regexService", function(regexService) {
     return {
       // setup for directive
       restrict: "A",
-      templateUrl: asset_path("regexAutoComplete.html"),
+      templateUrl: "modules/core/directives/regexAutoComplete.html",
       require: "^ngModel",
       scope: {
         item: "=",
@@ -17,11 +17,13 @@ angular.module('sampleApp').directive("regexAutocomplete", [
         $scope.helpers = regexService;
 
         // copy in order to prevent data binding
-        $scope.original_format = angular.copy($scope.format);
+        $scope.format = "video";
+        $scope.type = "vast_url";
         $scope.added_keys = [];
+        $scope.base = "";
 
         // pre load keys based on format 
-        $scope.types = regexService.item_types($scope.original_format);
+        $scope.types = regexService.item_types($scope.format);
         $scope.first_key = Object.keys($scope.types)[0];
         $scope.keys = regexService.keys()[$scope.format];
         if ($scope.base === undefined) {
@@ -50,7 +52,7 @@ angular.module('sampleApp').directive("regexAutocomplete", [
         // other than having it be assigned
         $scope.$watch("format", function(new_data) {
           var first_key;
-          if ($scope.original_format !== new_data) {
+          if ($scope.format !== new_data) {
             // reloads available keys
             $scope.types = regexService.item_types($scope.format);
             first_key = Object.keys($scope.types)[0];
@@ -63,8 +65,14 @@ angular.module('sampleApp').directive("regexAutocomplete", [
           }
         });
 
+        $scope.require_key_ad_unit = function(type) {
+          if (["html_snippet", "iframe_url", "vast_url"].indexOf(type) !== -1)
+            return true;
+          return false;
+        };
+
         $scope.change_item_type = function(type) {
-          return $scope.type = type.toLowerCase().replace(new RegExp(" ", "g"), "_");
+          return $scope.type = type.toLowerCase().replace(new RegExp("", "g"), "_");
         };
 
         // listens for user changes to the chosen key select and matches using regex
@@ -80,6 +88,7 @@ angular.module('sampleApp').directive("regexAutocomplete", [
               // replaces highlighted textarea to match base changes and adds highlighting
               old_ad_key_reg = regexService.old_ad_key_regex($scope, item);
               new_ad_key_reg = regexService.new_ad_key_regex($scope, key);
+
               $scope.highlighted = $scope.highlighted.replace(old_ad_key_reg, new_ad_key_reg);
               
               // replaces old value of row, old value is necessary in order to match for 
