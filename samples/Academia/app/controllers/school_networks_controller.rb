@@ -1,0 +1,2 @@
+class SchoolNetworksController < ApplicationController
+end

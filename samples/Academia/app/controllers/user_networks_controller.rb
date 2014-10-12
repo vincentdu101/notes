@@ -1,0 +1,2 @@
+class UserNetworksController < ApplicationController
+end

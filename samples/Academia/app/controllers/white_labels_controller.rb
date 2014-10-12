@@ -1,0 +1,2 @@
+class WhiteLabelsController < ApplicationController
+end
