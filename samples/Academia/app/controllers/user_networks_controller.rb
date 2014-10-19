@@ -1,2 +1,0 @@
-class UserNetworksController < ApplicationController
-end

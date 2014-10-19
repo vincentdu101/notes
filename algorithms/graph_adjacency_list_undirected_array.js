@@ -1,3 +1,5 @@
+console.log("Version 1 - Adjacency List (Array) - Undirected")
+
 function Graph(v) { 
   this.vertices = v;
   this.edges = 0;
@@ -57,3 +59,6 @@ g.add_edge(1, 3);
 g.add_edge(2, 4);
 g.show_graph();
 g.depth_first_search(0);
+
+
+

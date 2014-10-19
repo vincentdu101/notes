@@ -36,7 +36,11 @@ function mergeSort(items){
   return merge(mergeSort(left), mergeSort(right));
 }
 
-items = [12, 11, 9, 10, 6, 7, 4, 3];
+var items = [];
+
+for(var i = 0; i < 10; ++i){
+  items[i] = Math.floor((Math.random() * 100) + 1);
+}
 
 items = mergeSort(items);
 
