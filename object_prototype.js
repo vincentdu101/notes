@@ -104,3 +104,76 @@ Person.prototype.sayHi = function(){
   alert("Hi");
 };
 friend.sayHi();
+
+// Dynamic Prototype Pattern
+// traditional OO pattern of class/object declaration with constructor and 
+// encapsulation
+// prototype method is declared if it doesn't already exist
+function Person(name, age, job){
+  // properties
+  this.name = name;
+  this.age = age;
+  this.job = job;
+
+  // methods
+  if (typeof this.sayName != "function"){
+    Person.prototype.sayName = function(){
+      alert(this.name);
+    };
+  }
+}
+
+var friend = new Person("Nicholas", 29, "Engineer");
+friend.sayName();
+
+// Parasitic Constructor Pattern
+// constructor wraps the creation and return of another object
+// looks like a typical constructor
+// useful for extending an object you don't have access to
+// no relationship between object declaration and output
+// last resort pattern
+function SpecialArray(){
+  // create the array
+  var values = new Array();
+
+  // add the values
+  values.push.apply(values, arguments);
+
+  // assign the method
+  values.toPipedString = function(){
+    return this.join(" | ");
+  };
+
+  // return it
+  return values;
+}
+
+var colors = new SpecialArray("red", "blue", "green");
+alert(colors.toPipedString());
+
+// Durable Constructor Pattern
+// similar to parasitic constructor
+// no usage of this or new declaration
+function Person(name, age, job){
+  // create the object to return 
+  var o = new Object();
+
+  // optional: define private variables/functions here
+  var privateVar = "test";
+
+  function privateMethod(){
+    console.log(privateVar);
+  };
+
+  // attach methods
+  o.sayName = function(){
+    privateMethod();
+    alert(name);
+  };
+
+  // return the object
+  return 0;
+}
+
+var friend = Person("Nicholas", 29, "Engineer");
+friend.sayName();

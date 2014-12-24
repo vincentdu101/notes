@@ -1,0 +1,46 @@
+ch 1 - introduction
+  - concurrent program
+    - program that has multiple logical threads of control 
+    - may or may not be in parallel
+    - needs to handle multiple tasks at simultaneous or near simulataneous time
+  - parallel program 
+    - program that runs potentially quicker than a sequential program by
+      executing different parts of the computation at the same time 
+    - may or may not have more than one logical thread of control
+    - make program faster by solving different parts of the problem at the same 
+      time
+  - concurrent programs are **nondeterministic** (give different results depending 
+    on the timing of events)
+  - parallelism is not always nondeterministic
+  - both methods allow for processes to be completed at an efficient rate without
+    jeopardizing the increase need for larger processor cores and memory storage
+  - shared vs distributed memory 
+    - shared memory multiprocessor 
+      - each processor can access any memory location
+      - interprocessor communication is done through memory
+      - easier to write code for 
+      - beyond certain processors, bottleneck may arise
+    - distributed memory 
+      - each processor can access any memory location
+      - interprocessor communication is done through network
+      - unavoidable if desire to write fault tolerant systems that use multiple
+        machines to cope with hardware failures
+  - importance of concurrency
+    - enables resilient, fault tolerant, software through independence and fault
+      detection
+    - independence is important because a failure in one task will not bring 
+      down another 
+    - fault detection occurs when a failed task triggers a separate task that takes 
+      remedial action
+
+ch 2 - Threads and Locks
+  - mutual exclusion - usin locks to ensure that only one thread can access data
+    at a time
+  - basic unit of concurrency in Java is the thread, encapsulates a single thread
+    of control
+  - threads communicate with each other via shared memory
+  - most simple form of concurrency
+  - java memory model (shared memory) defines when changes to memory made by one
+    thread become visible to another thread
+  - deadlock is a danger whenever a thread tried to hold more than one lock
+  - solution is to always acquire locks in a fixed global order
