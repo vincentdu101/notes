@@ -1,0 +1,169 @@
+style().
+
+  .axis path, 
+  .axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+  }
+
+  .axis text {
+    font-family: sans-serif;
+    font-size: 10px;
+  }
+
+  h1 {
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+  }
+
+
+script(type="text/javascript").
+
+  var scale = d3.scale
+              .linear()
+              // min and max of input values
+              .domain([130, 350])
+              // range of output values
+              .range([10, 100]);
+
+  console.log(scale(300));
+  console.log(scale(270));
+
+  // api from github
+  var h = 100;
+  var w = 400;
+  var salesTotal = 0.0;
+  var salesAvg = 0.0;
+  var metrics = [];
+  var padding = 20;
+
+  function getDate(d) {
+
+    var strDate = new String(d);
+    
+    var year = strDate.substr(0, 4);
+    var month = strDate.substr(4, 2) - 1;
+    var day = strDate.substr(6, 2);
+
+    return new Date(year, month, day);
+  }
+
+  // data
+  var dataset; 
+
+  function buildLine(data) {
+
+    console.log('buildLine ', data);
+
+    var minDate = getDate(data[0]['month']);
+    var maxDate = getDate(data[data.length - 1]['month']);
+
+    // x and y scales
+    var xScale = d3.time.scale()
+                  .domain([minDate, maxDate])
+                  .range([padding, w - padding]);
+
+    var yScale = d3.scale
+                  .linear()
+                  .domain([
+                    0, d3.max(data, function(d){ return d.sales; })
+                  ])
+                  .range([h - padding, 10])
+                  .nice();
+    
+    // y axis with y scale
+    var yAxis = d3.svg.axis().scale(yScale).orient('left').ticks(4);
+    var xAxis = d3.svg.axis().scale(xScale).orient('bottom').tickFormat(d3.time.format("%b"));
+
+    var lineFun = d3.svg.line()
+      .x(function(d){ return xScale(getDate(d.month)); })
+      .y(function(d){ return yScale(d.sales); })
+      .interpolate('linear');
+
+    // append svg frame to body
+    var svg = d3.select('body')
+              .append('svg')
+              .attr({width: w, height: h});
+
+    // show y axis with left padding 
+    var yAxisGen = svg.append('g').call(yAxis)
+                .attr('class', 'axis')
+                .attr('transform', 'translate(' + padding + ', 0)');
+
+    var xAxisGen = svg.append('g').call(xAxis)
+                .attr('class', 'axis')
+                .attr('transform', 'translate(0, ' + (h - padding) + ")");
+
+    // path with line and dataset to svg
+    var viz = svg.append('path')
+              .attr({
+                d: lineFun(data),
+                'stroke': 'purple',
+                'stroke-width': 2,
+                'fill': 'none'
+              });
+  }
+
+  function showTotals() {
+
+    metrics = [];
+    salesTotal = 0.0;
+    salesAvg = 0.0;
+
+    var text = d3.select('body').append('table');
+
+    // get total
+    for (var i = 0; i < dataset.length; i++) {
+      salesTotal += dataset[i]['sales'] * 1;
+    }
+    
+    // get average
+    salesAvg = salesTotal / dataset.length;
+
+    // add metrics to array
+    metrics.push('Sales Total: ' + salesTotal);
+    metrics.push('Sales Average: ' + salesAvg.toFixed(2));
+
+    // outputs table rows
+    var tr = text.selectAll('tr')
+              .data(metrics)
+              .enter()
+              .append('tr')
+              .append('td')
+              .text(function(d){ return d; });
+
+  }
+
+  function showHeader(ds) {
+    d3.select('body').append('h1')
+      .text(ds.category + ' Sales (2013)');
+  }
+     
+
+  // pull in data from json
+  d3.json("https://api.github.com/repos/bsullins/d3js-resources/contents/monthlySalesbyCategoryMultiple.json", 
+  function(error, data){
+    // check for error
+    if (error) {
+      console.log(error);
+    } 
+    // set data to global variable
+    else {
+      console.log(data);
+      dataset = data;
+    }
+
+    var decodedData = JSON.parse(window.atob(data.content));
+
+    console.log(decodedData.contents);
+
+    decodedData.contents.forEach(function(ds){
+      console.log(ds);
+      // draw a line
+      showHeader(ds);
+      buildLine(ds.monthlySales);
+    });
+
+  });     

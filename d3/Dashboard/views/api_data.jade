@@ -1,0 +1,102 @@
+<!-- api data sources -->
+
+script(type="text/javascript").
+
+  // find more datasets at 
+  // 
+  // data.gov
+  // dev.twitter.com
+  // github.com
+
+  // api from github
+  var h = 100;
+  var w = 400;
+  var salesTotal = 0.0;
+  var salesAvg = 0.0;
+  var metrics = [];
+
+  // data
+  var dataset; 
+
+  function buildLine(data) {
+    var lineFun = d3.svg.line()
+      .x(function(d){ return ((d.month - 20130001) / 3.25);})
+      .y(function(d){ return h - d.sales; })
+      .interpolate('linear');
+
+    // append svg frame to body
+    var svg = d3.select('body')
+              .append('svg')
+              .attr({width: w, height: h});
+
+    // path with line and dataset to svg
+    var viz = svg.append('path')
+              .attr({
+                d: lineFun(data),
+                'stroke': 'purple',
+                'stroke-width': 2,
+                'fill': 'none'
+              });
+  }
+
+  function showTotals() {
+
+    metrics = [];
+    salesTotal = 0.0;
+    salesAvg = 0.0;
+
+    var text = d3.select('body').append('table');
+
+    // get total
+    for (var i = 0; i < dataset.length; i++) {
+      salesTotal += dataset[i]['sales'] * 1;
+    }
+    
+    // get average
+    salesAvg = salesTotal / dataset.length;
+
+    // add metrics to array
+    metrics.push('Sales Total: ' + salesTotal);
+    metrics.push('Sales Average: ' + salesAvg.toFixed(2));
+
+    // outputs table rows
+    var tr = text.selectAll('tr')
+              .data(metrics)
+              .enter()
+              .append('tr')
+              .append('td')
+              .text(function(d){ return d; });
+
+  }
+
+  function showHeader(ds) {
+    d3.select('body').append('h1')
+      .text(ds.category + ' Sales (2013)');
+  }
+     
+
+  // pull in data from json
+  d3.json("https://api.github.com/repos/bsullins/d3js-resources/contents/monthlySalesbyCategoryMultiple.json", 
+  function(error, data){
+    // check for error
+    if (error) {
+      console.log(error);
+    } 
+    // set data to global variable
+    else {
+      console.log(data);
+      dataset = data;
+    }
+
+    var decodedData = JSON.parse(window.atob(data.content));
+
+    console.log(decodedData.contents);
+
+    decodedData.contents.forEach(function(ds){
+      console.log(ds);
+      // draw a line
+      showHeader(ds);
+      buildLine(ds.monthlySales);
+    });
+
+  });   
