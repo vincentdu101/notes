@@ -1,13 +1,12 @@
 style().
-
-  .axis path, 
-  .axis line {
+  .x-axis path, .y-axis path,
+  .x-axis line, .y-axis line {
     fill: none;
     stroke: black;
     shape-rendering: crispEdges;
   }
 
-  .axis text {
+  .x-axis text, .y-axis text {
     font-family: sans-serif;
     font-size: 10px;
   }
@@ -17,6 +16,27 @@ style().
     font-weight: 300;
     font-size: 16px;
   }
+
+  div.tooltip {
+    position: absolute;
+    max-width: 200px;
+    height: auto;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px rbga(0,0,0,0.5);
+    pointer-events: none; /* very important */
+    font-family: sans-serif;
+    font-size: 12px;
+  }
+
+
+p Choose Data Range
+  select(id="date-option")
+    option(value="12") Last Year
+    option(value="6") Last 6 months 
+    option(value="3") Last Quarter
+
 
 
 script(type="text/javascript").
@@ -53,12 +73,17 @@ script(type="text/javascript").
   // data
   var dataset; 
 
-  function buildLine(data) {
+  function buildLine(data, category) {
 
     console.log('buildLine ', data);
 
     var minDate = getDate(data[0]['month']);
     var maxDate = getDate(data[data.length - 1]['month']);
+
+    // add tooltip
+    var tooltip = d3.select('body').append('div')
+                    .attr('class', 'tooltip')
+                    .style('opacity', 0);
 
     // x and y scales
     var xScale = d3.time.scale()
@@ -85,15 +110,15 @@ script(type="text/javascript").
     // append svg frame to body
     var svg = d3.select('body')
               .append('svg')
-              .attr({width: w, height: h});
+              .attr({width: w, height: h, "id": "svg-" + category});
 
     // show y axis with left padding 
     var yAxisGen = svg.append('g').call(yAxis)
-                .attr('class', 'axis')
+                .attr('class', 'y-axis')
                 .attr('transform', 'translate(' + padding + ', 0)');
 
     var xAxisGen = svg.append('g').call(xAxis)
-                .attr('class', 'axis')
+                .attr('class', 'x-axis')
                 .attr('transform', 'translate(0, ' + (h - padding) + ")");
 
     // path with line and dataset to svg
@@ -102,9 +127,89 @@ script(type="text/javascript").
                 d: lineFun(data),
                 'stroke': 'purple',
                 'stroke-width': 2,
-                'fill': 'none'
+                'fill': 'none',
+                'class': 'path-' + category
+              });
+
+    var dots = svg.selectAll('circle')
+                .data(data)
+                .enter()
+                .append('circle')
+                .attr({
+                  cx: function(d){ return xScale(getDate(d.month)); },
+                  cy: function(d){ return yScale(d.sales); },
+                  r: 4,
+                  'fill': '#666666',
+                  class: 'circle-' + category
+                })
+                .on('mouseover', function(d){
+                  tooltip.transition()
+                    .duration(500)
+                    .style('opacity', .85)
+                  tooltip.html('<strong>Sales $' + d.sales + "K</strong>")
+                    .style('left', (d3.event.pageX) + "px")
+                    .style('top', (d3.event.pageY - 28) + "px");
+                })
+                .on('mouseout', function(d){
+                  tooltip.transition()
+                    .duration(300)
+                    .style('opacity', 0);
+                });
+  }
+
+  function updateLine(data, category) {
+
+    console.log('update ', data);
+
+    var minDate = getDate(data[0]['month']);
+    var maxDate = getDate(data[data.length - 1]['month']);
+
+    // x and y scales
+    var xScale = d3.time.scale()
+                  .domain([minDate, maxDate])
+                  .range([padding, w - padding]);
+
+    var yScale = d3.scale
+                  .linear()
+                  .domain([
+                    0, d3.max(data, function(d){ return d.sales; })
+                  ])
+                  .range([h - padding, 10])
+                  .nice();
+    
+    // y axis with y scale
+    var yAxis = d3.svg.axis().scale(yScale).orient('left').ticks(4);
+    var xAxis = d3.svg.axis().scale(xScale).orient('bottom')
+                  .tickFormat(d3.time.format("%b"))
+                  .ticks(data.length);
+
+    var lineFun = d3.svg.line()
+      .x(function(d){ return xScale(getDate(d.month)); })
+      .y(function(d){ return yScale(d.sales); })
+      .interpolate('linear');
+
+    // append svg frame to body
+    var svg = d3.select('body')
+              .select('#svg-' + category);
+
+    // select the proper axis and update
+    var yAxisGen = svg.selectAll('g.y-axis').call(yAxis);
+
+    var xAxisGen = svg.selectAll('g.x-axis').call(xAxis);
+
+    // path with line and dataset to svg
+    var viz = svg.selectAll('.path-' + category)
+              .transition()
+              .duration(3000)
+              .ease('elastic')
+              // .ease('linear')
+              // .ease('circle') 
+              // .ease('bounce')               
+              .attr({
+                d: lineFun(data)
               });
   }
+
 
   function showTotals() {
 
@@ -163,7 +268,23 @@ script(type="text/javascript").
       console.log(ds);
       // draw a line
       showHeader(ds);
-      buildLine(ds.monthlySales);
+      buildLine(ds.monthlySales, ds.category);
     });
+
+    // add event listener
+    d3.select('select')
+      .on('change', function(d, i){
+        
+        var sel = d3.select('#date-option').node().value;
+        var decodedData = JSON.parse(window.atob(data.content));
+
+
+        decodedData.contents.forEach(function(ds){
+          ds.monthlySales.splice(0, ds.monthlySales.length - sel);
+          // update a line
+          updateLine(ds.monthlySales, ds.category);
+        });        
+
+      });
 
   });     

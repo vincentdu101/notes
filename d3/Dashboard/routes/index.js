@@ -22,3 +22,7 @@ exports.scales_and_axes = function(req, res){
 exports.filters = function(req, res){
   res.render('filters', {title: "Filters"});
 };
+
+exports.maps = function(req, res){
+  res.render('maps', {title: "Maps"});
+};
