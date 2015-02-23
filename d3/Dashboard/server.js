@@ -35,6 +35,7 @@ app.get('/api_data', routes.api_data);
 app.get('/scales_and_axes', routes.scales_and_axes);
 app.get('/filters', routes.filters);
 app.get('/maps', routes.maps);
+app.get('/monitor', routes.monitor);
 
 app.listen(3000, function(){
   console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);

@@ -26,3 +26,7 @@ exports.filters = function(req, res){
 exports.maps = function(req, res){
   res.render('maps', {title: "Maps"});
 };
+
+exports.monitor = function(req, res){
+  res.render('monitor', {title: "Monitor"});
+};

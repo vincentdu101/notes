@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      margin: 0;
+    }
+
+  </style>
+</head>
+<body>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script>
+    var svg = d3.select('body').append('svg');
+    var w = window.innerWidth, 
+        h = window.innerHeight;
+    svg.attr({width: w, height: h});
+    var circles = svg.selectAll('circle').data([1, 2, 3, 4, 5])
+                      .enter()
+                      .append('circle');
+
+    var color = d3.scale.linear()
+                  .domain([0, 3, 6])
+                  .range(['magenta', 'green', 'steelblue']);
+
+    circles.attr('r', function(data){ return data * 10; })
+            .attr('cx', function(data){ return data * 20; })
+            .attr('cy', function(data) { return data * 20; })
+            .attr('fill', function(data){
+              var c = d3.rgb('#00ff00');
+              return 'rgba(' + c.r + ", " + c.g + ", " + c.b + "," + (data/6) + ")"; 
+            });
+
+
+
+    circles
+      .transition()
+      .duration(2000)
+      .delay(function(d){ return d * 1000})
+      .attr('cx', function(d){ return d * 100});
+
+
+  </script>
+</body>
+</html>

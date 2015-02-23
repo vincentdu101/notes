@@ -1,0 +1,101 @@
+--------------------------------------------------------------------------------
+Codebook for Census Explorer - Young Adults Then and Now
+--------------------------------------------------------------------------------
+
+
+1. Geography code and name
+-----------------------------
+   fips:                     Federal Information Processing System code
+   name:                     Geography name
+
+
+2. Demographic indicators
+-----------------------------
+   population:               Total population
+
+   population18To34:         Population age 18 to 34
+   population18To34_p:       Percent of total population, age 18 to 34
+   population18To34_me:      Population age 18 to 34, margin of error
+   population18To34_pme:     Population age 18 to 34, percent margin of error
+
+   white:                    White, Non-Hispanic, age 18 to 34
+	 white_p:                  Percent of population age 18 to 34 who are White, Non-Hispanic
+	 white_me:                 White, Non-Hispanic, age 18 to 34, margin of error
+   white_pme:                White, Non-Hispanic, age 18 to 34, percent margin of error
+
+   minority:                 Minority, age 18 to 34
+   minority_p:               Percent of total population who are minority, age 18 to 34
+   minority_me:              Minority, age 18 to 34, margin of error
+   minority_pme:             Minority, age 18 to 34, percent margin of error
+
+   foreignBorn:              Foreign Born, age 18 to 34
+   foreignBorn_p:            Percent of population age 18 to 34 who are foreign born
+   foreignBorn_me:           Foreign Born, age 18 to 34, margin of error
+   foreignBorn_pme:          Foreign Born, age 18 to 34, percent margin of error
+
+
+3. Living arrangement
+-----------------------------
+   liveWithParent:           Population Age 18 to 34 living with a parent
+   liveWithParent_p:         Percent of population age 18 to 34 who live with a parent
+   liveWithParent_me:        Population Age 18 to 34 living with a parent, margin of error
+   liveWithParent_pme:       Population Age 18 to 34 living with a parent, percent margin of error
+
+   liveAlone:                Population Age 18 to 34 living alone
+   liveAlone_p:              Percent of population age 18 to 34 who live alone
+   liveAlone_me:             Population Age 18 to 34 living alone, margin of error
+   liveAlone_pme:            Population Age 18 to 34 living alone, percent margin of error
+
+   neverMarried:             Population Age 18 to 34 who never married
+   neverMarried_p:           Percent of population age 18 to 34 who never married
+   neverMarried_me:          Population Age 18 to 34 who never married, margin of error
+   neverMarried_pme:         Population Age 18 to 34 who never married, percent margin of error
+
+
+
+4. Economic indicators
+-----------------------------
+   medianEarnings:           Median earnings for full time workers age 18 to 34
+   medianEarnings_me:        Median earnings for full time workers age 18 to 34, margin of error
+   
+   povertyUniverse:          Population age 18 to 34 for whom poverty status has been determined
+   poverty:                  Population age 18 to 34 with income below poverty line
+   poverty_p:                Percent of population age 18 to 34 with income below poverty line
+   poverty_me:               Population age 18 to 34 with earnings below poverty line, margin of error
+   poverty_pme:              Population age 18 to 34 with earnings below poverty line, percent margin of error
+
+   employed:                 Employed population age 18 to 34
+   employed_p:               Percent of population age 18 to 34 who are employed
+   employed_me:              Employed population age 18 to 34, margin of error
+   employed_pme:             Employed population age 18 to 34, percent margin of error
+
+
+5. Social indicators
+-----------------------------
+   educationBachelor:        Population Age 18 to 34 with a bachelor's degree or more
+   educationBachelor_p:      Percent of population age 18 to 34 with a bachelor's degree or more
+   educationBachelor_me:     Population Age 18 to 34 with a bachelor's degree or more, margin of error
+   educationBachelor_pme:    Population Age 18 to 34 with a bachelor's degree or more, percent margin of error
+   
+   civilian:                 Civilian population age 18 to 34
+   veteran:                  Veterans of war age 18 to 34
+   veteran_p:                Percent of civilian population age 18 to 34 who are veterans of war
+   veteran_me:               Veterans of war age 18 to 34, margin of error
+   veteran_pme:              Veterans of war age 18 to 34, percent margin of error
+
+   otherLanguage:            Population age 18 to 34 who speak a language other than English at home
+   otherLanguage_p:          Percent of population age 18 to 34 who speak a language other than English at home
+   otherLanguage_me:         Population age 18 to 34 who speak a language other than English at home, margin of error
+   otherLanguage_pme:        Population age 18 to 34 who speak a language other than English at home, percent margin of error
+
+   commuter:                 Workers age 18 to 34 who commuted to work
+   droveToWork:              Workers age 18 to 34 years who drove a car, truck, van or carpooled to work
+   droveToWork_p:            Percent of commuters age 18 to 34 who drove a car, truck, van or carpooled to work
+   droveToWork_me:           Workers age 18 to 34 years who drove a car, truck, van or carpooled to work, margin of error
+   droveToWork_pme:          Workers age 18 to 34 years who drove a car, truck, van or carpooled to work, percent margin of error
+
+
+
+
+
+

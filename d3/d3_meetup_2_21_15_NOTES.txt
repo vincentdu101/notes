@@ -1,0 +1,12 @@
+intro to svg 
+- svg is a container of different shapes
+- d3 modifies svg in an automated way
+
+d3 presentation
+- fork block gist
+- clone to local directory
+- make changes to index.html and take a snapshot of screen to save as thumbnail.png
+- push changes to master 
+- then change description of gist 
+- view in blocks 
+  - blocks.org/vincentdu101/gistid 
