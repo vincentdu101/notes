@@ -59,7 +59,7 @@ script(type="text/javascript").
       dataset.push({era: data[i].era, pop: data[i].data['population']});
     }
 
-    var margin = {top: 20, right: 20, bottom: 30, left: 50};
+    var margin = {top: 20, right: 80, bottom: 30, left: 80};
     var width = 500 - margin.left - margin.right;
     var height = 300 - margin.top - margin.bottom;
     var padding = 10;
@@ -72,7 +72,7 @@ script(type="text/javascript").
     var xScale = d3.scale.linear()
                   //- .domain(dataset.map(function(d){ return d.era; }))
                   //- .domain([0, d3.max(domain)])
-                  .domain([d3.min(years), d3.max(years)])
+                  .domain([d3.min(years) - 2, d3.max(years)])
                   .range([0, width]);
 
 
@@ -117,7 +117,7 @@ script(type="text/javascript").
         .append('rect')
           .attr('class', 'bar')
           .attr('x', function(d){ return xScale(d.era); })
-          .attr('width', width / dataset.length - 60)
+          .attr('width', width / dataset.length)
           .attr('y', function(d){ return yScale(d.pop); })
           .attr('height', function(d){ console.log(height - yScale(d.pop)); return height - yScale(d.pop); });
   }
