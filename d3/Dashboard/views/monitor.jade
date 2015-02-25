@@ -58,55 +58,73 @@ script(type="text/javascript").
     for (var i = 0; i < data.length; i++) {
       dataset.push({era: data[i].era, pop: data[i].data['population']});
     }
-
+  
+    // margins are used to assume the spacing of the axes
     var margin = {top: 20, right: 80, bottom: 30, left: 80};
+
+    // calculate width and height with axes margins in mind
     var width = 500 - margin.left - margin.right;
     var height = 300 - margin.top - margin.bottom;
     var padding = 10;
-    //- var x = d3.scale.linear()
-    //-         .range([0, width]);
-    var years = dataset.map(function(d){ return d.era; });
-    var populations = dataset.map(function(d){ return d.pop; });
-    console.log(populations);
 
+    // width of a bar
+    var barWidth = width / dataset.length;      
+
+    // x values for the years
+    var years = dataset.map(function(d){ return d.era; });
+
+    // y values for the population
+    var populations = dataset.map(function(d){ return d.pop; });
+
+    // x scale to be used in x-axis
     var xScale = d3.scale.linear()
-                  //- .domain(dataset.map(function(d){ return d.era; }))
-                  //- .domain([0, d3.max(domain)])
+                  // species min and max value of x axis
                   .domain([d3.min(years) - 2, d3.max(years)])
+                  // calculates the spacing and width based on the 
+                  // domain and width of graph
                   .range([0, width]);
 
 
     var yScale = d3.scale.linear()
+                  // y-axis min and max value
                   .domain([0, d3.max(populations)])
+                  // has to be height first other wise it is negative
                   .range([height, 0]);
 
     var xAxis = d3.svg.axis()
                   .scale(xScale)
                   .orient('bottom')
+                  // sets the tick format
                   .tickFormat(function(data){ return data + "s"; })
-                  .ticks(4);
+                  .ticks(4)
+                  .tickPadding(10);
 
     var yAxis = d3.svg.axis()
                   .scale(yScale)
                   .orient('left')
                   .ticks(10);
 
+    // appends svg with axis margins in mind
     var svg = d3.select('body').append('svg')
                 .attr('width', width + margin.left + margin.right)
                 .attr('height', height + margin.top + margin.bottom)
                 .append('g')
                   .attr('transform', 'translate(' + margin.left + "," + margin.top + ")");
+    
     svg.append('g')
         .attr('class', 'x axis')
-        .attr('transform', 'translate(0, ' + height + ")")
+        // moves tick value to center of bar
+        .attr('transform', 'translate(' + barWidth / 2 + ', ' + height + ")")
         .call(xAxis);
 
+    // rotates the label and other tick values
     svg.append('g')
           .attr('class', 'y axis')
           .call(yAxis)
         .append('text')
           .attr('transform', 'rotate(-90)')
-          .attr('y', 6)
+          .attr('y', 10)
+          .attr('x', 10)
           .attr('dy', '.71em')
           .style('text-anchor', 'end')
           .text('Population');
@@ -117,9 +135,9 @@ script(type="text/javascript").
         .append('rect')
           .attr('class', 'bar')
           .attr('x', function(d){ return xScale(d.era); })
-          .attr('width', width / dataset.length)
+          .attr('width', barWidth)
           .attr('y', function(d){ return yScale(d.pop); })
-          .attr('height', function(d){ console.log(height - yScale(d.pop)); return height - yScale(d.pop); });
+          .attr('height', function(d){ return height - yScale(d.pop); });
   }
 
 
