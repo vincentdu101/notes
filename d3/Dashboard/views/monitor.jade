@@ -23,6 +23,20 @@ style().
     display:none;
   }
 
+  div.tooltip {
+    position: absolute;
+    max-width: 200px;
+    height: auto;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+    pointer-events: none;
+    font-family: sans-serif;
+    font-size: 12px;
+  }
+
 script(type="text/javascript").
 
   // dimensions of map
@@ -104,6 +118,10 @@ script(type="text/javascript").
                   .orient('left')
                   .ticks(10);
 
+    var tooltip = d3.select('body').append('div')
+                    .attr('class', 'tooltip')
+                    .style('opacity', 0);
+
     // appends svg with axis margins in mind
     var svg = d3.select('body').append('svg')
                 .attr('width', width + margin.left + margin.right)
@@ -137,7 +155,20 @@ script(type="text/javascript").
           .attr('x', function(d){ return xScale(d.era); })
           .attr('width', barWidth)
           .attr('y', function(d){ return yScale(d.pop); })
-          .attr('height', function(d){ return height - yScale(d.pop); });
+          .attr('height', function(d){ return height - yScale(d.pop); })
+        .on('mouseover', function(d){
+          tooltip.transition()
+            .duration(500)
+            .style('opacity', '.85');
+          tooltip.html('<b>Population <br />' + d.pop + "</b>")
+            .style('left', (d3.event.pageX) + "px")
+            .style('top', (d3.event.pageY) + 28 + "px");  
+        })
+        .on('mouseout', function(d){
+          tooltip.transition()
+            .duration(300)
+            .style('opacity', 0);
+        });
   }
 
 
