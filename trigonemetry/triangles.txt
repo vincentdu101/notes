@@ -1,0 +1,67 @@
+Pythagorean Theroem 
+  a^2 + b^2 = c^2
+  the largest length is always the hypotenuse
+  used to determine the distance between two points
+  used for right triangles
+  a^2 + b^2 > c^2 ----> acute triangle
+  a^2 + b^2 < c^2 ----> obtuse triangle
+
+Special Right Triangles
+  Isosceles Triangle (45 45 90 Triangle)
+    two congruent sides and one right angle
+    a = b 
+    a^2 + a^2 = c^2
+    x : x : x * sqrt(2)
+
+  Special Right Triangle (30 60 90 Triangle)
+    long side ---> 60 angle ---> 2s
+    short side ---> 30 angle ---> s
+    hypotenuse ---> 90 angle ----> s * sqrt(3)
+    short side opposite shortest angle
+    longest side opposite 90 angle
+
+Sin - sine 
+  for an acute angle x in a right triangle, the sinx is equal
+  to the ratio of the side opposite of the angle over the 
+  hypotenuse of the triangle
+  sin A = a / c
+  sin B = b / c 
+
+Cos - cosine
+  ratio of the side adjacent (next to) the angle over the 
+  hypotenuse of the triangle
+  cos A = b / c
+  cos B = a / c
+
+Tan - tangent
+  ratio of the side opposite the angle to the side adjacent 
+  to the angle
+  tan A = a / b 
+  tan B = b / a
+
+cosecant
+  sin A = a / c
+  csc A = c / a
+
+secant
+  cos A = b / c
+  sec A = c / b
+
+cotangent
+  tan A = a / b
+  cot A = b / a 
+
+inverse of the trignometric function must be used to determine the angle
+based on the two sides
+  sin^-1 = a / c
+  cos^-1 = b / c
+  tan^-1 = a / b
+
+area of a triangle
+  A = 1/2 * a * b * sinC
+
+elevation above horizontal line of sight angle triangle
+depression below horizontal line of sight, remember to subtract from right angle
+to get inner angle
+
+

@@ -1,0 +1,18 @@
+{
+  "name": "Dashboard",
+  "version": "0.0.0",
+  "homepage": "https://github.com/vincentdu101/notes",
+  "authors": [
+    "Vincent Du <vincentdu101@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "~3.3.4"
+  }
+}
