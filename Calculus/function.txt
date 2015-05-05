@@ -1,0 +1,53 @@
+Functions 
+- assigns to each number in its domain another domain
+- unless I say otherwise, the domain consists of all numbers
+  for which the rule makes sense
+
+f(2) = 4
+f(3) = 9
+f(4) = 16
+f(5) = 25
+
+make a rule for the pattern
+f(x) = x^2
+
+f(x) = 1 / x
+
+- to divide by x, must have x != 0
+- domain f is all real numbers not 0
+
+g(x) = x^2 if x >= 5
+     = 2x  if x < 5
+
+- how to tell if functions are the same
+YES they are the same
+f(x) = (1 + x)^2 
+g(x) = x^2+ 2x + 1
+
+f(2) = (1 + 2)^2 = 9
+g(2) = 2^2 + 2*2 + 1 = 9
+
+- for every input value they have the same output value
+NO they are not the same
+f(x) = x^2 / x  
+g(x) = x
+
+0^2 / 0  ====> undefined
+0
+
+- how can more functions be made
+f(x) = x ===> identity function (whatever you plugin the output is that)
+f(x) = c ===> constant function (whatever you plugin the output ignores it)
+f(x) = ax + b ===> polynomial function 
+
+f(x) = x^n ===> polynomial function
+
+f(x) = sin x (cos x) (tan x) ===> trig function 
+
+take outpit of first function and plug it into the second function as input
+
+# real example functions
+
+- celcius to fahrenheit
+f(x) = 9x / 5 + 32
+
