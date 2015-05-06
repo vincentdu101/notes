@@ -16,7 +16,7 @@ app.directive('barGraph', function(){
         var key = options.key;
         var target = options.target;
         var dataset = [];
-        debugger;
+        
         for (var i = 0; i < data.length; i++) {
           dataset.push({era: data[i].era, pop: data[i].data[key]});
         }

@@ -1,0 +1,72 @@
+near the sum of 2 numbers is the sum of 2 nearby numbers
+
+lim(f(x) + g(x)) as x -> a (as x approaches a)
+
+lim f(x) + lim g(x)
+x -> a     x -> a
+
+limit of sum is the sum of the limits
+
+lim (x^2 + x)
+x -> 2
+
+= (lim x^2) + lim x
+  x -> 2      x -> 2
+
+= lim(x * x) + 2
+  x -> 2
+
+= lim(x) * lim(x) + 2
+  x -> 2    x -> 2
+  2 *       2     + 2
+
+= 6
+
+limit of a sum is the sum of the limits provided the limit exists
+
+f(x) = sin (1/x)
+
+lim sin(1/x) as x -> 0
+does not exist because the values fluctuage so much
+the values don't reach a number as x approaches 0
+
+to say lim f(x) = L as x -> a 
+means f(x) can be made as close to L as desired by making x close enough to a
+
+f(x) = sin (pie / x)
+
+f(0.01) = sin (pie / 0.01)
+        = sin (100pie)
+
+f(x) = sin (pie / x)
+
+lim f(x) = -sqrt(3) / 2 as x -> 0
+
+limit does not exist, when applied with 0.7 and 0.007, 0.0007 the values arent approaching a certain number
+
+f(x) = (sin x) / x
+
+lim f(x) = (sin x) / x as x -> 0 
+lim = 1 
+
+- the promise is that as long as the input is close to 0 the output will be close enough to 1
+- how close to 1 depends on close the input is to 0
+
+squeeze theorem
+g(x) <= f(x) <= h(x) as x near a 
+lim g(x) = lim h(x) = L
+x -> a     x -> a
+then lim f(x) = L
+     x -> a
+
+cos x < (sin x) / x < L
+
+lim cos x = 1
+x -> 0
+
+lim 1 = 1
+x -> 0
+
+the limit is also = 1 because of the squeeze theorem
+lim (sin x / x)
+x -> 0

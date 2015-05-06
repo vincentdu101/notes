@@ -1,3 +1,37 @@
+- what is the domain of square root?
+
 f(x) = sqrt(x) = the nonnegative number which squares to x
 
 sqrt(x^2) = abs(x)
+
+sqrt(-16) = k
+k^2 = -16
+
+k > 0 ===> k^2 > 0
+k = 0 ===> k^2 = 0
+k < 0 ===> k^2 > 0
+
+sqrt(negative number) ===> does not make sense
+
+domain of sqrt is [0, infinity)
+
+g(x) = sqrt(2x + 4)
+
+2x + 4 >= 0
+2x >= -4
+x >= -2
+
+domain of g consists of all numbers greater than or equal to -2
+[-2, infinity)
+
+T(x) = sqrt(1 - x) + sqrt(1 + x)
+1 - x >= 0 & 1 + x >= 0
+1 >= x & x >= -1
+x <= 1 & x >= -1
+x is in [-1, 1]
+Domain of T = [-1, 1]
+
+C(x) = sqrt(1 - x^2)
+1 - x^2 >= 0
+(1 + x)(1-x) >= 0
+Domain C = [-1, 1]
