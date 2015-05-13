@@ -16,6 +16,7 @@ app.directive('barGraph', function(){
         var key = options.key;
         var target = options.target;
         var dataset = [];
+        var message = '<b>Hover a time period<br /> to see data</b>';
         
         for (var i = 0; i < data.length; i++) {
           dataset.push({era: data[i].era, pop: data[i].data[key]});
@@ -66,9 +67,12 @@ app.directive('barGraph', function(){
                       .orient('left')
                       .ticks(10);
 
-        var tooltip = d3.select('body').select(target).append('div')
+        var tooltip = d3.select('body').select(target)
+                        .select(".col-50")
+                        .append('div')
                         .attr('class', 'tooltip')
-                        .style('opacity', 0);
+                        .html(message)
+                        .style('opacity', 0.85);
 
         // appends svg with axis margins in mind
         var svg = d3.select(target).append('svg')
@@ -105,17 +109,18 @@ app.directive('barGraph', function(){
               .attr('y', function(d){ return yScale(d.pop); })
               .attr('height', function(d){ return height - yScale(d.pop); })
             .on('mouseover', function(d){
-              tooltip.transition()
-                .duration(500)
-                .style('opacity', '.85');
-              tooltip.html('<b>' + title + ' <br />' + d.pop + "</b>")
-                .style('left', 95 + xScale(d.era) + "px")
-                .style('top', 120 + 28 + "px");  
+              // tooltip.transition()
+              //   .duration(500)
+              //   .style('opacity', '.85');
+              tooltip.html('<b>' + title + ' <br />' + d.pop + "</b>");
+                // .style('left', 95 + xScale(d.era) + "px")
+                // .style('top', 120 + 28 + "px");  
             })
             .on('mouseout', function(d){
-              tooltip.transition()
-                .duration(300)
-                .style('opacity', 0);
+              // tooltip.transition()
+              //   .duration(300)
+              //   .style('opacity', 0);
+              tooltip.html(message);
             });
       };  
     },

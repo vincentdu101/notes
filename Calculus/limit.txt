@@ -70,3 +70,51 @@ x -> 0
 the limit is also = 1 because of the squeeze theorem
 lim (sin x / x)
 x -> 0
+
+to say lim f(x) = L as x -> means f(x) can be made as close to L as desired by making x close enough but not equal to a
+
+x -> x^2 - 1 / x-1
+1 does not work
+lim (x^2 - 1) / x - 1 = 2
+as x -> 1 
+because x^2 - 1 / x - 1 as close to 2 as I want if I can make x as close to 1 as possible
+
+x^2 - 1 / x - 1 = x + 1 if x != 1
+
+lim x^2 - 1 / x - 1 = lim (x + 1)
+x -> 1                x -> 1
+                    = lim x + lim 1 
+                      x -> 1
+                    = 1 + 1 = 2
+
+
+if lim f(x) = L as x -> a and lim g(x) = M != 0 as x -> a then lim (f(x) * g(x)) = L * M as x -> a
+
+the limit of the sum is the sum of its limits
+the limit of the differences is the differences of its limits
+the limit of the product is the product of its limits
+
+if lim f(x) = L as x -> a and lim g(x) = M as x -> a then 
+lim (f(x) / g(x)) = L / M as x -> a
+
+lim x^2 / x + 1 = lim(x^2) / lim (x + 1)  
+x -> 2            x -> 2     x -> 2
+
+                = lim(x) * lim(x) / lim(x) + lim(1)
+                  x-> 2    x ->     x -> 2   x -> 2
+                = 2 * 2 / 2 + 1
+                = 4 / 3
+
+lim x / x - 3 = lim (x) / lim (x) - lim (3)
+x -> 6        =  x -> 6   x -> 6    x -> 6
+              = 6 / 6 - 3 = 2
+
+lim x / x - 3 = lim (x) / lim (x) - lim (3)
+x -> 3        =  x -> 3   x -> 3    x -> 3
+              = 3 / 3 - 3 = DNE
+domain fluctates depending on input
+
+lim x^2 - 1 / x - 1 = lim (x+ 1)(x -1) 
+x -> 1                x -> 1
+
+

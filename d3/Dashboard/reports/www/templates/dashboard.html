@@ -2,17 +2,21 @@
   <ion-content>
     <div class="wrapper">
       <div class="map-center">
-        <map-dash
-          all-data="allData">
-        </map-dash>
+        <div class="list card">
+          <map-dash
+            all-data="allData">
+          </map-dash>
+        </div>
       </div>
       <div class="bar-graph">
-        <bar-graph 
-          all-data="allData" 
-          title="Populations" 
-          key="population" 
-          target=".bar-graph-target">
-        </bar-graph>
+        <div class="list card">
+          <bar-graph 
+            all-data="allData" 
+            title="Populations" 
+            key="population" 
+            target=".bar-graph-target">
+          </bar-graph>
+        </div>
       </div>
     </div>
   </ion-content>

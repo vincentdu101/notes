@@ -1,0 +1,58 @@
+how fast does a ball move?
+
+distance / speed = average speed
+
+3.14 m / 1.1 s = 2.85 m/s  
+
+
+1 m / .2 sec = 5 m/s
+
+graph of points may be x-axis is seconds in time and y-axis be the height as output
+
+161.8 cm       0.6 sec 
+101.1 cm       0.4 sec 
+60.7 cm     /  0.2 sec = 303.5 cm / s
+                       = 3.035 m/s 
+
+136.5 cm      0.5 sec 
+101.cm        0.4 sec 
+35.4 cm    /  0.1 sec = 354 cm / sec
+                      = 3.54 m / s
+
+109.0 cm        0.42 sec  
+101.1 cm        0.4 sec 
+7.9 cm     /    0.02 sec = 395 cm / s
+                         = 3.95 m / s
+
+
+181.9 cm        182 cm 
+0.81 sec        0.8 sec 
+- 0.1 cm   /     0.01 sec =  - 10 cm / sec <=== displacement ratio
+
+instantaneous speed of a ball moving can be calculated and shown that as the speed decreases and slows down the limit is 0
+
+
+Consider points A=(−10,−4) and
+
+C=(8,5). The point B is on the line passing through
+
+A and C. The x-coordinate of B is −1.
+
+Determine the y-coordinate of the point B.
+
+Draw your picture.
+
+ BD¯¯¯¯¯¯  / DA¯¯¯¯¯ = CE¯¯¯¯¯  / EA¯¯¯¯¯ 
+DA¯¯¯¯¯= x-coordinate of D minus x-coordinate of A= −1+10=9
+
+CE¯¯¯¯¯= y-coordinate of C minus y-coordinate of E= |5+4|=9
+
+EA¯¯¯¯¯= x-coordinate of E minus x-coordinate of A= 8+10=18
+
+so DB¯¯¯¯¯¯9=918
+
+Therefore, DB¯¯¯¯¯¯=9/2
+
+Since B is above D, the y-coordinate of B is the y-coordinate of D plus the length of DB¯¯¯¯¯¯.
+
+Thus the y-coordinate of B=−4+92=12
