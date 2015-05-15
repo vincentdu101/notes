@@ -53,13 +53,17 @@
   padding-right: 20px;
 }
 
-@media all and (min-width: 600px) {
+.field-shadow {
+  box-shadow: black 1px 2px;
+}
+
+@media all and (min-width: 800px) {
   .map-center {
     flex: 1 auto;
   }
 }  
 
-@media all and (min-width: 800px) {
+@media all and (min-width: 1200px) {
   .map-center {
     flex: 3 0px;
   }

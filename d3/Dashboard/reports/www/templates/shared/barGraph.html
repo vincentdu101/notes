@@ -5,14 +5,8 @@
     <div class="col">
       <div class="list">
 
-        <label class="item item-input item-select">
-          <div class="input-label">
-            Lightsaber
-          </div>
-          <select>
-            <option>Blue</option>
-            <option selected>Green</option>
-            <option>Red</option>
+        <label class="item item-input item-select field-shadow">
+          <select ng-model="key" ng-options="value for (item, value) in keys">
           </select>
         </label>
 

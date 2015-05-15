@@ -1,38 +1,21 @@
 app.controller('DashboardCtrl', [
   '$scope',
-  function($scope) {
+  'Population',
+  function($scope, Population) {
+
+    // http://www.census.gov/popest/data/metro/totals/2014/files/CSA-EST2014-alldata.pdf
+    d3.csv("http://www.census.gov/popest/data/metro/totals/2014/files/CSA-EST2014-alldata.csv", function(error, data){
+      console.log(data);
+    }); 
+
+    // http://www.census.gov/popest/data/national/totals/2014/files/NST-EST2014-popchg2010-2014.pdf
+    d3.csv("http://www.census.gov/popest/data/national/totals/2014/files/NST-EST2014-popchg2010_2014.csv", function(error, data){
+      console.log(data);
+    }); 
+    
 
     $scope.allData = [];
-
-    d3.csv('js/youth_data/YA_1980_010.csv', function(error, eight){
-
-      d3.csv('js/youth_data/YA_1990_010.csv', function(error, nine){
-
-        d3.csv('js/youth_data/YA_2000_010.csv', function(error, ten){
-
-          d3.csv('js/youth_data/YA_2009_2013_010.csv', function(error, eleven){
-            var w = 700;
-            var h = 300;
-            var allData = [];
-
-            console.log("1980s ", eight);
-            console.log("1990s ", nine);
-            console.log("2000s",  ten);
-            console.log("2010s",  eleven);
-
-            $scope.allData.push({era: 1980, data: eight[0]});
-            $scope.allData.push({era: 1990, data: nine[0]});
-            $scope.allData.push({era: 2000, data: ten[0]});
-            $scope.allData.push({era: 2010, data: eleven[0]});
-
-            $scope.$root.$broadcast('dataReady');
-          });
-
-        });
-
-      });
-
-    });
+    Population.init();
     
   }
 ]);
