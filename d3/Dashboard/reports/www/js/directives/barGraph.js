@@ -1,6 +1,7 @@
 app.directive('barGraph', [
   'Population',
-  function(Population){
+  '$q',
+  function(Population, $q){
 
     return {
       restrict: "E",
@@ -11,22 +12,47 @@ app.directive('barGraph', [
       controller: function($scope) {
 
         var years = [2010, 2011, 2012, 2013, 2014];
+        var allCategories = {};
 
+        $scope.currentCategory = {};
         $scope.region = "United States";
         $scope.title = "Resident Total Population Estimate";
         $scope.key = "POPESTIMATE";
+        $scope.categories = [];
 
         $scope.loadSelect = function() {
-          Population.getKeys().success(function(keys){
-            $scope.keys = keys;
-            console.log($scope.keys);
+          var deferred = $q.defer();
+          Population.getKeys().success(function(data){
+            var keys = Object.keys(data);
+            allCategories = data;
+
+            for(var i = 0; i < keys.length; i++) {
+              if (data[keys[i]].name) {
+                data[keys[i]].ticked = false;
+                data[keys[i]].key = keys[i];
+                $scope.categories.push(data[keys[i]]);
+              }
+            }
+            console.log($scope.categories);
+            deferred.resolve();
           });   
+          return deferred.promise;
+        };
+
+        $scope.selectCategory = function(data) {
+          $scope.currentCategory = data;
+          $scope.key = data.key;
+          $scope.createPopulationBar({
+            data: $scope.loadCategory(data.allData),
+            key: $scope.key,
+            target: $scope.target
+          });           
         };
 
         $scope.loadCategory = function(data) {
           var output = [];
           var category = data[$scope.region];
-
+          $scope.currentCategory = allCategories[$scope.key];
           var keys = Object.keys(category);
           for(var i = 0; i < keys.length; i++) {
             if (keys[i].match($scope.key)) {
@@ -41,15 +67,9 @@ app.directive('barGraph', [
 
         $scope.createPopulationBar = function(options) {
           // var data = options.data;
-          var title = options.title;
-          var key = options.key;
           var target = options.target;
           var dataset = options.data;
           var message = '<b>Hover a time period<br /> to see data</b>';
-          console.log(dataset);
-          // for (var i = 0; i < data.length; i++) {
-          //   dataset.push({era: data[i].era, pop: data[i].data[key]});
-          // }
 
           // margins are used to assume the spacing of the axes
           var margin = {top: 20, right: 80, bottom: 30, left: 80};
@@ -79,7 +99,7 @@ app.directive('barGraph', [
 
           var yScale = d3.scale.linear()
                         // y-axis min and max value
-                        .domain([d3.max(populations) - 10000000, d3.max(populations)])
+                        .domain([d3.max(populations) - $scope.currentCategory.buffer, d3.max(populations)])
                         // has to be height first other wise it is negative
                         .range([height, 0]);
 
@@ -126,7 +146,7 @@ app.directive('barGraph', [
                 .attr('x', 10)
                 .attr('dy', '.71em')
                 .style('text-anchor', 'end')
-                .text('Population');
+                .text($scope.currentCategory.unit);
           // todo fix bar padding between each value 
           svg.selectAll('.bar')
               .data(dataset)
@@ -141,7 +161,7 @@ app.directive('barGraph', [
                 // tooltip.transition()
                 //   .duration(500)
                 //   .style('opacity', '.85');
-                tooltip.html('<b>' + title + ' <br />' + d.pop + "</b>");
+                tooltip.html('<b>' + d.era + ' <br />' + d.pop + "</b>");
                   // .style('left', 95 + xScale(d.era) + "px")
                   // .style('top', 120 + 28 + "px");  
               })
@@ -151,17 +171,19 @@ app.directive('barGraph', [
                 //   .style('opacity', 0);
                 tooltip.html(message);
               });
+
+          $(target).append("<h5 class='bar-title'>" + $scope.currentCategory.description + "</h5>");
         };  
       },
       link: function($scope) {
         Population.init().then(function(data){
-          $scope.loadSelect();
-          $scope.createPopulationBar({
-            data: $scope.loadCategory(data.allData), 
-            title: $scope.title, 
-            key: $scope.key,
-            target: $scope.target
-          }); 
+          $scope.loadSelect().then(function(){
+            $scope.createPopulationBar({
+              data: $scope.loadCategory(data.allData),
+              key: $scope.key,
+              target: $scope.target
+            });             
+          });
         }); 
       }      
     };

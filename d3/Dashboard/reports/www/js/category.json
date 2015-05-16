@@ -1,12 +1,39 @@
 {   
-   "ESTIMATESBASE":  "4/1/2010 Resident Total Population Estimates Base",
-   "POPESTIMATE":    "Resident Total Population Estimate",
-   "NPOPCHG":        "Numeric Change in Resident Total Population",
-   "PPOPCHG":        "Percent Change in Resident Total Population",
-   "NRANK_ESTBASE":  "National Ranking - 4/1/2010 resident total population estimates base",
-   "NRANK_POPEST":   "National Ranking - Resident Total Population Estimate",
-   "NRANK_NPCHG":    "National Ranking - Numeric Change in Resident Total Population",
-   "NRANK_PPCHG":    "National Ranking - Percent Change in Resident Total Population"
+  "ESTIMATESBASE": {
+    "description":  "4/1/2010 Resident Total Population Estimates Base"
+  },
+  "POPESTIMATE": {
+    "name":         "Total Population",
+    "description":  "Resident Total Population Estimate",
+    "unit":         "Population",
+    "buffer":       10000000
+  },
+  "NPOPCHG": {
+    "name":         "Numeric Change",
+    "description":  "Numeric Change in Resident Total Population",
+    "unit":         "Population",
+    "buffer":       0
+  },       
+  "PPOPCHG": {
+    "name":         "Percent Change",
+    "description":  "Percent Change in Resident Total Population",
+    "unit":         "Percent",
+    "buffer":       0
+  },       
+  "NRANK_ESTBASE": {
+    "description":  "National Ranking - 4/1/2010 resident total population estimates base"
+  },
+  "NRANK_POPEST": {
+    "name":         "National Ranking",
+    "description":  "National Ranking - Resident Total Population Estimate",
+    "unit":         "Rank",
+    "buffer":       0
+  },
+  "NRANK_NPCHG": {
+    "description":  "National Ranking - Numeric Change in Resident Total Population"
+  },
+  "NRANK_PPCHG": {
+    "description":  "National Ranking - Percent Change in Resident Total Population"
+  }
 }
-
 

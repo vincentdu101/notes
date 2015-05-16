@@ -5,10 +5,17 @@
     <div class="col">
       <div class="list">
 
-        <label class="item item-input item-select field-shadow">
-          <select ng-model="key" ng-options="value for (item, value) in keys">
-          </select>
-        </label>
+        <div
+            isteven-multi-select
+            input-model="categories"
+            output-model="currentCategory"
+            button-label="name"
+            item-label="name"
+            tick-property="ticked"
+            selection-mode="single"
+            on-item-click="selectCategory(data)"
+        >
+        </div>
 
       </div>      
     </div>
