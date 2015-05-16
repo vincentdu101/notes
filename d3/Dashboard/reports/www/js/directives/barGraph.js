@@ -5,14 +5,16 @@ app.directive('barGraph', [
     return {
       restrict: "E",
       scope: {
-        allData: "=",
         target: "@"
       },
       templateUrl: "templates/shared/barGraph.html",
       controller: function($scope) {
 
-        $scope.title = "Populations";
-        $scope.key = "population";
+        var years = [2010, 2011, 2012, 2013, 2014];
+
+        $scope.region = "United States";
+        $scope.title = "Resident Total Population Estimate";
+        $scope.key = "POPESTIMATE";
 
         $scope.loadSelect = function() {
           Population.getKeys().success(function(keys){
@@ -21,17 +23,33 @@ app.directive('barGraph', [
           });   
         };
 
+        $scope.loadCategory = function(data) {
+          var output = [];
+          var category = data[$scope.region];
+
+          var keys = Object.keys(category);
+          for(var i = 0; i < keys.length; i++) {
+            if (keys[i].match($scope.key)) {
+              output.push({
+                era: years[output.length],
+                pop: category[keys[i]]
+              });
+            }
+          }
+          return output;
+        };
+
         $scope.createPopulationBar = function(options) {
-          var data = options.data;
+          // var data = options.data;
           var title = options.title;
           var key = options.key;
           var target = options.target;
-          var dataset = [];
+          var dataset = options.data;
           var message = '<b>Hover a time period<br /> to see data</b>';
-          
-          for (var i = 0; i < data.length; i++) {
-            dataset.push({era: data[i].era, pop: data[i].data[key]});
-          }
+          console.log(dataset);
+          // for (var i = 0; i < data.length; i++) {
+          //   dataset.push({era: data[i].era, pop: data[i].data[key]});
+          // }
 
           // margins are used to assume the spacing of the axes
           var margin = {top: 20, right: 80, bottom: 30, left: 80};
@@ -53,7 +71,7 @@ app.directive('barGraph', [
           // x scale to be used in x-axis
           var xScale = d3.scale.linear()
                         // species min and max value of x axis
-                        .domain([d3.min(years) - 2, d3.max(years)])
+                        .domain([d3.min(years), d3.max(years)])
                         // calculates the spacing and width based on the 
                         // domain and width of graph
                         .range([0, width]);
@@ -61,7 +79,7 @@ app.directive('barGraph', [
 
           var yScale = d3.scale.linear()
                         // y-axis min and max value
-                        .domain([0, d3.max(populations)])
+                        .domain([d3.max(populations) - 10000000, d3.max(populations)])
                         // has to be height first other wise it is negative
                         .range([height, 0]);
 
@@ -69,8 +87,8 @@ app.directive('barGraph', [
                         .scale(xScale)
                         .orient('bottom')
                         // sets the tick format
-                        .tickFormat(function(data){ return data + "s"; })
-                        .ticks(4)
+                        .tickFormat(function(data){ return data; })
+                        .ticks(5)
                         .tickPadding(10);
 
           var yAxis = d3.svg.axis()
@@ -136,10 +154,10 @@ app.directive('barGraph', [
         };  
       },
       link: function($scope) {
-        $scope.$on('dataReady', function(event, data){
+        Population.init().then(function(data){
           $scope.loadSelect();
           $scope.createPopulationBar({
-            data: data.allData, 
+            data: $scope.loadCategory(data.allData), 
             title: $scope.title, 
             key: $scope.key,
             target: $scope.target
