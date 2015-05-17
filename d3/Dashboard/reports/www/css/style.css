@@ -65,6 +65,21 @@ div.tooltip {
   box-shadow: black 1px 2px;
 }
 
+path {
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+.background {
+  fill: none;
+  stroke: #ddd;
+}
+
+.foreground {
+  fill: none;
+  pointer-events: all;
+}
+
 @media all and (min-width: 800px) {
   .map-center {
     flex: 1 auto;
@@ -79,3 +94,4 @@ div.tooltip {
     order: 1;
   }
 }
+
