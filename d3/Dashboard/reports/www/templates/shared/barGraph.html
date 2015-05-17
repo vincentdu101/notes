@@ -4,7 +4,6 @@
     <div class="col col-50"></div>
     <div class="col">
       <div class="list">
-
         <div
             isteven-multi-select
             input-model="categories"
@@ -16,9 +15,12 @@
             on-item-click="selectCategory(data)"
         >
         </div>
-
+        <div ng-show="error">{{error}}</div>
       </div>      
     </div>
+  </div>
+
+  <div class="bar-chart">
   </div>
 
 </div>
