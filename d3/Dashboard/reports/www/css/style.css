@@ -80,6 +80,10 @@ path {
   pointer-events: all;
 }
 
+.selected {
+  fill: orange;
+}
+
 @media all and (min-width: 800px) {
   .map-center {
     flex: 1 auto;
