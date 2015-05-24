@@ -183,6 +183,10 @@ app.directive('barGraph', [
 
           $(target).find('.bar-chart').append("<h5 class='bar-title'>" + $scope.currentCategory.description + "</h5>");
         };  
+
+        $scope.$on('selectState', function(event, data){
+          debugger;
+        });
       },
       link: function($scope) {
         Population.init().then(function(data){

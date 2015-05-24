@@ -48,7 +48,7 @@ app.directive('mapDash', function(){
           
           var bisectId = d3.bisector(function(d){ return d.id; }).left;
           var features = topojson.feature(us, us.objects.states).features;
-
+          
           svg.append('path')
             .datum(topojson.mesh(us, us.objects.states))
             .attr('class', 'background')
@@ -86,6 +86,7 @@ app.directive('mapDash', function(){
 
           function dragstart() {
             var feature = d3.event.sourceEvent.target.__data__;
+            console.log(feature.properties.name);
             useFocusColor(feature);
             dragColor = feature.color === selectedColor ? 0 : selectedColor;
             if (assign(feature, dragColor)) {
