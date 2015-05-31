@@ -65,7 +65,7 @@ app.directive('mapDash', function(){
           svg.append('g')
             .attr('class', 'foreground')
             .style('cursor', 'pointer')
-            .style('stroke-capacity', .5)
+            .style('stroke-capacity', 1)
             .selectAll('path')
               .data(features)
             .enter().append('path')
@@ -86,12 +86,12 @@ app.directive('mapDash', function(){
 
           function dragstart() {
             var feature = d3.event.sourceEvent.target.__data__;
-            console.log(feature.properties.name);
             useFocusColor(feature);
             dragColor = feature.color === selectedColor ? 0 : selectedColor;
             if (assign(feature, dragColor)) {
               redraw();
             }
+            $scope.$root.$broadcast('selectState', {state: feature.properties.name});
           }
 
           function drag() {

@@ -30,6 +30,7 @@ app.factory('Population', [
         // http://www.census.gov/popest/data/national/totals/2014/files/NST-EST2014-popchg2010-2014.pdf
         // // http://www.census.gov/popest/data/national/totals/2014/files/NST-EST2014-popchg2010-2014.pdf
         d3.csv("js/population/population_estimate.csv", function(error, data){
+          console.log(data);
           parsePopulationData(data);
           deferred.resolve({allData: allData});
         }); 

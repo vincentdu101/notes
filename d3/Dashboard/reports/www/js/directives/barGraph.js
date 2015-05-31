@@ -13,17 +13,47 @@ app.directive('barGraph', [
 
         var years = [2010, 2011, 2012, 2013, 2014];
         var allCategories = {};
+        // margins are used to assume the spacing of the axes
+        var margin = {top: 20, right: 80, bottom: 30, left: 80};
 
-        function calculateHeight(height, pop) {
-          var length = height - pop;
-          return length >= 0 ? length : 0;          
-        }
+        // calculate width and height with axes margins in mind
+        var width = 500 - margin.left - margin.right;
+        var height = 300 - margin.top - margin.bottom;
+        var padding = 10;        
 
         $scope.allData = [];
         $scope.currentCategory = {};
         $scope.region = "United States";
         $scope.key = "POPESTIMATE";
         $scope.categories = [];
+
+        function calculateHeight(height, pop) {
+          var length = height - pop;
+          return length >= 0 ? length : 0;          
+        }
+
+        function removeChart() {
+          $($scope.target).find('.tooltip').remove();
+          $($scope.target).find('.bar-chart').empty();
+        }
+
+        // x scale to be used in x-axis
+        function generateXScale(years, width) {          
+          return d3.scale.linear()
+                  // species min and max value of x axis
+                  .domain([d3.min(years), d3.max(years)])
+                  // calculates the spacing and width based on the 
+                  // domain and width of graph
+                  .range([0, width]);          
+        }
+
+        function generateYScale(populations, height) {
+          return d3.scale.linear()
+                  // y-axis min and max value
+                  .domain([d3.min(populations) - $scope.currentCategory.buffer, d3.max(populations)])
+                  // has to be height first other wise it is negative
+                  .range([height, 0]);
+        }
 
         $scope.loadSelect = function() {
           var deferred = $q.defer();
@@ -45,8 +75,7 @@ app.directive('barGraph', [
         $scope.selectCategory = function(data) {
           $scope.currentCategory = data;
           $scope.key = data.key;
-          $($scope.target).find('.tooltip').remove();
-          $($scope.target).find('.bar-chart').empty();
+          removeChart();
           if (data.key == 'NRANK_POPEST' && $scope.region == 'United States') {
             $scope.error = "Not Applicable";
           } else {
@@ -81,14 +110,6 @@ app.directive('barGraph', [
           var dataset = options.data;
           var message = '<b>Hover a time period<br /> to see data</b>';
 
-          // margins are used to assume the spacing of the axes
-          var margin = {top: 20, right: 80, bottom: 30, left: 80};
-
-          // calculate width and height with axes margins in mind
-          var width = 500 - margin.left - margin.right;
-          var height = 300 - margin.top - margin.bottom;
-          var padding = 10;
-
           // width of a bar
           var barWidth = width / dataset.length;      
 
@@ -97,20 +118,10 @@ app.directive('barGraph', [
 
           // y values for the population
           var populations = dataset.map(function(d){ return d.pop; });
-          console.log(populations);
-          // x scale to be used in x-axis
-          var xScale = d3.scale.linear()
-                        // species min and max value of x axis
-                        .domain([d3.min(years), d3.max(years)])
-                        // calculates the spacing and width based on the 
-                        // domain and width of graph
-                        .range([0, width]);
-
-          var yScale = d3.scale.linear()
-                        // y-axis min and max value
-                        .domain([d3.min(populations) - $scope.currentCategory.buffer, d3.max(populations)])
-                        // has to be height first other wise it is negative
-                        .range([height, 0]);
+          
+          // x and y scales to be used in axes
+          var xScale = generateXScale(years, width);
+          var yScale = generateYScale(populations, height);
 
           var xAxis = d3.svg.axis()
                         .scale(xScale)
@@ -150,43 +161,58 @@ app.directive('barGraph', [
                 .attr('class', 'y axis')
                 .call(yAxis)
               .append('text')
-                .attr('transform', 'rotate(-90)')
-                .attr('y', 10)
+                .attr('y', -20)
                 .attr('x', 10)
                 .attr('dy', '.71em')
                 .style('text-anchor', 'end')
                 .text($scope.currentCategory.unit);
           // todo fix bar padding between each value 
-          svg.selectAll('.bar')
+          var bars = svg.selectAll('.bar')
               .data(dataset)
               .enter()
-              .append('rect')
-                .attr('class', 'bar')
-                .attr('x', function(d){ return xScale(d.era); })
-                .attr('width', barWidth)
-                .attr('y', function(d){ return yScale(d.pop); })
-                .attr('height', function(d){ return calculateHeight(height, yScale(d.pop)); })
-              .on('mouseover', function(d){
-                // tooltip.transition()
-                //   .duration(500)
-                //   .style('opacity', '.85');
-                tooltip.html('<b>' + d.era + ' <br />' + d.pop + "</b>");
-                  // .style('left', 95 + xScale(d.era) + "px")
-                  // .style('top', 120 + 28 + "px");  
-              })
-              .on('mouseout', function(d){
-                // tooltip.transition()
-                //   .duration(300)
-                //   .style('opacity', 0);
-                tooltip.html(message);
-              });
+              .append('rect');
+
+          bars.attr('class', 'bar')           
+            .attr('x', function(d){ return xScale(d.era); })
+            .attr('width', barWidth)
+            // .transition()
+            //   .delay(function(d, i) { return i * 100; })
+            //   .duration(700)              
+            .attr('y', function(d){ return yScale(d.pop); })
+            .transition()
+              .delay(function(d, i) { return i * 100; })
+              .duration(700)                        
+            .attr('height', function(d){ return calculateHeight(height, yScale(d.pop)); })             
+
+              
+          bars.on('mouseover', function(d){
+            // tooltip.transition()
+            //   .duration(500)
+            //   .style('opacity', '.85');
+            tooltip.html('<b>' + d.era + ' <br />' + d.pop + "</b>");
+              // .style('left', 95 + xScale(d.era) + "px")
+              // .style('top', 120 + 28 + "px");  
+          })
+          .on('mouseout', function(d){
+            // tooltip.transition()
+            //   .duration(300)
+            //   .style('opacity', 0);
+            tooltip.html(message);
+          });
 
           $(target).find('.bar-chart').append("<h5 class='bar-title'>" + $scope.currentCategory.description + "</h5>");
         };  
 
         $scope.$on('selectState', function(event, data){
-          debugger;
+          removeChart();
+          $scope.region = data.state;
+          $scope.createPopulationBar({
+            data: $scope.loadCategory($scope.allData),
+            key: $scope.key,
+            target: $scope.target
+          });          
         });
+
       },
       link: function($scope) {
         Population.init().then(function(data){

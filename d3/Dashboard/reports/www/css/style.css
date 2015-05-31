@@ -78,10 +78,11 @@ path {
 .foreground {
   fill: none;
   pointer-events: all;
+  color: black;
 }
 
 .selected {
-  fill: orange;
+  fill: #c7fe82;
 }
 
 @media all and (min-width: 800px) {
