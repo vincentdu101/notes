@@ -34,6 +34,8 @@
 
 div.tooltip {
   /*position: absolute;*/
+  width: 200px;
+  margin-left: 15px;
   max-width: 200px;
   height: auto;
   padding: 5px;
@@ -85,6 +87,12 @@ path {
   fill: #c7fe82;
 }
 
+.map-caption {
+  width: 300px;
+  height: 250px;
+  min-height: 250px;
+}
+
 @media all and (min-width: 800px) {
   .map-center {
     flex: 1 auto;
@@ -100,3 +108,6 @@ path {
   }
 }
 
+.bar-chart {
+  margin-top: 15px;
+}

@@ -20,9 +20,10 @@ app.directive('barGraph', [
         var width = 500 - margin.left - margin.right;
         var height = 300 - margin.top - margin.bottom;
         var padding = 10;        
+        var defaultCategory = "Total Population";
 
         $scope.allData = [];
-        $scope.currentCategory = {};
+        $scope.currentCategory = [];
         $scope.region = "United States";
         $scope.key = "POPESTIMATE";
         $scope.categories = [];
@@ -48,11 +49,22 @@ app.directive('barGraph', [
         }
 
         function generateYScale(populations, height) {
+          var range = d3.max(populations) - d3.min(populations);
           return d3.scale.linear()
                   // y-axis min and max value
-                  .domain([d3.min(populations) - $scope.currentCategory.buffer, d3.max(populations)])
+                  .domain([d3.min(populations) - range, d3.max(populations)])
                   // has to be height first other wise it is negative
                   .range([height, 0]);
+        }
+
+        function findSelectedKey(key) {
+          for(var i = 0; i < $scope.categories.length; i++) {
+            if ($scope.categories[i].name == key) {
+              $scope.categories[i].ticked = true;
+            } else {
+              $scope.categories[i].ticked = false;
+            }
+          } 
         }
 
         $scope.loadSelect = function() {
@@ -61,10 +73,12 @@ app.directive('barGraph', [
             var keys = Object.keys(data);
             allCategories = data;
             for(var i = 0; i < keys.length; i++) {
-              if (data[keys[i]].name) {
-                data[keys[i]].ticked = false;
+              var keyName = data[keys[i]].name;
+              if (keyName) {
+                data[keys[i]].ticked = keyName == defaultCategory;
                 data[keys[i]].key = keys[i];
                 $scope.categories.push(data[keys[i]]);
+                $scope.currentCategory.push(data[keys[i]]);
               }
             }
             deferred.resolve();
@@ -75,6 +89,7 @@ app.directive('barGraph', [
         $scope.selectCategory = function(data) {
           $scope.currentCategory = data;
           $scope.key = data.key;
+          findSelectedKey($scope.currentCategory.name);
           removeChart();
           if (data.key == 'NRANK_POPEST' && $scope.region == 'United States') {
             $scope.error = "Not Applicable";

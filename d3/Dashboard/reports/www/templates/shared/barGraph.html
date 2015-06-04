@@ -4,16 +4,19 @@
     <div class="col col-50"></div>
     <div class="col">
       <div class="list">
-        <div
-            isteven-multi-select
-            input-model="categories"
-            output-model="currentCategory"
-            button-label="name"
-            item-label="name"
-            tick-property="ticked"
-            selection-mode="single"
-            on-item-click="selectCategory(data)"
-        >
+        <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+            {{currentCategory.name}}
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+            <li role="presentation" ng-repeat="category in categories" ng-class="{'active': category.ticked}" ng-click="selectCategory(category)">
+              <a role="menuitem" 
+                 tabindex="-1">
+                {{category.name}}
+              </a>
+            </li>
+          </ul>
         </div>
         <div ng-show="error">{{error}}</div>
       </div>      
