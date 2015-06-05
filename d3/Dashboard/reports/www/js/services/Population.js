@@ -18,7 +18,7 @@ app.factory('Population', [
     }
 
     function getRegionInfo(region) {
-      console.log(region);
+      return allData[region];
     }
 
     return {
@@ -40,7 +40,7 @@ app.factory('Population', [
         d3.csv("js/population/population_estimate.csv", function(error, data){
           console.log(data);
           parsePopulationData(data);
-          $rootScope.$broadcast('dataReady', {allData: allData});
+          $rootScope.$broadcast('dataPopReady', {allData: allData});
           deferred.resolve({allData: allData});
         }); 
         return deferred.promise;        

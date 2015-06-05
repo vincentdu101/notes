@@ -12,7 +12,6 @@ app.directive('mapDash', [
       controller: function($scope) {
 
         $scope.target = $scope.target ? $scope.target : ".map-dash-target";
-        $scope.currentRegion = Population.getRegionInfo("United States");
 
         function useFocusColor(feature) {
           if (feature) {
@@ -92,7 +91,7 @@ app.directive('mapDash', [
               useFocusColor(feature);
               dragColor = feature.color === selectedColor ? 0 : selectedColor;
               console.log(feature);
-              $scope.currentRegion = feature.properties.name; 
+              $scope.currentRegion = Population.getRegionInfo(feature.properties.name); 
               $scope.$apply();           
               if (assign(feature, dragColor)) {
                 redraw();
@@ -131,7 +130,11 @@ app.directive('mapDash', [
 
           });
         }
-        drawMap({target: $scope.target});
+
+        $scope.$on('dataPopReady', function(event, data){
+          $scope.currentRegion = Population.getRegionInfo("United States");
+          drawMap({target: $scope.target});
+        });
       }
     }
 
