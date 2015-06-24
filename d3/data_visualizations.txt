@@ -1,0 +1,36 @@
+# details of the data science process
+Computer Science - Data Wrangling
+  acquire - data ingestion (web scraping, crawling)
+  parse -  
+Statistics and Data Mining - EDA
+  filter
+  mine
+Graphic Design
+  represent
+  refine
+Infovis (Info Visualization) and HCI (Human Computer Interaction)
+  interact
+
+EDA - exploratory data analysis
+
+# Data Types
+quantitative data - continuous, discrete, countable
+categorical data 
+  nominal - categorizes data into groups, geographic for example
+  ordered - bins of data (0 - 10 million, 10 - 100 million, 100 - 500 million)
+
+# visual encodings 
+data map to display elements
+position is considered planar variables (x and y coordinate plotting)
+retinal variables 
+  size difference of shapes (bubbles, circles)
+  color differences of shapes
+
+http://www.targetprocess.com/articles/visual-encoding.html
+
+orientation - direction up or down
+more accurate --> less accurate
+position, length, angle or shape, area, volume, color or density
+
+# double encoding
+using two different visual encoding to describe the same data
