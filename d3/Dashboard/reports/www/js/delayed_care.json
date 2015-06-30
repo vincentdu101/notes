@@ -1,0 +1,422 @@
+[{
+  "comment": "https://healthmeasures.aspe.hhs.gov/dataset/Measure-7-Percentage-of-People-Who-Delayed-Care-Du/53gq-pbin?",
+  "education_level" : "1. Less than 9 years in education",
+  "measure_value" : "9.3",
+  "year" : "2000"
+}
+, {
+  "education_level" : "2. 9-12 years without high school degree",
+  "measure_value" : "12.7",
+  "year" : "2000"
+}
+, {
+  "education_level" : "3. High school graduate or equivalent",
+  "measure_value" : "8.6",
+  "year" : "2000"
+}
+, {
+  "education_level" : "4. More than high school but less than Bachelors degree",
+  "measure_value" : "9.2",
+  "year" : "2000"
+}
+, {
+  "education_level" : "5. Bachelors degree",
+  "measure_value" : "5.5",
+  "year" : "2000"
+}
+, {
+  "education_level" : "6. Masters degree or higher",
+  "measure_value" : "4.5",
+  "year" : "2000"
+}
+, {
+  "education_level" : "1. Less than 9 years in education",
+  "measure_value" : "11.5",
+  "year" : "2001"
+}
+, {
+  "education_level" : "2. 9-12 years without high school degree",
+  "measure_value" : "12.5",
+  "year" : "2001"
+}
+, {
+  "education_level" : "3. High school graduate or equivalent",
+  "measure_value" : "8",
+  "year" : "2001"
+}
+, {
+  "education_level" : "4. More than high school but less than Bachelors degree",
+  "measure_value" : "9.5",
+  "year" : "2001"
+}
+, {
+  "education_level" : "5. Bachelors degree",
+  "measure_value" : "6",
+  "year" : "2001"
+}
+, {
+  "education_level" : "6. Masters degree or higher",
+  "measure_value" : "4.9",
+  "year" : "2001"
+}
+, {
+  "education_level" : "1. Less than 9 years in education",
+  "measure_value" : "10.5",
+  "year" : "2002"
+}
+, {
+  "education_level" : "2. 9-12 years without high school degree",
+  "measure_value" : "12.7",
+  "year" : "2002"
+}
+, {
+  "education_level" : "3. High school graduate or equivalent",
+  "measure_value" : "9.6",
+  "year" : "2002"
+}
+, {
+  "education_level" : "4. More than high school but less than Bachelors degree",
+  "measure_value" : "9.8",
+  "year" : "2002"
+}
+, {
+  "education_level" : "5. Bachelors degree",
+  "measure_value" : "6.1",
+  "year" : "2002"
+}
+, {
+  "education_level" : "6. Masters degree or higher",
+  "measure_value" : "4.3",
+  "year" : "2002"
+}
+, {
+  "education_level" : "1. Less than 9 years in education",
+  "measure_value" : "12",
+  "year" : "2003"
+}
+, {
+  "education_level" : "2. 9-12 years without high school degree",
+  "measure_value" : "13.8",
+  "year" : "2003"
+}
+, {
+  "education_level" : "3. High school graduate or equivalent",
+  "measure_value" : "9.8",
+  "year" : "2003"
+}
+, {
+  "education_level" : "4. More than high school but less than Bachelors degree",
+  "measure_value" : "10.7",
+  "year" : "2003"
+}
+, {
+  "education_level" : "5. Bachelors degree",
+  "measure_value" : "7.1",
+  "year" : "2003"
+}
+, {
+  "education_level" : "6. Masters degree or higher",
+  "measure_value" : "5.4",
+  "year" : "2003"
+}
+, {
+  "education_level" : "1. Less than 9 years in education",
+  "measure_value" : "11.9",
+  "year" : "2004"
+}
+, {
+  "education_level" : "2. 9-12 years without high school degree",
+  "measure_value" : "13.8",
+  "year" : "2004"
+}
+, {
+  "education_level" : "3. High school graduate or equivalent",
+  "measure_value" : "10.3",
+  "year" : "2004"
+}
+, {
+  "education_level" : "4. More than high school but less than Bachelors degree",
+  "measure_value" : "12.3",
+  "year" : "2004"
+}
+, {
+  "education_level" : "5. Bachelors degree",
+  "measure_value" : "7.3",
+  "year" : "2004"
+}
+, {
+  "education_level" : "6. Masters degree or higher",
+  "measure_value" : "5.5",
+  "year" : "2004"
+}
+, {
+  "education_level" : "1. Less than 9 years in education",
+  "measure_value" : "12.4",
+  "year" : "2005"
+}
+, {
+  "education_level" : "2. 9-12 years without high school degree",
+  "measure_value" : "13.9",
+  "year" : "2005"
+}
+, {
+  "education_level" : "3. High school graduate or equivalent",
+  "measure_value" : "10.2",
+  "year" : "2005"
+}
+, {
+  "education_level" : "4. More than high school but less than Bachelors degree",
+  "measure_value" : "11.8",
+  "year" : "2005"
+}
+, {
+  "education_level" : "5. Bachelors degree",
+  "measure_value" : "7",
+  "year" : "2005"
+}
+, {
+  "education_level" : "6. Masters degree or higher",
+  "measure_value" : "5",
+  "year" : "2005"
+}
+, {
+  "education_level" : "1. Less than 9 years in education",
+  "measure_value" : "12.9",
+  "year" : "2006"
+}
+, {
+  "education_level" : "2. 9-12 years without high school degree",
+  "measure_value" : "14",
+  "year" : "2006"
+}
+, {
+  "education_level" : "3. High school graduate or equivalent",
+  "measure_value" : "10.8",
+  "year" : "2006"
+}
+, {
+  "education_level" : "4. More than high school but less than Bachelors degree",
+  "measure_value" : "12.6",
+  "year" : "2006"
+}
+, {
+  "education_level" : "5. Bachelors degree",
+  "measure_value" : "7.3",
+  "year" : "2006"
+}
+, {
+  "education_level" : "6. Masters degree or higher",
+  "measure_value" : "5.9",
+  "year" : "2006"
+}
+, {
+  "education_level" : "1. Less than 9 years in education",
+  "measure_value" : "12.4",
+  "year" : "2007"
+}
+, {
+  "education_level" : "2. 9-12 years without high school degree",
+  "measure_value" : "14.4",
+  "year" : "2007"
+}
+, {
+  "education_level" : "3. High school graduate or equivalent",
+  "measure_value" : "11.1",
+  "year" : "2007"
+}
+, {
+  "education_level" : "4. More than high school but less than Bachelors degree",
+  "measure_value" : "13.2",
+  "year" : "2007"
+}
+, {
+  "education_level" : "5. Bachelors degree",
+  "measure_value" : "7.2",
+  "year" : "2007"
+}
+, {
+  "education_level" : "6. Masters degree or higher",
+  "measure_value" : "6",
+  "year" : "2007"
+}
+, {
+  "education_level" : "1. Less than 9 years in education",
+  "measure_value" : "12.9",
+  "year" : "2008"
+}
+, {
+  "education_level" : "2. 9-12 years without high school degree",
+  "measure_value" : "17.5",
+  "year" : "2008"
+}
+, {
+  "education_level" : "3. High school graduate or equivalent",
+  "measure_value" : "12.3",
+  "year" : "2008"
+}
+, {
+  "education_level" : "4. More than high school but less than Bachelors degree",
+  "measure_value" : "14.7",
+  "year" : "2008"
+}
+, {
+  "education_level" : "5. Bachelors degree",
+  "measure_value" : "8.6",
+  "year" : "2008"
+}
+, {
+  "education_level" : "6. Masters degree or higher",
+  "measure_value" : "6.7",
+  "year" : "2008"
+}
+, {
+  "education_level" : "1. Less than 9 years in education",
+  "measure_value" : "15",
+  "year" : "2009"
+}
+, {
+  "education_level" : "2. 9-12 years without high school degree",
+  "measure_value" : "18.2",
+  "year" : "2009"
+}
+, {
+  "education_level" : "3. High school graduate or equivalent",
+  "measure_value" : "14.2",
+  "year" : "2009"
+}
+, {
+  "education_level" : "4. More than high school but less than Bachelors degree",
+  "measure_value" : "15.8",
+  "year" : "2009"
+}
+, {
+  "education_level" : "5. Bachelors degree",
+  "measure_value" : "9.6",
+  "year" : "2009"
+}
+, {
+  "education_level" : "6. Masters degree or higher",
+  "measure_value" : "7.9",
+  "year" : "2009"
+}
+, {
+  "education_level" : "1. Less than 9 years in education",
+  "measure_value" : "14.4",
+  "year" : "2010"
+}
+, {
+  "education_level" : "2. 9-12 years without high school degree",
+  "measure_value" : "17.7",
+  "year" : "2010"
+}
+, {
+  "education_level" : "3. High school graduate or equivalent",
+  "measure_value" : "13.4",
+  "year" : "2010"
+}
+, {
+  "education_level" : "4. More than high school but less than Bachelors degree",
+  "measure_value" : "15.9",
+  "year" : "2010"
+}
+, {
+  "education_level" : "5. Bachelors degree",
+  "measure_value" : "9.4",
+  "year" : "2010"
+}
+, {
+  "education_level" : "6. Masters degree or higher",
+  "measure_value" : "7.2",
+  "year" : "2010"
+}
+, {
+  "education_level" : "1. Less than 9 years in education",
+  "measure_value" : "15.5",
+  "year" : "2011"
+}
+, {
+  "education_level" : "2. 9-12 years without high school degree",
+  "measure_value" : "16.8",
+  "year" : "2011"
+}
+, {
+  "education_level" : "3. High school graduate or equivalent",
+  "measure_value" : "13.5",
+  "year" : "2011"
+}
+, {
+  "education_level" : "4. More than high school but less than Bachelors degree",
+  "measure_value" : "15.1",
+  "year" : "2011"
+}
+, {
+  "education_level" : "5. Bachelors degree",
+  "measure_value" : "8.3",
+  "year" : "2011"
+}
+, {
+  "education_level" : "6. Masters degree or higher",
+  "measure_value" : "6.2",
+  "year" : "2011"
+}
+, {
+  "education_level" : "1. Less than 9 years in education",
+  "measure_value" : "14",
+  "year" : "2012"
+}
+, {
+  "education_level" : "2. 9-12 years without high school degree",
+  "measure_value" : "17",
+  "year" : "2012"
+}
+, {
+  "education_level" : "3. High school graduate or equivalent",
+  "measure_value" : "12.3",
+  "year" : "2012"
+}
+, {
+  "education_level" : "4. More than high school but less than Bachelors degree",
+  "measure_value" : "14.3",
+  "year" : "2012"
+}
+, {
+  "education_level" : "5. Bachelors degree",
+  "measure_value" : "8.2",
+  "year" : "2012"
+}
+, {
+  "education_level" : "6. Masters degree or higher",
+  "measure_value" : "6.3",
+  "year" : "2012"
+}
+, {
+  "education_level" : "1. Less than 9 years in education",
+  "measure_value" : "13.4",
+  "year" : "2013"
+}
+, {
+  "education_level" : "2. 9-12 years without high school degree",
+  "measure_value" : "15.5",
+  "year" : "2013"
+}
+, {
+  "education_level" : "3. High school graduate or equivalent",
+  "measure_value" : "12",
+  "year" : "2013"
+}
+, {
+  "education_level" : "4. More than high school but less than Bachelors degree",
+  "measure_value" : "13.4",
+  "year" : "2013"
+}
+, {
+  "education_level" : "5. Bachelors degree",
+  "measure_value" : "7.6",
+  "year" : "2013"
+}
+, {
+  "education_level" : "6. Masters degree or higher",
+  "measure_value" : "5.3",
+  "year" : "2013"
+}
+ ]

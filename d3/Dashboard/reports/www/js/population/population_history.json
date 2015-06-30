@@ -1,0 +1,6811 @@
+[ 
+  {
+  "comment": "https://opendata.socrata.com/Personal/State-Populations/m2yx-sees",  
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-86.63185803899967",
+    "latitude" : "32.84057034900047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Alabama\",\"zip\":\"\"}"
+  },
+  "state" : "Alabama",
+  "state_y_n" : "Y",
+  "year" : "1790"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-147.72205669099972",
+    "latitude" : "64.84507631500048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Alaska\",\"zip\":\"\"}"
+  },
+  "state" : "Alaska",
+  "state_y_n" : "Y",
+  "year" : "1790"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-111.76380949799972",
+    "latitude" : "34.865970167000455",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Arizona\",\"zip\":\"\"}"
+  },
+  "state" : "Arizona",
+  "state_y_n" : "Y",
+  "year" : "1790"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-92.27448794899965",
+    "latitude" : "34.74865329300047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Arkansas\",\"zip\":\"\"}"
+  },
+  "state" : "Arkansas",
+  "state_y_n" : "Y",
+  "year" : "1790"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-120.99999889499969",
+    "latitude" : "37.63864203100047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"California\",\"zip\":\"\"}"
+  },
+  "state" : "California",
+  "state_y_n" : "Y",
+  "year" : "1790"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-106.13360888799969",
+    "latitude" : "38.84384201300048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Colorado\",\"zip\":\"\"}"
+  },
+  "state" : "Colorado",
+  "state_y_n" : "Y",
+  "year" : "1790"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-72.64983753699966",
+    "latitude" : "41.56266101800048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Connecticut\",\"zip\":\"\"}"
+  },
+  "state" : "Connecticut",
+  "state_y_n" : "Y",
+  "year" : "1790",
+  "population" : "237946"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-75.57773943699965",
+    "latitude" : "39.00883059000046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Delaware\",\"zip\":\"\"}"
+  },
+  "state" : "Delaware",
+  "state_y_n" : "Y",
+  "year" : "1790",
+  "population" : "59096"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-77.03195864199967",
+    "latitude" : "38.89037038100048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"DC\",\"zip\":\"\"}"
+  },
+  "state" : "DC",
+  "state_y_n" : "Y",
+  "year" : "1790"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-81.92895558499964",
+    "latitude" : "28.93204444200046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Florida\",\"zip\":\"\"}"
+  },
+  "state" : "Florida",
+  "state_y_n" : "Y",
+  "year" : "1790"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-83.62757601199968",
+    "latitude" : "32.83968158500045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Georgia\",\"zip\":\"\"}"
+  },
+  "state" : "Georgia",
+  "state_y_n" : "Y",
+  "year" : "1790",
+  "population" : "82548"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-157.85774691599974",
+    "latitude" : "21.304853205000427",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Hawaii\",\"zip\":\"\"}"
+  },
+  "state" : "Hawaii",
+  "state_y_n" : "Y",
+  "year" : "1790"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-114.3637261449997",
+    "latitude" : "43.68263160000049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Idaho\",\"zip\":\"\"}"
+  },
+  "state" : "Idaho",
+  "state_y_n" : "Y",
+  "year" : "1790"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-88.99770813999965",
+    "latitude" : "40.48501433000047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Illinois\",\"zip\":\"\"}"
+  },
+  "state" : "Illinois",
+  "state_y_n" : "Y",
+  "year" : "1790"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-86.14995579899966",
+    "latitude" : "39.76691072200049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Indiana\",\"zip\":\"\"}"
+  },
+  "state" : "Indiana",
+  "state_y_n" : "Y",
+  "year" : "1790"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-93.81648936699969",
+    "latitude" : "42.469401477000474",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Iowa\",\"zip\":\"\"}"
+  },
+  "state" : "Iowa",
+  "state_y_n" : "Y",
+  "year" : "1790"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-98.20077655499966",
+    "latitude" : "38.3477418760005",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Kansas\",\"zip\":\"\"}"
+  },
+  "state" : "Kansas",
+  "state_y_n" : "Y",
+  "year" : "1790"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-84.77496612599964",
+    "latitude" : "37.645970985000474",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Kentucky\",\"zip\":\"\"}"
+  },
+  "state" : "Kentucky",
+  "state_y_n" : "Y",
+  "year" : "1790",
+  "population" : "73677"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-92.44567554599968",
+    "latitude" : "31.312664106000454",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Louisiana\",\"zip\":\"\"}"
+  },
+  "state" : "Louisiana",
+  "state_y_n" : "Y",
+  "year" : "1790"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-68.98502952999962",
+    "latitude" : "45.2542257390005",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Maine\",\"zip\":\"\"}"
+  },
+  "state" : "Maine",
+  "state_y_n" : "Y",
+  "year" : "1790",
+  "population" : "96540"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-76.60925970899967",
+    "latitude" : "39.29058224000045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Maryland\",\"zip\":\"\"}"
+  },
+  "state" : "Maryland",
+  "state_y_n" : "Y",
+  "year" : "1790",
+  "population" : "319728"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-72.08268985899963",
+    "latitude" : "42.27687014100047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Massachusetts\",\"zip\":\"\"}"
+  },
+  "state" : "Massachusetts",
+  "state_y_n" : "Y",
+  "year" : "1790",
+  "population" : "378787"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-84.71438724399968",
+    "latitude" : "44.66132176400049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Michigan\",\"zip\":\"\"}"
+  },
+  "state" : "Michigan",
+  "state_y_n" : "Y",
+  "year" : "1790"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-94.79419697699967",
+    "latitude" : "46.35564575300049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Minnesota\",\"zip\":\"\"}"
+  },
+  "state" : "Minnesota",
+  "state_y_n" : "Y",
+  "year" : "1790"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-89.53802764499966",
+    "latitude" : "32.745512774000474",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Mississippi\",\"zip\":\"\"}"
+  },
+  "state" : "Mississippi",
+  "state_y_n" : "Y",
+  "year" : "1790"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-92.56629737199967",
+    "latitude" : "38.63579079900046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Missouri\",\"zip\":\"\"}"
+  },
+  "state" : "Missouri",
+  "state_y_n" : "Y",
+  "year" : "1790"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-109.42441687999968",
+    "latitude" : "47.06652759400049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Montana\",\"zip\":\"\"}"
+  },
+  "state" : "Montana",
+  "state_y_n" : "Y",
+  "year" : "1790"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-99.36571864599966",
+    "latitude" : "41.641041981000456",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Nebraska\",\"zip\":\"\"}"
+  },
+  "state" : "Nebraska",
+  "state_y_n" : "Y",
+  "year" : "1790"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-117.07183978499972",
+    "latitude" : "39.493242807000456",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Nevada\",\"zip\":\"\"}"
+  },
+  "state" : "Nevada",
+  "state_y_n" : "Y",
+  "year" : "1790"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.50035726399966",
+    "latitude" : "43.65595081000049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New Hampshire\",\"zip\":\"\"}"
+  },
+  "state" : "New Hampshire",
+  "state_y_n" : "Y",
+  "year" : "1790",
+  "population" : "141885"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-74.27368565099965",
+    "latitude" : "40.13057159500045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New Jersey\",\"zip\":\"\"}"
+  },
+  "state" : "New Jersey",
+  "state_y_n" : "Y",
+  "year" : "1790",
+  "population" : "184139"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-106.24057768899968",
+    "latitude" : "34.520884020000494",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New Mexico\",\"zip\":\"\"}"
+  },
+  "state" : "New Mexico",
+  "state_y_n" : "Y",
+  "year" : "1790"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-75.54396639699968",
+    "latitude" : "42.82700178100049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New York\",\"zip\":\"\"}"
+  },
+  "state" : "New York",
+  "state_y_n" : "Y",
+  "year" : "1790",
+  "population" : "340120"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-79.15924924699965",
+    "latitude" : "35.46622096200048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"North Carolina\",\"zip\":\"\"}"
+  },
+  "state" : "North Carolina",
+  "state_y_n" : "Y",
+  "year" : "1790",
+  "population" : "393751"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-100.11842599699969",
+    "latitude" : "47.47531892900048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"North Dakota\",\"zip\":\"\"}"
+  },
+  "state" : "North Dakota",
+  "state_y_n" : "Y",
+  "year" : "1790"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-82.40425685299965",
+    "latitude" : "40.06021184000048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Ohio\",\"zip\":\"\"}"
+  },
+  "state" : "Ohio",
+  "state_y_n" : "Y",
+  "year" : "1790"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-97.52106845499969",
+    "latitude" : "35.472031425000466",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Oklahoma\",\"zip\":\"\"}"
+  },
+  "state" : "Oklahoma",
+  "state_y_n" : "Y",
+  "year" : "1790"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-120.15502977999972",
+    "latitude" : "44.56745218600048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Oregon\",\"zip\":\"\"}"
+  },
+  "state" : "Oregon",
+  "state_y_n" : "Y",
+  "year" : "1790"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-77.86069775999965",
+    "latitude" : "40.79373260300048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Pennsylvania\",\"zip\":\"\"}"
+  },
+  "state" : "Pennsylvania",
+  "state_y_n" : "Y",
+  "year" : "1790",
+  "population" : "434373"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.52246918099962",
+    "latitude" : "41.708284362000484",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Rhode Island\",\"zip\":\"\"}"
+  },
+  "state" : "Rhode Island",
+  "state_y_n" : "Y",
+  "year" : "1790",
+  "population" : "68825"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-81.04536765699964",
+    "latitude" : "33.99882214300044",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"South Carolina\",\"zip\":\"\"}"
+  },
+  "state" : "South Carolina",
+  "state_y_n" : "Y",
+  "year" : "1790",
+  "population" : "249073"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-100.37352811899967",
+    "latitude" : "44.35313049600046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"South Dakota\",\"zip\":\"\"}"
+  },
+  "state" : "South Dakota",
+  "state_y_n" : "Y",
+  "year" : "1790"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-85.77448642199965",
+    "latitude" : "35.68094014000047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Tennessee\",\"zip\":\"\"}"
+  },
+  "state" : "Tennessee",
+  "state_y_n" : "Y",
+  "year" : "1790",
+  "population" : "35691"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-99.4267664729997",
+    "latitude" : "31.827240712000446",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Texas\",\"zip\":\"\"}"
+  },
+  "state" : "Texas",
+  "state_y_n" : "Y",
+  "year" : "1790"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-111.5871285339997",
+    "latitude" : "39.36070082200047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Utah\",\"zip\":\"\"}"
+  },
+  "state" : "Utah",
+  "state_y_n" : "Y",
+  "year" : "1790"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-72.51763944499965",
+    "latitude" : "43.62538000100045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Vermont\",\"zip\":\"\"}"
+  },
+  "state" : "Vermont",
+  "state_y_n" : "Y",
+  "year" : "1790",
+  "population" : "85425"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-78.45788924199968",
+    "latitude" : "37.542682294000485",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Virginia\",\"zip\":\"\"}"
+  },
+  "state" : "Virginia",
+  "state_y_n" : "Y",
+  "year" : "1790",
+  "population" : "7476103"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-120.47002746299972",
+    "latitude" : "47.5222894470005",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Washington\",\"zip\":\"\"}"
+  },
+  "state" : "Washington",
+  "state_y_n" : "Y",
+  "year" : "1790"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-80.71263935099967",
+    "latitude" : "38.66551303900047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"West Virginia\",\"zip\":\"\"}"
+  },
+  "state" : "West Virginia",
+  "state_y_n" : "Y",
+  "year" : "1790"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-89.81636715299965",
+    "latitude" : "44.393191877000504",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Wisconsin\",\"zip\":\"\"}"
+  },
+  "state" : "Wisconsin",
+  "state_y_n" : "Y",
+  "year" : "1790"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-108.10982744299969",
+    "latitude" : "43.235543013000495",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Wyoming\",\"zip\":\"\"}"
+  },
+  "state" : "Wyoming",
+  "state_y_n" : "Y",
+  "year" : "1790"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Total U.S.\",\"zip\":\"\"}"
+  },
+  "state" : "Total U.S.",
+  "state_y_n" : "N",
+  "year" : "1790",
+  "population" : "3929214"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-86.63185803899967",
+    "latitude" : "32.84057034900047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Alabama\",\"zip\":\"\"}"
+  },
+  "state" : "Alabama",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "1828697"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-147.72205669099972",
+    "latitude" : "64.84507631500048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Alaska\",\"zip\":\"\"}"
+  },
+  "state" : "Alaska",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "63592"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-111.76380949799972",
+    "latitude" : "34.865970167000455",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Arizona\",\"zip\":\"\"}"
+  },
+  "state" : "Arizona",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "122931"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-92.27448794899965",
+    "latitude" : "34.74865329300047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Arkansas\",\"zip\":\"\"}"
+  },
+  "state" : "Arkansas",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "1311564"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-120.99999889499969",
+    "latitude" : "37.63864203100047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"California\",\"zip\":\"\"}"
+  },
+  "state" : "California",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "1485053"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-106.13360888799969",
+    "latitude" : "38.84384201300048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Colorado\",\"zip\":\"\"}"
+  },
+  "state" : "Colorado",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "539700"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-72.64983753699966",
+    "latitude" : "41.56266101800048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Connecticut\",\"zip\":\"\"}"
+  },
+  "state" : "Connecticut",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "908420"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-75.57773943699965",
+    "latitude" : "39.00883059000046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Delaware\",\"zip\":\"\"}"
+  },
+  "state" : "Delaware",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "184735"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-77.03195864199967",
+    "latitude" : "38.89037038100048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"DC\",\"zip\":\"\"}"
+  },
+  "state" : "DC",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "278718"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-81.92895558499964",
+    "latitude" : "28.93204444200046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Florida\",\"zip\":\"\"}"
+  },
+  "state" : "Florida",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "528542"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-83.62757601199968",
+    "latitude" : "32.83968158500045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Georgia\",\"zip\":\"\"}"
+  },
+  "state" : "Georgia",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "2216331"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-157.85774691599974",
+    "latitude" : "21.304853205000427",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Hawaii\",\"zip\":\"\"}"
+  },
+  "state" : "Hawaii",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "154001"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-114.3637261449997",
+    "latitude" : "43.68263160000049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Idaho\",\"zip\":\"\"}"
+  },
+  "state" : "Idaho",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "161772"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-88.99770813999965",
+    "latitude" : "40.48501433000047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Illinois\",\"zip\":\"\"}"
+  },
+  "state" : "Illinois",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "4821550"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-86.14995579899966",
+    "latitude" : "39.76691072200049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Indiana\",\"zip\":\"\"}"
+  },
+  "state" : "Indiana",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "2516462"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-93.81648936699969",
+    "latitude" : "42.469401477000474",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Iowa\",\"zip\":\"\"}"
+  },
+  "state" : "Iowa",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "2231853"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-98.20077655499966",
+    "latitude" : "38.3477418760005",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Kansas\",\"zip\":\"\"}"
+  },
+  "state" : "Kansas",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "1470495"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-84.77496612599964",
+    "latitude" : "37.645970985000474",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Kentucky\",\"zip\":\"\"}"
+  },
+  "state" : "Kentucky",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "2147174"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-92.44567554599968",
+    "latitude" : "31.312664106000454",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Louisiana\",\"zip\":\"\"}"
+  },
+  "state" : "Louisiana",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "1381625"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-68.98502952999962",
+    "latitude" : "45.2542257390005",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Maine\",\"zip\":\"\"}"
+  },
+  "state" : "Maine",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "694466"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-76.60925970899967",
+    "latitude" : "39.29058224000045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Maryland\",\"zip\":\"\"}"
+  },
+  "state" : "Maryland",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "1188044"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-72.08268985899963",
+    "latitude" : "42.27687014100047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Massachusetts\",\"zip\":\"\"}"
+  },
+  "state" : "Massachusetts",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "2805346"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-84.71438724399968",
+    "latitude" : "44.66132176400049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Michigan\",\"zip\":\"\"}"
+  },
+  "state" : "Michigan",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "2420982"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-94.79419697699967",
+    "latitude" : "46.35564575300049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Minnesota\",\"zip\":\"\"}"
+  },
+  "state" : "Minnesota",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "1751394"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-89.53802764499966",
+    "latitude" : "32.745512774000474",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Mississippi\",\"zip\":\"\"}"
+  },
+  "state" : "Mississippi",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "1551270"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-92.56629737199967",
+    "latitude" : "38.63579079900046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Missouri\",\"zip\":\"\"}"
+  },
+  "state" : "Missouri",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "3106665"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-109.42441687999968",
+    "latitude" : "47.06652759400049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Montana\",\"zip\":\"\"}"
+  },
+  "state" : "Montana",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "243329"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-99.36571864599966",
+    "latitude" : "41.641041981000456",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Nebraska\",\"zip\":\"\"}"
+  },
+  "state" : "Nebraska",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "1066300"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-117.07183978499972",
+    "latitude" : "39.493242807000456",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Nevada\",\"zip\":\"\"}"
+  },
+  "state" : "Nevada",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "42335"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.50035726399966",
+    "latitude" : "43.65595081000049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New Hampshire\",\"zip\":\"\"}"
+  },
+  "state" : "New Hampshire",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "411588"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-74.27368565099965",
+    "latitude" : "40.13057159500045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New Jersey\",\"zip\":\"\"}"
+  },
+  "state" : "New Jersey",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "1883669"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-106.24057768899968",
+    "latitude" : "34.520884020000494",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New Mexico\",\"zip\":\"\"}"
+  },
+  "state" : "New Mexico",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "195310"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-75.54396639699968",
+    "latitude" : "42.82700178100049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New York\",\"zip\":\"\"}"
+  },
+  "state" : "New York",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "7268894"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-79.15924924699965",
+    "latitude" : "35.46622096200048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"North Carolina\",\"zip\":\"\"}"
+  },
+  "state" : "North Carolina",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "1893810"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-100.11842599699969",
+    "latitude" : "47.47531892900048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"North Dakota\",\"zip\":\"\"}"
+  },
+  "state" : "North Dakota",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "319146"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-82.40425685299965",
+    "latitude" : "40.06021184000048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Ohio\",\"zip\":\"\"}"
+  },
+  "state" : "Ohio",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "4157545"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-97.52106845499969",
+    "latitude" : "35.472031425000466",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Oklahoma\",\"zip\":\"\"}"
+  },
+  "state" : "Oklahoma",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "7903912"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-120.15502977999972",
+    "latitude" : "44.56745218600048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Oregon\",\"zip\":\"\"}"
+  },
+  "state" : "Oregon",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "413536"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-77.86069775999965",
+    "latitude" : "40.79373260300048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Pennsylvania\",\"zip\":\"\"}"
+  },
+  "state" : "Pennsylvania",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "6302115"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.52246918099962",
+    "latitude" : "41.708284362000484",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Rhode Island\",\"zip\":\"\"}"
+  },
+  "state" : "Rhode Island",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "428556"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-81.04536765699964",
+    "latitude" : "33.99882214300044",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"South Carolina\",\"zip\":\"\"}"
+  },
+  "state" : "South Carolina",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "1340316"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-100.37352811899967",
+    "latitude" : "44.35313049600046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"South Dakota\",\"zip\":\"\"}"
+  },
+  "state" : "South Dakota",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "401570"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-85.77448642199965",
+    "latitude" : "35.68094014000047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Tennessee\",\"zip\":\"\"}"
+  },
+  "state" : "Tennessee",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "2020616"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-99.4267664729997",
+    "latitude" : "31.827240712000446",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Texas\",\"zip\":\"\"}"
+  },
+  "state" : "Texas",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "3048710"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-111.5871285339997",
+    "latitude" : "39.36070082200047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Utah\",\"zip\":\"\"}"
+  },
+  "state" : "Utah",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "276749"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-72.51763944499965",
+    "latitude" : "43.62538000100045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Vermont\",\"zip\":\"\"}"
+  },
+  "state" : "Vermont",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "343641"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-78.45788924199968",
+    "latitude" : "37.542682294000485",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Virginia\",\"zip\":\"\"}"
+  },
+  "state" : "Virginia",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "1854184"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-120.47002746299972",
+    "latitude" : "47.5222894470005",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Washington\",\"zip\":\"\"}"
+  },
+  "state" : "Washington",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "518103"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-80.71263935099967",
+    "latitude" : "38.66551303900047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"West Virginia\",\"zip\":\"\"}"
+  },
+  "state" : "West Virginia",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "958800"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-89.81636715299965",
+    "latitude" : "44.393191877000504",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Wisconsin\",\"zip\":\"\"}"
+  },
+  "state" : "Wisconsin",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "2069042"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-108.10982744299969",
+    "latitude" : "43.235543013000495",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Wyoming\",\"zip\":\"\"}"
+  },
+  "state" : "Wyoming",
+  "state_y_n" : "Y",
+  "year" : "1900",
+  "population" : "92531"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Total U.S.\",\"zip\":\"\"}"
+  },
+  "state" : "Total U.S.",
+  "state_y_n" : "N",
+  "year" : "1900",
+  "population" : "76212168"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-86.63185803899967",
+    "latitude" : "32.84057034900047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Alabama\",\"zip\":\"\"}"
+  },
+  "state" : "Alabama",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "3061743"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-147.72205669099972",
+    "latitude" : "64.84507631500048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Alaska\",\"zip\":\"\"}"
+  },
+  "state" : "Alaska",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "128643"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-111.76380949799972",
+    "latitude" : "34.865970167000455",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Arizona\",\"zip\":\"\"}"
+  },
+  "state" : "Arizona",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "749587"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-92.27448794899965",
+    "latitude" : "34.74865329300047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Arkansas\",\"zip\":\"\"}"
+  },
+  "state" : "Arkansas",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "1909511"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-120.99999889499969",
+    "latitude" : "37.63864203100047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"California\",\"zip\":\"\"}"
+  },
+  "state" : "California",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "10586223"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-106.13360888799969",
+    "latitude" : "38.84384201300048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Colorado\",\"zip\":\"\"}"
+  },
+  "state" : "Colorado",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "1325089"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-72.64983753699966",
+    "latitude" : "41.56266101800048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Connecticut\",\"zip\":\"\"}"
+  },
+  "state" : "Connecticut",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "2007280"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-75.57773943699965",
+    "latitude" : "39.00883059000046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Delaware\",\"zip\":\"\"}"
+  },
+  "state" : "Delaware",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "318085"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-77.03195864199967",
+    "latitude" : "38.89037038100048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"DC\",\"zip\":\"\"}"
+  },
+  "state" : "DC",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "802178"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-81.92895558499964",
+    "latitude" : "28.93204444200046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Florida\",\"zip\":\"\"}"
+  },
+  "state" : "Florida",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "2771305"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-83.62757601199968",
+    "latitude" : "32.83968158500045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Georgia\",\"zip\":\"\"}"
+  },
+  "state" : "Georgia",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "3444578"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-157.85774691599974",
+    "latitude" : "21.304853205000427",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Hawaii\",\"zip\":\"\"}"
+  },
+  "state" : "Hawaii",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "499794"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-114.3637261449997",
+    "latitude" : "43.68263160000049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Idaho\",\"zip\":\"\"}"
+  },
+  "state" : "Idaho",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "588637"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-88.99770813999965",
+    "latitude" : "40.48501433000047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Illinois\",\"zip\":\"\"}"
+  },
+  "state" : "Illinois",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "8712176"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-86.14995579899966",
+    "latitude" : "39.76691072200049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Indiana\",\"zip\":\"\"}"
+  },
+  "state" : "Indiana",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "3934224"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-93.81648936699969",
+    "latitude" : "42.469401477000474",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Iowa\",\"zip\":\"\"}"
+  },
+  "state" : "Iowa",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "2621073"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-98.20077655499966",
+    "latitude" : "38.3477418760005",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Kansas\",\"zip\":\"\"}"
+  },
+  "state" : "Kansas",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "1905299"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-84.77496612599964",
+    "latitude" : "37.645970985000474",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Kentucky\",\"zip\":\"\"}"
+  },
+  "state" : "Kentucky",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "2944806"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-92.44567554599968",
+    "latitude" : "31.312664106000454",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Louisiana\",\"zip\":\"\"}"
+  },
+  "state" : "Louisiana",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "2683516"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-68.98502952999962",
+    "latitude" : "45.2542257390005",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Maine\",\"zip\":\"\"}"
+  },
+  "state" : "Maine",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "913774"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-76.60925970899967",
+    "latitude" : "39.29058224000045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Maryland\",\"zip\":\"\"}"
+  },
+  "state" : "Maryland",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "2343001"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-72.08268985899963",
+    "latitude" : "42.27687014100047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Massachusetts\",\"zip\":\"\"}"
+  },
+  "state" : "Massachusetts",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "4690514"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-84.71438724399968",
+    "latitude" : "44.66132176400049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Michigan\",\"zip\":\"\"}"
+  },
+  "state" : "Michigan",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "6371766"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-94.79419697699967",
+    "latitude" : "46.35564575300049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Minnesota\",\"zip\":\"\"}"
+  },
+  "state" : "Minnesota",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "2982483"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-89.53802764499966",
+    "latitude" : "32.745512774000474",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Mississippi\",\"zip\":\"\"}"
+  },
+  "state" : "Mississippi",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "2178914"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-92.56629737199967",
+    "latitude" : "38.63579079900046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Missouri\",\"zip\":\"\"}"
+  },
+  "state" : "Missouri",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "3954653"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-109.42441687999968",
+    "latitude" : "47.06652759400049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Montana\",\"zip\":\"\"}"
+  },
+  "state" : "Montana",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "591024"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-99.36571864599966",
+    "latitude" : "41.641041981000456",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Nebraska\",\"zip\":\"\"}"
+  },
+  "state" : "Nebraska",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "1325510"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-117.07183978499972",
+    "latitude" : "39.493242807000456",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Nevada\",\"zip\":\"\"}"
+  },
+  "state" : "Nevada",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "160083"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.50035726399966",
+    "latitude" : "43.65595081000049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New Hampshire\",\"zip\":\"\"}"
+  },
+  "state" : "New Hampshire",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "533242"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-74.27368565099965",
+    "latitude" : "40.13057159500045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New Jersey\",\"zip\":\"\"}"
+  },
+  "state" : "New Jersey",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "4835329"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-106.24057768899968",
+    "latitude" : "34.520884020000494",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New Mexico\",\"zip\":\"\"}"
+  },
+  "state" : "New Mexico",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "681187"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-75.54396639699968",
+    "latitude" : "42.82700178100049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New York\",\"zip\":\"\"}"
+  },
+  "state" : "New York",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "14830192"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-79.15924924699965",
+    "latitude" : "35.46622096200048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"North Carolina\",\"zip\":\"\"}"
+  },
+  "state" : "North Carolina",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "4061929"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-100.11842599699969",
+    "latitude" : "47.47531892900048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"North Dakota\",\"zip\":\"\"}"
+  },
+  "state" : "North Dakota",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "619636"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-82.40425685299965",
+    "latitude" : "40.06021184000048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Ohio\",\"zip\":\"\"}"
+  },
+  "state" : "Ohio",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "7946627"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-97.52106845499969",
+    "latitude" : "35.472031425000466",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Oklahoma\",\"zip\":\"\"}"
+  },
+  "state" : "Oklahoma",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "2233351"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-120.15502977999972",
+    "latitude" : "44.56745218600048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Oregon\",\"zip\":\"\"}"
+  },
+  "state" : "Oregon",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "1521341"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-77.86069775999965",
+    "latitude" : "40.79373260300048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Pennsylvania\",\"zip\":\"\"}"
+  },
+  "state" : "Pennsylvania",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "10498012"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.52246918099962",
+    "latitude" : "41.708284362000484",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Rhode Island\",\"zip\":\"\"}"
+  },
+  "state" : "Rhode Island",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "791896"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-81.04536765699964",
+    "latitude" : "33.99882214300044",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"South Carolina\",\"zip\":\"\"}"
+  },
+  "state" : "South Carolina",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "2117027"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-100.37352811899967",
+    "latitude" : "44.35313049600046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"South Dakota\",\"zip\":\"\"}"
+  },
+  "state" : "South Dakota",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "652740"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-85.77448642199965",
+    "latitude" : "35.68094014000047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Tennessee\",\"zip\":\"\"}"
+  },
+  "state" : "Tennessee",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "3291718"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-99.4267664729997",
+    "latitude" : "31.827240712000446",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Texas\",\"zip\":\"\"}"
+  },
+  "state" : "Texas",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "7711194"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-111.5871285339997",
+    "latitude" : "39.36070082200047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Utah\",\"zip\":\"\"}"
+  },
+  "state" : "Utah",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "688862"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-72.51763944499965",
+    "latitude" : "43.62538000100045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Vermont\",\"zip\":\"\"}"
+  },
+  "state" : "Vermont",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "377747"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-78.45788924199968",
+    "latitude" : "37.542682294000485",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Virginia\",\"zip\":\"\"}"
+  },
+  "state" : "Virginia",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "3318680"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-120.47002746299972",
+    "latitude" : "47.5222894470005",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Washington\",\"zip\":\"\"}"
+  },
+  "state" : "Washington",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "2378963"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-80.71263935099967",
+    "latitude" : "38.66551303900047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"West Virginia\",\"zip\":\"\"}"
+  },
+  "state" : "West Virginia",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "2005552"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-89.81636715299965",
+    "latitude" : "44.393191877000504",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Wisconsin\",\"zip\":\"\"}"
+  },
+  "state" : "Wisconsin",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "3434575"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-108.10982744299969",
+    "latitude" : "43.235543013000495",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Wyoming\",\"zip\":\"\"}"
+  },
+  "state" : "Wyoming",
+  "state_y_n" : "Y",
+  "year" : "1950",
+  "population" : "290529"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Total U.S.\",\"zip\":\"\"}"
+  },
+  "state" : "Total U.S.",
+  "state_y_n" : "N",
+  "year" : "1950",
+  "population" : "152271417"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-86.63185803899967",
+    "latitude" : "32.84057034900047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Alabama\",\"zip\":\"\"}"
+  },
+  "state" : "Alabama",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "4040587"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-147.72205669099972",
+    "latitude" : "64.84507631500048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Alaska\",\"zip\":\"\"}"
+  },
+  "state" : "Alaska",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "550043"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-111.76380949799972",
+    "latitude" : "34.865970167000455",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Arizona\",\"zip\":\"\"}"
+  },
+  "state" : "Arizona",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "3665228"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-92.27448794899965",
+    "latitude" : "34.74865329300047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Arkansas\",\"zip\":\"\"}"
+  },
+  "state" : "Arkansas",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "2350725"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-120.99999889499969",
+    "latitude" : "37.63864203100047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"California\",\"zip\":\"\"}"
+  },
+  "state" : "California",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "29760021"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-106.13360888799969",
+    "latitude" : "38.84384201300048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Colorado\",\"zip\":\"\"}"
+  },
+  "state" : "Colorado",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "3294394"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-72.64983753699966",
+    "latitude" : "41.56266101800048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Connecticut\",\"zip\":\"\"}"
+  },
+  "state" : "Connecticut",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "3287116"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-75.57773943699965",
+    "latitude" : "39.00883059000046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Delaware\",\"zip\":\"\"}"
+  },
+  "state" : "Delaware",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "666168"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-77.03195864199967",
+    "latitude" : "38.89037038100048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"DC\",\"zip\":\"\"}"
+  },
+  "state" : "DC",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "606900"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-81.92895558499964",
+    "latitude" : "28.93204444200046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Florida\",\"zip\":\"\"}"
+  },
+  "state" : "Florida",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "12937926"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-83.62757601199968",
+    "latitude" : "32.83968158500045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Georgia\",\"zip\":\"\"}"
+  },
+  "state" : "Georgia",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "6478216"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-157.85774691599974",
+    "latitude" : "21.304853205000427",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Hawaii\",\"zip\":\"\"}"
+  },
+  "state" : "Hawaii",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "1108229"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-114.3637261449997",
+    "latitude" : "43.68263160000049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Idaho\",\"zip\":\"\"}"
+  },
+  "state" : "Idaho",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "1006749"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-88.99770813999965",
+    "latitude" : "40.48501433000047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Illinois\",\"zip\":\"\"}"
+  },
+  "state" : "Illinois",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "11430602"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-86.14995579899966",
+    "latitude" : "39.76691072200049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Indiana\",\"zip\":\"\"}"
+  },
+  "state" : "Indiana",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "5544159"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-93.81648936699969",
+    "latitude" : "42.469401477000474",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Iowa\",\"zip\":\"\"}"
+  },
+  "state" : "Iowa",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "2776755"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-98.20077655499966",
+    "latitude" : "38.3477418760005",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Kansas\",\"zip\":\"\"}"
+  },
+  "state" : "Kansas",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "2477574"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-84.77496612599964",
+    "latitude" : "37.645970985000474",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Kentucky\",\"zip\":\"\"}"
+  },
+  "state" : "Kentucky",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "3685296"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-92.44567554599968",
+    "latitude" : "31.312664106000454",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Louisiana\",\"zip\":\"\"}"
+  },
+  "state" : "Louisiana",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "4219973"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-68.98502952999962",
+    "latitude" : "45.2542257390005",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Maine\",\"zip\":\"\"}"
+  },
+  "state" : "Maine",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "1227928"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-76.60925970899967",
+    "latitude" : "39.29058224000045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Maryland\",\"zip\":\"\"}"
+  },
+  "state" : "Maryland",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "4781468"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-72.08268985899963",
+    "latitude" : "42.27687014100047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Massachusetts\",\"zip\":\"\"}"
+  },
+  "state" : "Massachusetts",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "6016425"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-84.71438724399968",
+    "latitude" : "44.66132176400049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Michigan\",\"zip\":\"\"}"
+  },
+  "state" : "Michigan",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "9295297"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-94.79419697699967",
+    "latitude" : "46.35564575300049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Minnesota\",\"zip\":\"\"}"
+  },
+  "state" : "Minnesota",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "4375099"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-89.53802764499966",
+    "latitude" : "32.745512774000474",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Mississippi\",\"zip\":\"\"}"
+  },
+  "state" : "Mississippi",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "2573216"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-92.56629737199967",
+    "latitude" : "38.63579079900046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Missouri\",\"zip\":\"\"}"
+  },
+  "state" : "Missouri",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "5117073"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-109.42441687999968",
+    "latitude" : "47.06652759400049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Montana\",\"zip\":\"\"}"
+  },
+  "state" : "Montana",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "799065"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-99.36571864599966",
+    "latitude" : "41.641041981000456",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Nebraska\",\"zip\":\"\"}"
+  },
+  "state" : "Nebraska",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "1578385"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-117.07183978499972",
+    "latitude" : "39.493242807000456",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Nevada\",\"zip\":\"\"}"
+  },
+  "state" : "Nevada",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "1201833"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.50035726399966",
+    "latitude" : "43.65595081000049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New Hampshire\",\"zip\":\"\"}"
+  },
+  "state" : "New Hampshire",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "1109252"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-74.27368565099965",
+    "latitude" : "40.13057159500045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New Jersey\",\"zip\":\"\"}"
+  },
+  "state" : "New Jersey",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "7730188"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-106.24057768899968",
+    "latitude" : "34.520884020000494",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New Mexico\",\"zip\":\"\"}"
+  },
+  "state" : "New Mexico",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "1515069"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-75.54396639699968",
+    "latitude" : "42.82700178100049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New York\",\"zip\":\"\"}"
+  },
+  "state" : "New York",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "17990455"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-79.15924924699965",
+    "latitude" : "35.46622096200048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"North Carolina\",\"zip\":\"\"}"
+  },
+  "state" : "North Carolina",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "6628637"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-100.11842599699969",
+    "latitude" : "47.47531892900048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"North Dakota\",\"zip\":\"\"}"
+  },
+  "state" : "North Dakota",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "638800"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-82.40425685299965",
+    "latitude" : "40.06021184000048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Ohio\",\"zip\":\"\"}"
+  },
+  "state" : "Ohio",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "10847115"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-97.52106845499969",
+    "latitude" : "35.472031425000466",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Oklahoma\",\"zip\":\"\"}"
+  },
+  "state" : "Oklahoma",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "3145585"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-120.15502977999972",
+    "latitude" : "44.56745218600048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Oregon\",\"zip\":\"\"}"
+  },
+  "state" : "Oregon",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "2842321"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-77.86069775999965",
+    "latitude" : "40.79373260300048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Pennsylvania\",\"zip\":\"\"}"
+  },
+  "state" : "Pennsylvania",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "11881643"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.52246918099962",
+    "latitude" : "41.708284362000484",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Rhode Island\",\"zip\":\"\"}"
+  },
+  "state" : "Rhode Island",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "1003464"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-81.04536765699964",
+    "latitude" : "33.99882214300044",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"South Carolina\",\"zip\":\"\"}"
+  },
+  "state" : "South Carolina",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "3486703"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-100.37352811899967",
+    "latitude" : "44.35313049600046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"South Dakota\",\"zip\":\"\"}"
+  },
+  "state" : "South Dakota",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "696004"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-85.77448642199965",
+    "latitude" : "35.68094014000047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Tennessee\",\"zip\":\"\"}"
+  },
+  "state" : "Tennessee",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "4877185"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-99.4267664729997",
+    "latitude" : "31.827240712000446",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Texas\",\"zip\":\"\"}"
+  },
+  "state" : "Texas",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "16986510"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-111.5871285339997",
+    "latitude" : "39.36070082200047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Utah\",\"zip\":\"\"}"
+  },
+  "state" : "Utah",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "1722850"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-72.51763944499965",
+    "latitude" : "43.62538000100045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Vermont\",\"zip\":\"\"}"
+  },
+  "state" : "Vermont",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "562758"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-78.45788924199968",
+    "latitude" : "37.542682294000485",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Virginia\",\"zip\":\"\"}"
+  },
+  "state" : "Virginia",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "6187358"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-120.47002746299972",
+    "latitude" : "47.5222894470005",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Washington\",\"zip\":\"\"}"
+  },
+  "state" : "Washington",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "4866692"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-80.71263935099967",
+    "latitude" : "38.66551303900047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"West Virginia\",\"zip\":\"\"}"
+  },
+  "state" : "West Virginia",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "1793477"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-89.81636715299965",
+    "latitude" : "44.393191877000504",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Wisconsin\",\"zip\":\"\"}"
+  },
+  "state" : "Wisconsin",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "4891769"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-108.10982744299969",
+    "latitude" : "43.235543013000495",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Wyoming\",\"zip\":\"\"}"
+  },
+  "state" : "Wyoming",
+  "state_y_n" : "Y",
+  "year" : "1990",
+  "population" : "453588"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Total U.S.\",\"zip\":\"\"}"
+  },
+  "state" : "Total U.S.",
+  "state_y_n" : "N",
+  "year" : "1990",
+  "population" : "248709873"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-86.63185803899967",
+    "latitude" : "32.84057034900047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Alabama\",\"zip\":\"\"}"
+  },
+  "state" : "Alabama",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "4447100"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-147.72205669099972",
+    "latitude" : "64.84507631500048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Alaska\",\"zip\":\"\"}"
+  },
+  "state" : "Alaska",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "626932"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-111.76380949799972",
+    "latitude" : "34.865970167000455",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Arizona\",\"zip\":\"\"}"
+  },
+  "state" : "Arizona",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "5130632"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-92.27448794899965",
+    "latitude" : "34.74865329300047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Arkansas\",\"zip\":\"\"}"
+  },
+  "state" : "Arkansas",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "2673400"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-120.99999889499969",
+    "latitude" : "37.63864203100047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"California\",\"zip\":\"\"}"
+  },
+  "state" : "California",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "33871648"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-106.13360888799969",
+    "latitude" : "38.84384201300048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Colorado\",\"zip\":\"\"}"
+  },
+  "state" : "Colorado",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "4301261"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-72.64983753699966",
+    "latitude" : "41.56266101800048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Connecticut\",\"zip\":\"\"}"
+  },
+  "state" : "Connecticut",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "3405565"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-75.57773943699965",
+    "latitude" : "39.00883059000046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Delaware\",\"zip\":\"\"}"
+  },
+  "state" : "Delaware",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "783600"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-77.03195864199967",
+    "latitude" : "38.89037038100048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"DC\",\"zip\":\"\"}"
+  },
+  "state" : "DC",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "572059"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-81.92895558499964",
+    "latitude" : "28.93204444200046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Florida\",\"zip\":\"\"}"
+  },
+  "state" : "Florida",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "15982378"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-83.62757601199968",
+    "latitude" : "32.83968158500045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Georgia\",\"zip\":\"\"}"
+  },
+  "state" : "Georgia",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "8186453"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-157.85774691599974",
+    "latitude" : "21.304853205000427",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Hawaii\",\"zip\":\"\"}"
+  },
+  "state" : "Hawaii",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "1211537"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-114.3637261449997",
+    "latitude" : "43.68263160000049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Idaho\",\"zip\":\"\"}"
+  },
+  "state" : "Idaho",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "1293953"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-88.99770813999965",
+    "latitude" : "40.48501433000047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Illinois\",\"zip\":\"\"}"
+  },
+  "state" : "Illinois",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "12419293"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-86.14995579899966",
+    "latitude" : "39.76691072200049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Indiana\",\"zip\":\"\"}"
+  },
+  "state" : "Indiana",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "6080485"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-93.81648936699969",
+    "latitude" : "42.469401477000474",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Iowa\",\"zip\":\"\"}"
+  },
+  "state" : "Iowa",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "2926324"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-98.20077655499966",
+    "latitude" : "38.3477418760005",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Kansas\",\"zip\":\"\"}"
+  },
+  "state" : "Kansas",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "2688418"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-84.77496612599964",
+    "latitude" : "37.645970985000474",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Kentucky\",\"zip\":\"\"}"
+  },
+  "state" : "Kentucky",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "4041769"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-92.44567554599968",
+    "latitude" : "31.312664106000454",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Louisiana\",\"zip\":\"\"}"
+  },
+  "state" : "Louisiana",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "4468976"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-68.98502952999962",
+    "latitude" : "45.2542257390005",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Maine\",\"zip\":\"\"}"
+  },
+  "state" : "Maine",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "1274923"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-76.60925970899967",
+    "latitude" : "39.29058224000045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Maryland\",\"zip\":\"\"}"
+  },
+  "state" : "Maryland",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "5296486"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-72.08268985899963",
+    "latitude" : "42.27687014100047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Massachusetts\",\"zip\":\"\"}"
+  },
+  "state" : "Massachusetts",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "6349097"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-84.71438724399968",
+    "latitude" : "44.66132176400049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Michigan\",\"zip\":\"\"}"
+  },
+  "state" : "Michigan",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "9938444"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-94.79419697699967",
+    "latitude" : "46.35564575300049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Minnesota\",\"zip\":\"\"}"
+  },
+  "state" : "Minnesota",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "4919479"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-89.53802764499966",
+    "latitude" : "32.745512774000474",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Mississippi\",\"zip\":\"\"}"
+  },
+  "state" : "Mississippi",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "2844658"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-92.56629737199967",
+    "latitude" : "38.63579079900046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Missouri\",\"zip\":\"\"}"
+  },
+  "state" : "Missouri",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "5595211"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-109.42441687999968",
+    "latitude" : "47.06652759400049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Montana\",\"zip\":\"\"}"
+  },
+  "state" : "Montana",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "902195"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-99.36571864599966",
+    "latitude" : "41.641041981000456",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Nebraska\",\"zip\":\"\"}"
+  },
+  "state" : "Nebraska",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "1711263"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-117.07183978499972",
+    "latitude" : "39.493242807000456",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Nevada\",\"zip\":\"\"}"
+  },
+  "state" : "Nevada",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "1998257"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.50035726399966",
+    "latitude" : "43.65595081000049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New Hampshire\",\"zip\":\"\"}"
+  },
+  "state" : "New Hampshire",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "1235786"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-74.27368565099965",
+    "latitude" : "40.13057159500045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New Jersey\",\"zip\":\"\"}"
+  },
+  "state" : "New Jersey",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "8414350"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-106.24057768899968",
+    "latitude" : "34.520884020000494",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New Mexico\",\"zip\":\"\"}"
+  },
+  "state" : "New Mexico",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "1819046"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-75.54396639699968",
+    "latitude" : "42.82700178100049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New York\",\"zip\":\"\"}"
+  },
+  "state" : "New York",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "18976457"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-79.15924924699965",
+    "latitude" : "35.46622096200048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"North Carolina\",\"zip\":\"\"}"
+  },
+  "state" : "North Carolina",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "8049313"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-100.11842599699969",
+    "latitude" : "47.47531892900048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"North Dakota\",\"zip\":\"\"}"
+  },
+  "state" : "North Dakota",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "642200"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-82.40425685299965",
+    "latitude" : "40.06021184000048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Ohio\",\"zip\":\"\"}"
+  },
+  "state" : "Ohio",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "11353140"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-97.52106845499969",
+    "latitude" : "35.472031425000466",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Oklahoma\",\"zip\":\"\"}"
+  },
+  "state" : "Oklahoma",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "3450654"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-120.15502977999972",
+    "latitude" : "44.56745218600048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Oregon\",\"zip\":\"\"}"
+  },
+  "state" : "Oregon",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "3421399"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-77.86069775999965",
+    "latitude" : "40.79373260300048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Pennsylvania\",\"zip\":\"\"}"
+  },
+  "state" : "Pennsylvania",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "12281054"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.52246918099962",
+    "latitude" : "41.708284362000484",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Rhode Island\",\"zip\":\"\"}"
+  },
+  "state" : "Rhode Island",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "1048319"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-81.04536765699964",
+    "latitude" : "33.99882214300044",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"South Carolina\",\"zip\":\"\"}"
+  },
+  "state" : "South Carolina",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "4012012"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-100.37352811899967",
+    "latitude" : "44.35313049600046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"South Dakota\",\"zip\":\"\"}"
+  },
+  "state" : "South Dakota",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "754844"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-85.77448642199965",
+    "latitude" : "35.68094014000047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Tennessee\",\"zip\":\"\"}"
+  },
+  "state" : "Tennessee",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "5689283"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-99.4267664729997",
+    "latitude" : "31.827240712000446",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Texas\",\"zip\":\"\"}"
+  },
+  "state" : "Texas",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "20851820"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-111.5871285339997",
+    "latitude" : "39.36070082200047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Utah\",\"zip\":\"\"}"
+  },
+  "state" : "Utah",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "2233169"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-72.51763944499965",
+    "latitude" : "43.62538000100045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Vermont\",\"zip\":\"\"}"
+  },
+  "state" : "Vermont",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "608827"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-78.45788924199968",
+    "latitude" : "37.542682294000485",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Virginia\",\"zip\":\"\"}"
+  },
+  "state" : "Virginia",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "7078515"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-120.47002746299972",
+    "latitude" : "47.5222894470005",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Washington\",\"zip\":\"\"}"
+  },
+  "state" : "Washington",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "5894121"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-80.71263935099967",
+    "latitude" : "38.66551303900047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"West Virginia\",\"zip\":\"\"}"
+  },
+  "state" : "West Virginia",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "1808344"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-89.81636715299965",
+    "latitude" : "44.393191877000504",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Wisconsin\",\"zip\":\"\"}"
+  },
+  "state" : "Wisconsin",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "5363675"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-108.10982744299969",
+    "latitude" : "43.235543013000495",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Wyoming\",\"zip\":\"\"}"
+  },
+  "state" : "Wyoming",
+  "state_y_n" : "Y",
+  "year" : "2000",
+  "population" : "493782"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Total U.S.\",\"zip\":\"\"}"
+  },
+  "state" : "Total U.S.",
+  "state_y_n" : "N",
+  "year" : "2000",
+  "population" : "281421906"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-86.63185803899967",
+    "latitude" : "32.84057034900047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Alabama\",\"zip\":\"\"}"
+  },
+  "state" : "Alabama",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "4530182"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-147.72205669099972",
+    "latitude" : "64.84507631500048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Alaska\",\"zip\":\"\"}"
+  },
+  "state" : "Alaska",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "655435"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-111.76380949799972",
+    "latitude" : "34.865970167000455",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Arizona\",\"zip\":\"\"}"
+  },
+  "state" : "Arizona",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "5743834"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-92.27448794899965",
+    "latitude" : "34.74865329300047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Arkansas\",\"zip\":\"\"}"
+  },
+  "state" : "Arkansas",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "2752629"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-120.99999889499969",
+    "latitude" : "37.63864203100047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"California\",\"zip\":\"\"}"
+  },
+  "state" : "California",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "35893799"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-106.13360888799969",
+    "latitude" : "38.84384201300048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Colorado\",\"zip\":\"\"}"
+  },
+  "state" : "Colorado",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "4601403"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-72.64983753699966",
+    "latitude" : "41.56266101800048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Connecticut\",\"zip\":\"\"}"
+  },
+  "state" : "Connecticut",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "3503604"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-75.57773943699965",
+    "latitude" : "39.00883059000046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Delaware\",\"zip\":\"\"}"
+  },
+  "state" : "Delaware",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "830364"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-77.03195864199967",
+    "latitude" : "38.89037038100048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"DC\",\"zip\":\"\"}"
+  },
+  "state" : "DC",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "553523"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-81.92895558499964",
+    "latitude" : "28.93204444200046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Florida\",\"zip\":\"\"}"
+  },
+  "state" : "Florida",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "17397161"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-83.62757601199968",
+    "latitude" : "32.83968158500045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Georgia\",\"zip\":\"\"}"
+  },
+  "state" : "Georgia",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "8829383"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-157.85774691599974",
+    "latitude" : "21.304853205000427",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Hawaii\",\"zip\":\"\"}"
+  },
+  "state" : "Hawaii",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "1262840"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-114.3637261449997",
+    "latitude" : "43.68263160000049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Idaho\",\"zip\":\"\"}"
+  },
+  "state" : "Idaho",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "1393262"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-88.99770813999965",
+    "latitude" : "40.48501433000047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Illinois\",\"zip\":\"\"}"
+  },
+  "state" : "Illinois",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "12713634"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-86.14995579899966",
+    "latitude" : "39.76691072200049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Indiana\",\"zip\":\"\"}"
+  },
+  "state" : "Indiana",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "6237569"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-93.81648936699969",
+    "latitude" : "42.469401477000474",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Iowa\",\"zip\":\"\"}"
+  },
+  "state" : "Iowa",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "2954451"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-98.20077655499966",
+    "latitude" : "38.3477418760005",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Kansas\",\"zip\":\"\"}"
+  },
+  "state" : "Kansas",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "2735502"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-84.77496612599964",
+    "latitude" : "37.645970985000474",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Kentucky\",\"zip\":\"\"}"
+  },
+  "state" : "Kentucky",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "4145922"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-92.44567554599968",
+    "latitude" : "31.312664106000454",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Louisiana\",\"zip\":\"\"}"
+  },
+  "state" : "Louisiana",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "4515770"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-68.98502952999962",
+    "latitude" : "45.2542257390005",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Maine\",\"zip\":\"\"}"
+  },
+  "state" : "Maine",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "1317253"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-76.60925970899967",
+    "latitude" : "39.29058224000045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Maryland\",\"zip\":\"\"}"
+  },
+  "state" : "Maryland",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "5558058"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-72.08268985899963",
+    "latitude" : "42.27687014100047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Massachusetts\",\"zip\":\"\"}"
+  },
+  "state" : "Massachusetts",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "6416505"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-84.71438724399968",
+    "latitude" : "44.66132176400049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Michigan\",\"zip\":\"\"}"
+  },
+  "state" : "Michigan",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "10112620"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-94.79419697699967",
+    "latitude" : "46.35564575300049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Minnesota\",\"zip\":\"\"}"
+  },
+  "state" : "Minnesota",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "5100958"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-89.53802764499966",
+    "latitude" : "32.745512774000474",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Mississippi\",\"zip\":\"\"}"
+  },
+  "state" : "Mississippi",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "2902966"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-92.56629737199967",
+    "latitude" : "38.63579079900046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Missouri\",\"zip\":\"\"}"
+  },
+  "state" : "Missouri",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "5754618"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-109.42441687999968",
+    "latitude" : "47.06652759400049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Montana\",\"zip\":\"\"}"
+  },
+  "state" : "Montana",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "926865"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-99.36571864599966",
+    "latitude" : "41.641041981000456",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Nebraska\",\"zip\":\"\"}"
+  },
+  "state" : "Nebraska",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "1747214"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-117.07183978499972",
+    "latitude" : "39.493242807000456",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Nevada\",\"zip\":\"\"}"
+  },
+  "state" : "Nevada",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "2334771"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.50035726399966",
+    "latitude" : "43.65595081000049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New Hampshire\",\"zip\":\"\"}"
+  },
+  "state" : "New Hampshire",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "1299500"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-74.27368565099965",
+    "latitude" : "40.13057159500045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New Jersey\",\"zip\":\"\"}"
+  },
+  "state" : "New Jersey",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "8698879"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-106.24057768899968",
+    "latitude" : "34.520884020000494",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New Mexico\",\"zip\":\"\"}"
+  },
+  "state" : "New Mexico",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "1903289"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-75.54396639699968",
+    "latitude" : "42.82700178100049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New York\",\"zip\":\"\"}"
+  },
+  "state" : "New York",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "19227088"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-79.15924924699965",
+    "latitude" : "35.46622096200048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"North Carolina\",\"zip\":\"\"}"
+  },
+  "state" : "North Carolina",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "8541221"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-100.11842599699969",
+    "latitude" : "47.47531892900048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"North Dakota\",\"zip\":\"\"}"
+  },
+  "state" : "North Dakota",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "634366"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-82.40425685299965",
+    "latitude" : "40.06021184000048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Ohio\",\"zip\":\"\"}"
+  },
+  "state" : "Ohio",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "11459011"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-97.52106845499969",
+    "latitude" : "35.472031425000466",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Oklahoma\",\"zip\":\"\"}"
+  },
+  "state" : "Oklahoma",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "3523553"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-120.15502977999972",
+    "latitude" : "44.56745218600048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Oregon\",\"zip\":\"\"}"
+  },
+  "state" : "Oregon",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "3594586"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-77.86069775999965",
+    "latitude" : "40.79373260300048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Pennsylvania\",\"zip\":\"\"}"
+  },
+  "state" : "Pennsylvania",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "12406292"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.52246918099962",
+    "latitude" : "41.708284362000484",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Rhode Island\",\"zip\":\"\"}"
+  },
+  "state" : "Rhode Island",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "1080632"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-81.04536765699964",
+    "latitude" : "33.99882214300044",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"South Carolina\",\"zip\":\"\"}"
+  },
+  "state" : "South Carolina",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "4198068"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-100.37352811899967",
+    "latitude" : "44.35313049600046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"South Dakota\",\"zip\":\"\"}"
+  },
+  "state" : "South Dakota",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "770883"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-85.77448642199965",
+    "latitude" : "35.68094014000047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Tennessee\",\"zip\":\"\"}"
+  },
+  "state" : "Tennessee",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "5900962"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-99.4267664729997",
+    "latitude" : "31.827240712000446",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Texas\",\"zip\":\"\"}"
+  },
+  "state" : "Texas",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "22490022"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-111.5871285339997",
+    "latitude" : "39.36070082200047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Utah\",\"zip\":\"\"}"
+  },
+  "state" : "Utah",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "2389039"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-72.51763944499965",
+    "latitude" : "43.62538000100045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Vermont\",\"zip\":\"\"}"
+  },
+  "state" : "Vermont",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "621394"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-78.45788924199968",
+    "latitude" : "37.542682294000485",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Virginia\",\"zip\":\"\"}"
+  },
+  "state" : "Virginia",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "7459827"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-120.47002746299972",
+    "latitude" : "47.5222894470005",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Washington\",\"zip\":\"\"}"
+  },
+  "state" : "Washington",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "6203788"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-80.71263935099967",
+    "latitude" : "38.66551303900047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"West Virginia\",\"zip\":\"\"}"
+  },
+  "state" : "West Virginia",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "1815354"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-89.81636715299965",
+    "latitude" : "44.393191877000504",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Wisconsin\",\"zip\":\"\"}"
+  },
+  "state" : "Wisconsin",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "5509026"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-108.10982744299969",
+    "latitude" : "43.235543013000495",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Wyoming\",\"zip\":\"\"}"
+  },
+  "state" : "Wyoming",
+  "state_y_n" : "Y",
+  "year" : "2004",
+  "population" : "506529"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Total U.S.\",\"zip\":\"\"}"
+  },
+  "state" : "Total U.S.",
+  "state_y_n" : "N",
+  "year" : "2004",
+  "population" : "292936109"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-86.63185803899967",
+    "latitude" : "32.84057034900047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Alabama\",\"zip\":\"\"}"
+  },
+  "state" : "Alabama",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "4599000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-147.72205669099972",
+    "latitude" : "64.84507631500048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Alaska\",\"zip\":\"\"}"
+  },
+  "state" : "Alaska",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "670000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-111.76380949799972",
+    "latitude" : "34.865970167000455",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Arizona\",\"zip\":\"\"}"
+  },
+  "state" : "Arizona",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "6166000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-92.27448794899965",
+    "latitude" : "34.74865329300047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Arkansas\",\"zip\":\"\"}"
+  },
+  "state" : "Arkansas",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "2811000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-120.99999889499969",
+    "latitude" : "37.63864203100047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"California\",\"zip\":\"\"}"
+  },
+  "state" : "California",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "36458000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-106.13360888799969",
+    "latitude" : "38.84384201300048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Colorado\",\"zip\":\"\"}"
+  },
+  "state" : "Colorado",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "4753000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-72.64983753699966",
+    "latitude" : "41.56266101800048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Connecticut\",\"zip\":\"\"}"
+  },
+  "state" : "Connecticut",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "3505000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-75.57773943699965",
+    "latitude" : "39.00883059000046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Delaware\",\"zip\":\"\"}"
+  },
+  "state" : "Delaware",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "853000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-77.03195864199967",
+    "latitude" : "38.89037038100048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"DC\",\"zip\":\"\"}"
+  },
+  "state" : "DC",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "582000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-81.92895558499964",
+    "latitude" : "28.93204444200046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Florida\",\"zip\":\"\"}"
+  },
+  "state" : "Florida",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "18090000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-83.62757601199968",
+    "latitude" : "32.83968158500045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Georgia\",\"zip\":\"\"}"
+  },
+  "state" : "Georgia",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "9364000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-157.85774691599974",
+    "latitude" : "21.304853205000427",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Hawaii\",\"zip\":\"\"}"
+  },
+  "state" : "Hawaii",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "1285000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-114.3637261449997",
+    "latitude" : "43.68263160000049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Idaho\",\"zip\":\"\"}"
+  },
+  "state" : "Idaho",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "1466000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-88.99770813999965",
+    "latitude" : "40.48501433000047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Illinois\",\"zip\":\"\"}"
+  },
+  "state" : "Illinois",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "12832000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-86.14995579899966",
+    "latitude" : "39.76691072200049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Indiana\",\"zip\":\"\"}"
+  },
+  "state" : "Indiana",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "6314000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-93.81648936699969",
+    "latitude" : "42.469401477000474",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Iowa\",\"zip\":\"\"}"
+  },
+  "state" : "Iowa",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "2982000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-98.20077655499966",
+    "latitude" : "38.3477418760005",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Kansas\",\"zip\":\"\"}"
+  },
+  "state" : "Kansas",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "2764000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-84.77496612599964",
+    "latitude" : "37.645970985000474",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Kentucky\",\"zip\":\"\"}"
+  },
+  "state" : "Kentucky",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "4206000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-92.44567554599968",
+    "latitude" : "31.312664106000454",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Louisiana\",\"zip\":\"\"}"
+  },
+  "state" : "Louisiana",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "4288000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-68.98502952999962",
+    "latitude" : "45.2542257390005",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Maine\",\"zip\":\"\"}"
+  },
+  "state" : "Maine",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "1322000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-76.60925970899967",
+    "latitude" : "39.29058224000045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Maryland\",\"zip\":\"\"}"
+  },
+  "state" : "Maryland",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "5616000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-72.08268985899963",
+    "latitude" : "42.27687014100047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Massachusetts\",\"zip\":\"\"}"
+  },
+  "state" : "Massachusetts",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "6437000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-84.71438724399968",
+    "latitude" : "44.66132176400049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Michigan\",\"zip\":\"\"}"
+  },
+  "state" : "Michigan",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "10096000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-94.79419697699967",
+    "latitude" : "46.35564575300049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Minnesota\",\"zip\":\"\"}"
+  },
+  "state" : "Minnesota",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "5167000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-89.53802764499966",
+    "latitude" : "32.745512774000474",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Mississippi\",\"zip\":\"\"}"
+  },
+  "state" : "Mississippi",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "2911000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-92.56629737199967",
+    "latitude" : "38.63579079900046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Missouri\",\"zip\":\"\"}"
+  },
+  "state" : "Missouri",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "5843000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-109.42441687999968",
+    "latitude" : "47.06652759400049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Montana\",\"zip\":\"\"}"
+  },
+  "state" : "Montana",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "945000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-99.36571864599966",
+    "latitude" : "41.641041981000456",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Nebraska\",\"zip\":\"\"}"
+  },
+  "state" : "Nebraska",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "1768000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-117.07183978499972",
+    "latitude" : "39.493242807000456",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Nevada\",\"zip\":\"\"}"
+  },
+  "state" : "Nevada",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "2496000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.50035726399966",
+    "latitude" : "43.65595081000049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New Hampshire\",\"zip\":\"\"}"
+  },
+  "state" : "New Hampshire",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "1315000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-74.27368565099965",
+    "latitude" : "40.13057159500045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New Jersey\",\"zip\":\"\"}"
+  },
+  "state" : "New Jersey",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "8725000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-106.24057768899968",
+    "latitude" : "34.520884020000494",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New Mexico\",\"zip\":\"\"}"
+  },
+  "state" : "New Mexico",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "1955000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-75.54396639699968",
+    "latitude" : "42.82700178100049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New York\",\"zip\":\"\"}"
+  },
+  "state" : "New York",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "19306000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-79.15924924699965",
+    "latitude" : "35.46622096200048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"North Carolina\",\"zip\":\"\"}"
+  },
+  "state" : "North Carolina",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "8857000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-100.11842599699969",
+    "latitude" : "47.47531892900048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"North Dakota\",\"zip\":\"\"}"
+  },
+  "state" : "North Dakota",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "636000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-82.40425685299965",
+    "latitude" : "40.06021184000048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Ohio\",\"zip\":\"\"}"
+  },
+  "state" : "Ohio",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "11478000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-97.52106845499969",
+    "latitude" : "35.472031425000466",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Oklahoma\",\"zip\":\"\"}"
+  },
+  "state" : "Oklahoma",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "3579000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-120.15502977999972",
+    "latitude" : "44.56745218600048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Oregon\",\"zip\":\"\"}"
+  },
+  "state" : "Oregon",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "3701000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-77.86069775999965",
+    "latitude" : "40.79373260300048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Pennsylvania\",\"zip\":\"\"}"
+  },
+  "state" : "Pennsylvania",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "12441000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.52246918099962",
+    "latitude" : "41.708284362000484",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Rhode Island\",\"zip\":\"\"}"
+  },
+  "state" : "Rhode Island",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "1068000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-81.04536765699964",
+    "latitude" : "33.99882214300044",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"South Carolina\",\"zip\":\"\"}"
+  },
+  "state" : "South Carolina",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "4321000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-100.37352811899967",
+    "latitude" : "44.35313049600046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"South Dakota\",\"zip\":\"\"}"
+  },
+  "state" : "South Dakota",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "782000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-85.77448642199965",
+    "latitude" : "35.68094014000047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Tennessee\",\"zip\":\"\"}"
+  },
+  "state" : "Tennessee",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "6039000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-99.4267664729997",
+    "latitude" : "31.827240712000446",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Texas\",\"zip\":\"\"}"
+  },
+  "state" : "Texas",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "23508000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-111.5871285339997",
+    "latitude" : "39.36070082200047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Utah\",\"zip\":\"\"}"
+  },
+  "state" : "Utah",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "2550000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-72.51763944499965",
+    "latitude" : "43.62538000100045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Vermont\",\"zip\":\"\"}"
+  },
+  "state" : "Vermont",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "624000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-78.45788924199968",
+    "latitude" : "37.542682294000485",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Virginia\",\"zip\":\"\"}"
+  },
+  "state" : "Virginia",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "7643000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-120.47002746299972",
+    "latitude" : "47.5222894470005",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Washington\",\"zip\":\"\"}"
+  },
+  "state" : "Washington",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "6396000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-80.71263935099967",
+    "latitude" : "38.66551303900047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"West Virginia\",\"zip\":\"\"}"
+  },
+  "state" : "West Virginia",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "1818000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-89.81636715299965",
+    "latitude" : "44.393191877000504",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Wisconsin\",\"zip\":\"\"}"
+  },
+  "state" : "Wisconsin",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "5557000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-108.10982744299969",
+    "latitude" : "43.235543013000495",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Wyoming\",\"zip\":\"\"}"
+  },
+  "state" : "Wyoming",
+  "state_y_n" : "Y",
+  "year" : "2006",
+  "population" : "515000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Total U.S.\",\"zip\":\"\"}"
+  },
+  "state" : "Total U.S.",
+  "state_y_n" : "N",
+  "year" : "2006",
+  "population" : "293655404"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-86.63185803899967",
+    "latitude" : "32.84057034900047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Alabama\",\"zip\":\"\"}"
+  },
+  "state" : "Alabama",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "4661900"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-147.72205669099972",
+    "latitude" : "64.84507631500048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Alaska\",\"zip\":\"\"}"
+  },
+  "state" : "Alaska",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "683478"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-111.76380949799972",
+    "latitude" : "34.865970167000455",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Arizona\",\"zip\":\"\"}"
+  },
+  "state" : "Arizona",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "6338755"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-92.27448794899965",
+    "latitude" : "34.74865329300047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Arkansas\",\"zip\":\"\"}"
+  },
+  "state" : "Arkansas",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "2834797"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-120.99999889499969",
+    "latitude" : "37.63864203100047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"California\",\"zip\":\"\"}"
+  },
+  "state" : "California",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "36553215"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-106.13360888799969",
+    "latitude" : "38.84384201300048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Colorado\",\"zip\":\"\"}"
+  },
+  "state" : "Colorado",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "4939456"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-72.64983753699966",
+    "latitude" : "41.56266101800048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Connecticut\",\"zip\":\"\"}"
+  },
+  "state" : "Connecticut",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "3502309"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-75.57773943699965",
+    "latitude" : "39.00883059000046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Delaware\",\"zip\":\"\"}"
+  },
+  "state" : "Delaware",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "864764"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-77.03195864199967",
+    "latitude" : "38.89037038100048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"DC\",\"zip\":\"\"}"
+  },
+  "state" : "DC",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "588292"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-81.92895558499964",
+    "latitude" : "28.93204444200046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Florida\",\"zip\":\"\"}"
+  },
+  "state" : "Florida",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "18251243"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-83.62757601199968",
+    "latitude" : "32.83968158500045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Georgia\",\"zip\":\"\"}"
+  },
+  "state" : "Georgia",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "9544750"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-157.85774691599974",
+    "latitude" : "21.304853205000427",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Hawaii\",\"zip\":\"\"}"
+  },
+  "state" : "Hawaii",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "1283388"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-114.3637261449997",
+    "latitude" : "43.68263160000049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Idaho\",\"zip\":\"\"}"
+  },
+  "state" : "Idaho",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "1499402"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-88.99770813999965",
+    "latitude" : "40.48501433000047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Illinois\",\"zip\":\"\"}"
+  },
+  "state" : "Illinois",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "12852548"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-86.14995579899966",
+    "latitude" : "39.76691072200049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Indiana\",\"zip\":\"\"}"
+  },
+  "state" : "Indiana",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "6345289"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-93.81648936699969",
+    "latitude" : "42.469401477000474",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Iowa\",\"zip\":\"\"}"
+  },
+  "state" : "Iowa",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "2988046"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-98.20077655499966",
+    "latitude" : "38.3477418760005",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Kansas\",\"zip\":\"\"}"
+  },
+  "state" : "Kansas",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "2775997"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-84.77496612599964",
+    "latitude" : "37.645970985000474",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Kentucky\",\"zip\":\"\"}"
+  },
+  "state" : "Kentucky",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "4241474"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-92.44567554599968",
+    "latitude" : "31.312664106000454",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Louisiana\",\"zip\":\"\"}"
+  },
+  "state" : "Louisiana",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "4293204"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-68.98502952999962",
+    "latitude" : "45.2542257390005",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Maine\",\"zip\":\"\"}"
+  },
+  "state" : "Maine",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "1317207"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-76.60925970899967",
+    "latitude" : "39.29058224000045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Maryland\",\"zip\":\"\"}"
+  },
+  "state" : "Maryland",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "5618344"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-72.08268985899963",
+    "latitude" : "42.27687014100047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Massachusetts\",\"zip\":\"\"}"
+  },
+  "state" : "Massachusetts",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "6449755"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-84.71438724399968",
+    "latitude" : "44.66132176400049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Michigan\",\"zip\":\"\"}"
+  },
+  "state" : "Michigan",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "10071822"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-94.79419697699967",
+    "latitude" : "46.35564575300049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Minnesota\",\"zip\":\"\"}"
+  },
+  "state" : "Minnesota",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "5197621"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-89.53802764499966",
+    "latitude" : "32.745512774000474",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Mississippi\",\"zip\":\"\"}"
+  },
+  "state" : "Mississippi",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "2918785"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-92.56629737199967",
+    "latitude" : "38.63579079900046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Missouri\",\"zip\":\"\"}"
+  },
+  "state" : "Missouri",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "5878415"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-109.42441687999968",
+    "latitude" : "47.06652759400049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Montana\",\"zip\":\"\"}"
+  },
+  "state" : "Montana",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "957861"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-99.36571864599966",
+    "latitude" : "41.641041981000456",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Nebraska\",\"zip\":\"\"}"
+  },
+  "state" : "Nebraska",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "1774571"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-117.07183978499972",
+    "latitude" : "39.493242807000456",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Nevada\",\"zip\":\"\"}"
+  },
+  "state" : "Nevada",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "2565382"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.50035726399966",
+    "latitude" : "43.65595081000049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New Hampshire\",\"zip\":\"\"}"
+  },
+  "state" : "New Hampshire",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "1315828"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-74.27368565099965",
+    "latitude" : "40.13057159500045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New Jersey\",\"zip\":\"\"}"
+  },
+  "state" : "New Jersey",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "8685920"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-106.24057768899968",
+    "latitude" : "34.520884020000494",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New Mexico\",\"zip\":\"\"}"
+  },
+  "state" : "New Mexico",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "1969915"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-75.54396639699968",
+    "latitude" : "42.82700178100049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New York\",\"zip\":\"\"}"
+  },
+  "state" : "New York",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "19297729"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-79.15924924699965",
+    "latitude" : "35.46622096200048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"North Carolina\",\"zip\":\"\"}"
+  },
+  "state" : "North Carolina",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "9061032"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-100.11842599699969",
+    "latitude" : "47.47531892900048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"North Dakota\",\"zip\":\"\"}"
+  },
+  "state" : "North Dakota",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "639715"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-82.40425685299965",
+    "latitude" : "40.06021184000048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Ohio\",\"zip\":\"\"}"
+  },
+  "state" : "Ohio",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "11466917"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-97.52106845499969",
+    "latitude" : "35.472031425000466",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Oklahoma\",\"zip\":\"\"}"
+  },
+  "state" : "Oklahoma",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "3617316"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-120.15502977999972",
+    "latitude" : "44.56745218600048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Oregon\",\"zip\":\"\"}"
+  },
+  "state" : "Oregon",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "3747455"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-77.86069775999965",
+    "latitude" : "40.79373260300048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Pennsylvania\",\"zip\":\"\"}"
+  },
+  "state" : "Pennsylvania",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "12432792"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.52246918099962",
+    "latitude" : "41.708284362000484",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Rhode Island\",\"zip\":\"\"}"
+  },
+  "state" : "Rhode Island",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "1057832"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-81.04536765699964",
+    "latitude" : "33.99882214300044",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"South Carolina\",\"zip\":\"\"}"
+  },
+  "state" : "South Carolina",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "4407709"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-100.37352811899967",
+    "latitude" : "44.35313049600046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"South Dakota\",\"zip\":\"\"}"
+  },
+  "state" : "South Dakota",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "796214"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-85.77448642199965",
+    "latitude" : "35.68094014000047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Tennessee\",\"zip\":\"\"}"
+  },
+  "state" : "Tennessee",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "6156719"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-99.4267664729997",
+    "latitude" : "31.827240712000446",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Texas\",\"zip\":\"\"}"
+  },
+  "state" : "Texas",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "23904380"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-111.5871285339997",
+    "latitude" : "39.36070082200047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Utah\",\"zip\":\"\"}"
+  },
+  "state" : "Utah",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "2645330"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-72.51763944499965",
+    "latitude" : "43.62538000100045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Vermont\",\"zip\":\"\"}"
+  },
+  "state" : "Vermont",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "621254"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-78.45788924199968",
+    "latitude" : "37.542682294000485",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Virginia\",\"zip\":\"\"}"
+  },
+  "state" : "Virginia",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "7712091"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-120.47002746299972",
+    "latitude" : "47.5222894470005",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Washington\",\"zip\":\"\"}"
+  },
+  "state" : "Washington",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "6468424"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-80.71263935099967",
+    "latitude" : "38.66551303900047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"West Virginia\",\"zip\":\"\"}"
+  },
+  "state" : "West Virginia",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "1812035"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-89.81636715299965",
+    "latitude" : "44.393191877000504",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Wisconsin\",\"zip\":\"\"}"
+  },
+  "state" : "Wisconsin",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "5601640"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-108.10982744299969",
+    "latitude" : "43.235543013000495",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Wyoming\",\"zip\":\"\"}"
+  },
+  "state" : "Wyoming",
+  "state_y_n" : "Y",
+  "year" : "2007",
+  "population" : "522830"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Total U.S.\",\"zip\":\"\"}"
+  },
+  "state" : "Total U.S.",
+  "state_y_n" : "N",
+  "year" : "2007",
+  "population" : "299398000"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-86.63185803899967",
+    "latitude" : "32.84057034900047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Alabama\",\"zip\":\"\"}"
+  },
+  "state" : "Alabama",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "4627851"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-147.72205669099972",
+    "latitude" : "64.84507631500048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Alaska\",\"zip\":\"\"}"
+  },
+  "state" : "Alaska",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "686293"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-111.76380949799972",
+    "latitude" : "34.865970167000455",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Arizona\",\"zip\":\"\"}"
+  },
+  "state" : "Arizona",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "6500180"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-92.27448794899965",
+    "latitude" : "34.74865329300047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Arkansas\",\"zip\":\"\"}"
+  },
+  "state" : "Arkansas",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "2855390"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-120.99999889499969",
+    "latitude" : "37.63864203100047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"California\",\"zip\":\"\"}"
+  },
+  "state" : "California",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "36756666"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-106.13360888799969",
+    "latitude" : "38.84384201300048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Colorado\",\"zip\":\"\"}"
+  },
+  "state" : "Colorado",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "4861515"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-72.64983753699966",
+    "latitude" : "41.56266101800048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Connecticut\",\"zip\":\"\"}"
+  },
+  "state" : "Connecticut",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "3574097"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-75.57773943699965",
+    "latitude" : "39.00883059000046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Delaware\",\"zip\":\"\"}"
+  },
+  "state" : "Delaware",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "873092"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-77.03195864199967",
+    "latitude" : "38.89037038100048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"DC\",\"zip\":\"\"}"
+  },
+  "state" : "DC",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "591833"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-81.92895558499964",
+    "latitude" : "28.93204444200046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Florida\",\"zip\":\"\"}"
+  },
+  "state" : "Florida",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "18328340"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-83.62757601199968",
+    "latitude" : "32.83968158500045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Georgia\",\"zip\":\"\"}"
+  },
+  "state" : "Georgia",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "9685744"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-157.85774691599974",
+    "latitude" : "21.304853205000427",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Hawaii\",\"zip\":\"\"}"
+  },
+  "state" : "Hawaii",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "1288198"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-114.3637261449997",
+    "latitude" : "43.68263160000049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Idaho\",\"zip\":\"\"}"
+  },
+  "state" : "Idaho",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "1523816"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-88.99770813999965",
+    "latitude" : "40.48501433000047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Illinois\",\"zip\":\"\"}"
+  },
+  "state" : "Illinois",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "12901563"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-86.14995579899966",
+    "latitude" : "39.76691072200049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Indiana\",\"zip\":\"\"}"
+  },
+  "state" : "Indiana",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "6376792"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-93.81648936699969",
+    "latitude" : "42.469401477000474",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Iowa\",\"zip\":\"\"}"
+  },
+  "state" : "Iowa",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "3002555"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-98.20077655499966",
+    "latitude" : "38.3477418760005",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Kansas\",\"zip\":\"\"}"
+  },
+  "state" : "Kansas",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "2802134"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-84.77496612599964",
+    "latitude" : "37.645970985000474",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Kentucky\",\"zip\":\"\"}"
+  },
+  "state" : "Kentucky",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "4269245"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-92.44567554599968",
+    "latitude" : "31.312664106000454",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Louisiana\",\"zip\":\"\"}"
+  },
+  "state" : "Louisiana",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "4410796"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-68.98502952999962",
+    "latitude" : "45.2542257390005",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Maine\",\"zip\":\"\"}"
+  },
+  "state" : "Maine",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "1316456"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-76.60925970899967",
+    "latitude" : "39.29058224000045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Maryland\",\"zip\":\"\"}"
+  },
+  "state" : "Maryland",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "5633597"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-72.08268985899963",
+    "latitude" : "42.27687014100047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Massachusetts\",\"zip\":\"\"}"
+  },
+  "state" : "Massachusetts",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "6497967"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-84.71438724399968",
+    "latitude" : "44.66132176400049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Michigan\",\"zip\":\"\"}"
+  },
+  "state" : "Michigan",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "10003422"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-94.79419697699967",
+    "latitude" : "46.35564575300049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Minnesota\",\"zip\":\"\"}"
+  },
+  "state" : "Minnesota",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "5220393"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-89.53802764499966",
+    "latitude" : "32.745512774000474",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Mississippi\",\"zip\":\"\"}"
+  },
+  "state" : "Mississippi",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "2938618"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-92.56629737199967",
+    "latitude" : "38.63579079900046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Missouri\",\"zip\":\"\"}"
+  },
+  "state" : "Missouri",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "5911605"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-109.42441687999968",
+    "latitude" : "47.06652759400049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Montana\",\"zip\":\"\"}"
+  },
+  "state" : "Montana",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "967440"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-99.36571864599966",
+    "latitude" : "41.641041981000456",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Nebraska\",\"zip\":\"\"}"
+  },
+  "state" : "Nebraska",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "1783432"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-117.07183978499972",
+    "latitude" : "39.493242807000456",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Nevada\",\"zip\":\"\"}"
+  },
+  "state" : "Nevada",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "2600167"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.50035726399966",
+    "latitude" : "43.65595081000049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New Hampshire\",\"zip\":\"\"}"
+  },
+  "state" : "New Hampshire",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "1315809"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-74.27368565099965",
+    "latitude" : "40.13057159500045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New Jersey\",\"zip\":\"\"}"
+  },
+  "state" : "New Jersey",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "8682661"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-106.24057768899968",
+    "latitude" : "34.520884020000494",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New Mexico\",\"zip\":\"\"}"
+  },
+  "state" : "New Mexico",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "1984356"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-75.54396639699968",
+    "latitude" : "42.82700178100049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New York\",\"zip\":\"\"}"
+  },
+  "state" : "New York",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "19490297"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-79.15924924699965",
+    "latitude" : "35.46622096200048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"North Carolina\",\"zip\":\"\"}"
+  },
+  "state" : "North Carolina",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "9222414"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-100.11842599699969",
+    "latitude" : "47.47531892900048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"North Dakota\",\"zip\":\"\"}"
+  },
+  "state" : "North Dakota",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "641481"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-82.40425685299965",
+    "latitude" : "40.06021184000048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Ohio\",\"zip\":\"\"}"
+  },
+  "state" : "Ohio",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "11485910"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-97.52106845499969",
+    "latitude" : "35.472031425000466",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Oklahoma\",\"zip\":\"\"}"
+  },
+  "state" : "Oklahoma",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "3642361"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-120.15502977999972",
+    "latitude" : "44.56745218600048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Oregon\",\"zip\":\"\"}"
+  },
+  "state" : "Oregon",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "3790060"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-77.86069775999965",
+    "latitude" : "40.79373260300048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Pennsylvania\",\"zip\":\"\"}"
+  },
+  "state" : "Pennsylvania",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "12448279"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.52246918099962",
+    "latitude" : "41.708284362000484",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Rhode Island\",\"zip\":\"\"}"
+  },
+  "state" : "Rhode Island",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "1050788"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-81.04536765699964",
+    "latitude" : "33.99882214300044",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"South Carolina\",\"zip\":\"\"}"
+  },
+  "state" : "South Carolina",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "4479800"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-100.37352811899967",
+    "latitude" : "44.35313049600046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"South Dakota\",\"zip\":\"\"}"
+  },
+  "state" : "South Dakota",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "804194"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-85.77448642199965",
+    "latitude" : "35.68094014000047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Tennessee\",\"zip\":\"\"}"
+  },
+  "state" : "Tennessee",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "6214888"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-99.4267664729997",
+    "latitude" : "31.827240712000446",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Texas\",\"zip\":\"\"}"
+  },
+  "state" : "Texas",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "24326974"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-111.5871285339997",
+    "latitude" : "39.36070082200047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Utah\",\"zip\":\"\"}"
+  },
+  "state" : "Utah",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "2736424"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-72.51763944499965",
+    "latitude" : "43.62538000100045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Vermont\",\"zip\":\"\"}"
+  },
+  "state" : "Vermont",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "621270"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-78.45788924199968",
+    "latitude" : "37.542682294000485",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Virginia\",\"zip\":\"\"}"
+  },
+  "state" : "Virginia",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "7769089"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-120.47002746299972",
+    "latitude" : "47.5222894470005",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Washington\",\"zip\":\"\"}"
+  },
+  "state" : "Washington",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "6549224"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-80.71263935099967",
+    "latitude" : "38.66551303900047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"West Virginia\",\"zip\":\"\"}"
+  },
+  "state" : "West Virginia",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "1814468"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-89.81636715299965",
+    "latitude" : "44.393191877000504",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Wisconsin\",\"zip\":\"\"}"
+  },
+  "state" : "Wisconsin",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "5627967"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-108.10982744299969",
+    "latitude" : "43.235543013000495",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Wyoming\",\"zip\":\"\"}"
+  },
+  "state" : "Wyoming",
+  "state_y_n" : "Y",
+  "year" : "2008",
+  "population" : "532668"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Total U.S.\",\"zip\":\"\"}"
+  },
+  "state" : "Total U.S.",
+  "state_y_n" : "N",
+  "year" : "2008",
+  "population" : "301621157"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-86.63185803899967",
+    "latitude" : "32.84057034900047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Alabama\",\"zip\":\"\"}"
+  },
+  "state" : "Alabama",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "4779735"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-147.72205669099972",
+    "latitude" : "64.84507631500048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Alaska\",\"zip\":\"\"}"
+  },
+  "state" : "Alaska",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "710231"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-111.76380949799972",
+    "latitude" : "34.865970167000455",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Arizona\",\"zip\":\"\"}"
+  },
+  "state" : "Arizona",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "6329013"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-92.27448794899965",
+    "latitude" : "34.74865329300047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Arkansas\",\"zip\":\"\"}"
+  },
+  "state" : "Arkansas",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "2915921"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-120.99999889499969",
+    "latitude" : "37.63864203100047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"California\",\"zip\":\"\"}"
+  },
+  "state" : "California",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "37253956"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-106.13360888799969",
+    "latitude" : "38.84384201300048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Colorado\",\"zip\":\"\"}"
+  },
+  "state" : "Colorado",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "5029196"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-72.64983753699966",
+    "latitude" : "41.56266101800048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Connecticut\",\"zip\":\"\"}"
+  },
+  "state" : "Connecticut",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "3574097"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-75.57773943699965",
+    "latitude" : "39.00883059000046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Delaware\",\"zip\":\"\"}"
+  },
+  "state" : "Delaware",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "897934"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-77.03195864199967",
+    "latitude" : "38.89037038100048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"DC\",\"zip\":\"\"}"
+  },
+  "state" : "DC",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "601723"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-81.92895558499964",
+    "latitude" : "28.93204444200046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Florida\",\"zip\":\"\"}"
+  },
+  "state" : "Florida",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "18801311"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-83.62757601199968",
+    "latitude" : "32.83968158500045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Georgia\",\"zip\":\"\"}"
+  },
+  "state" : "Georgia",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "9687653"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-157.85774691599974",
+    "latitude" : "21.304853205000427",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Hawaii\",\"zip\":\"\"}"
+  },
+  "state" : "Hawaii",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "1360301"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-114.3637261449997",
+    "latitude" : "43.68263160000049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Idaho\",\"zip\":\"\"}"
+  },
+  "state" : "Idaho",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "1567582"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-88.99770813999965",
+    "latitude" : "40.48501433000047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Illinois\",\"zip\":\"\"}"
+  },
+  "state" : "Illinois",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "12830632"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-86.14995579899966",
+    "latitude" : "39.76691072200049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Indiana\",\"zip\":\"\"}"
+  },
+  "state" : "Indiana",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "6483800"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-93.81648936699969",
+    "latitude" : "42.469401477000474",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Iowa\",\"zip\":\"\"}"
+  },
+  "state" : "Iowa",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "3046350"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-98.20077655499966",
+    "latitude" : "38.3477418760005",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Kansas\",\"zip\":\"\"}"
+  },
+  "state" : "Kansas",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "2853118"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-84.77496612599964",
+    "latitude" : "37.645970985000474",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Kentucky\",\"zip\":\"\"}"
+  },
+  "state" : "Kentucky",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "4339362"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-92.44567554599968",
+    "latitude" : "31.312664106000454",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Louisiana\",\"zip\":\"\"}"
+  },
+  "state" : "Louisiana",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "4533372"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-68.98502952999962",
+    "latitude" : "45.2542257390005",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Maine\",\"zip\":\"\"}"
+  },
+  "state" : "Maine",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "1328361"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-76.60925970899967",
+    "latitude" : "39.29058224000045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Maryland\",\"zip\":\"\"}"
+  },
+  "state" : "Maryland",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "5773552"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-72.08268985899963",
+    "latitude" : "42.27687014100047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Massachusetts\",\"zip\":\"\"}"
+  },
+  "state" : "Massachusetts",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "6547629"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-84.71438724399968",
+    "latitude" : "44.66132176400049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Michigan\",\"zip\":\"\"}"
+  },
+  "state" : "Michigan",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "9883635"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-94.79419697699967",
+    "latitude" : "46.35564575300049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Minnesota\",\"zip\":\"\"}"
+  },
+  "state" : "Minnesota",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "5303925"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-89.53802764499966",
+    "latitude" : "32.745512774000474",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Mississippi\",\"zip\":\"\"}"
+  },
+  "state" : "Mississippi",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "2967297"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-92.56629737199967",
+    "latitude" : "38.63579079900046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Missouri\",\"zip\":\"\"}"
+  },
+  "state" : "Missouri",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "5988927"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-109.42441687999968",
+    "latitude" : "47.06652759400049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Montana\",\"zip\":\"\"}"
+  },
+  "state" : "Montana",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "989415"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-99.36571864599966",
+    "latitude" : "41.641041981000456",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Nebraska\",\"zip\":\"\"}"
+  },
+  "state" : "Nebraska",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "1826341"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-117.07183978499972",
+    "latitude" : "39.493242807000456",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Nevada\",\"zip\":\"\"}"
+  },
+  "state" : "Nevada",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "2700551"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.50035726399966",
+    "latitude" : "43.65595081000049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New Hampshire\",\"zip\":\"\"}"
+  },
+  "state" : "New Hampshire",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "1316472"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-74.27368565099965",
+    "latitude" : "40.13057159500045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New Jersey\",\"zip\":\"\"}"
+  },
+  "state" : "New Jersey",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "8791894"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-106.24057768899968",
+    "latitude" : "34.520884020000494",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New Mexico\",\"zip\":\"\"}"
+  },
+  "state" : "New Mexico",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "2059180"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-75.54396639699968",
+    "latitude" : "42.82700178100049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New York\",\"zip\":\"\"}"
+  },
+  "state" : "New York",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "19378104"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-79.15924924699965",
+    "latitude" : "35.46622096200048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"North Carolina\",\"zip\":\"\"}"
+  },
+  "state" : "North Carolina",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "9535475"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-100.11842599699969",
+    "latitude" : "47.47531892900048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"North Dakota\",\"zip\":\"\"}"
+  },
+  "state" : "North Dakota",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "672591"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-82.40425685299965",
+    "latitude" : "40.06021184000048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Ohio\",\"zip\":\"\"}"
+  },
+  "state" : "Ohio",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "11536502"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-97.52106845499969",
+    "latitude" : "35.472031425000466",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Oklahoma\",\"zip\":\"\"}"
+  },
+  "state" : "Oklahoma",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "3751354"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-120.15502977999972",
+    "latitude" : "44.56745218600048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Oregon\",\"zip\":\"\"}"
+  },
+  "state" : "Oregon",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "3831074"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-77.86069775999965",
+    "latitude" : "40.79373260300048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Pennsylvania\",\"zip\":\"\"}"
+  },
+  "state" : "Pennsylvania",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "12702379"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.52246918099962",
+    "latitude" : "41.708284362000484",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Rhode Island\",\"zip\":\"\"}"
+  },
+  "state" : "Rhode Island",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "1052567"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-81.04536765699964",
+    "latitude" : "33.99882214300044",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"South Carolina\",\"zip\":\"\"}"
+  },
+  "state" : "South Carolina",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "4625364"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-100.37352811899967",
+    "latitude" : "44.35313049600046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"South Dakota\",\"zip\":\"\"}"
+  },
+  "state" : "South Dakota",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "814180"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-85.77448642199965",
+    "latitude" : "35.68094014000047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Tennessee\",\"zip\":\"\"}"
+  },
+  "state" : "Tennessee",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "6346110"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-99.4267664729997",
+    "latitude" : "31.827240712000446",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Texas\",\"zip\":\"\"}"
+  },
+  "state" : "Texas",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "25145561"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-111.5871285339997",
+    "latitude" : "39.36070082200047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Utah\",\"zip\":\"\"}"
+  },
+  "state" : "Utah",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "2763885"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-72.51763944499965",
+    "latitude" : "43.62538000100045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Vermont\",\"zip\":\"\"}"
+  },
+  "state" : "Vermont",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "625741"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-78.45788924199968",
+    "latitude" : "37.542682294000485",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Virginia\",\"zip\":\"\"}"
+  },
+  "state" : "Virginia",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "8001024"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-120.47002746299972",
+    "latitude" : "47.5222894470005",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Washington\",\"zip\":\"\"}"
+  },
+  "state" : "Washington",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "6724540"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-80.71263935099967",
+    "latitude" : "38.66551303900047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"West Virginia\",\"zip\":\"\"}"
+  },
+  "state" : "West Virginia",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "1852996"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-89.81636715299965",
+    "latitude" : "44.393191877000504",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Wisconsin\",\"zip\":\"\"}"
+  },
+  "state" : "Wisconsin",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "5686986"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-108.10982744299969",
+    "latitude" : "43.235543013000495",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Wyoming\",\"zip\":\"\"}"
+  },
+  "state" : "Wyoming",
+  "state_y_n" : "Y",
+  "year" : "2010",
+  "population" : "563626"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Total U.S.\",\"zip\":\"\"}"
+  },
+  "state" : "Total U.S.",
+  "state_y_n" : "N",
+  "year" : "2010",
+  "population" : "308745538"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-86.63185803899967",
+    "latitude" : "32.84057034900047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Alabama\",\"zip\":\"\"}"
+  },
+  "state" : "Alabama",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "4802740"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-147.72205669099972",
+    "latitude" : "64.84507631500048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Alaska\",\"zip\":\"\"}"
+  },
+  "state" : "Alaska",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "722718"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-111.76380949799972",
+    "latitude" : "34.865970167000455",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Arizona\",\"zip\":\"\"}"
+  },
+  "state" : "Arizona",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "6482505"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-92.27448794899965",
+    "latitude" : "34.74865329300047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Arkansas\",\"zip\":\"\"}"
+  },
+  "state" : "Arkansas",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "2937979"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-120.99999889499969",
+    "latitude" : "37.63864203100047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"California\",\"zip\":\"\"}"
+  },
+  "state" : "California",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "37691912"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-106.13360888799969",
+    "latitude" : "38.84384201300048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Colorado\",\"zip\":\"\"}"
+  },
+  "state" : "Colorado",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "5116796"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-72.64983753699966",
+    "latitude" : "41.56266101800048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Connecticut\",\"zip\":\"\"}"
+  },
+  "state" : "Connecticut",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "3580709"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-75.57773943699965",
+    "latitude" : "39.00883059000046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Delaware\",\"zip\":\"\"}"
+  },
+  "state" : "Delaware",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "907135"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-77.03195864199967",
+    "latitude" : "38.89037038100048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"DC\",\"zip\":\"\"}"
+  },
+  "state" : "DC",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "617996"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-81.92895558499964",
+    "latitude" : "28.93204444200046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Florida\",\"zip\":\"\"}"
+  },
+  "state" : "Florida",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "19057542"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-83.62757601199968",
+    "latitude" : "32.83968158500045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Georgia\",\"zip\":\"\"}"
+  },
+  "state" : "Georgia",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "9815210"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-157.85774691599974",
+    "latitude" : "21.304853205000427",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Hawaii\",\"zip\":\"\"}"
+  },
+  "state" : "Hawaii",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "1374810"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-114.3637261449997",
+    "latitude" : "43.68263160000049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Idaho\",\"zip\":\"\"}"
+  },
+  "state" : "Idaho",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "1584985"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-88.99770813999965",
+    "latitude" : "40.48501433000047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Illinois\",\"zip\":\"\"}"
+  },
+  "state" : "Illinois",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "12869257"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-86.14995579899966",
+    "latitude" : "39.76691072200049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Indiana\",\"zip\":\"\"}"
+  },
+  "state" : "Indiana",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "6516922"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-93.81648936699969",
+    "latitude" : "42.469401477000474",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Iowa\",\"zip\":\"\"}"
+  },
+  "state" : "Iowa",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "3062309"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-98.20077655499966",
+    "latitude" : "38.3477418760005",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Kansas\",\"zip\":\"\"}"
+  },
+  "state" : "Kansas",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "2871238"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-84.77496612599964",
+    "latitude" : "37.645970985000474",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Kentucky\",\"zip\":\"\"}"
+  },
+  "state" : "Kentucky",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "4369356"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-92.44567554599968",
+    "latitude" : "31.312664106000454",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Louisiana\",\"zip\":\"\"}"
+  },
+  "state" : "Louisiana",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "4574836"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-68.98502952999962",
+    "latitude" : "45.2542257390005",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Maine\",\"zip\":\"\"}"
+  },
+  "state" : "Maine",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "1328188"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-76.60925970899967",
+    "latitude" : "39.29058224000045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Maryland\",\"zip\":\"\"}"
+  },
+  "state" : "Maryland",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "5828289"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-72.08268985899963",
+    "latitude" : "42.27687014100047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Massachusetts\",\"zip\":\"\"}"
+  },
+  "state" : "Massachusetts",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "6587536"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-84.71438724399968",
+    "latitude" : "44.66132176400049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Michigan\",\"zip\":\"\"}"
+  },
+  "state" : "Michigan",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "9876187"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-94.79419697699967",
+    "latitude" : "46.35564575300049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Minnesota\",\"zip\":\"\"}"
+  },
+  "state" : "Minnesota",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "5344861"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-89.53802764499966",
+    "latitude" : "32.745512774000474",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Mississippi\",\"zip\":\"\"}"
+  },
+  "state" : "Mississippi",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "2978512"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-92.56629737199967",
+    "latitude" : "38.63579079900046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Missouri\",\"zip\":\"\"}"
+  },
+  "state" : "Missouri",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "6010688"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-109.42441687999968",
+    "latitude" : "47.06652759400049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Montana\",\"zip\":\"\"}"
+  },
+  "state" : "Montana",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "998199"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-99.36571864599966",
+    "latitude" : "41.641041981000456",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Nebraska\",\"zip\":\"\"}"
+  },
+  "state" : "Nebraska",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "1842641"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-117.07183978499972",
+    "latitude" : "39.493242807000456",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Nevada\",\"zip\":\"\"}"
+  },
+  "state" : "Nevada",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "2723322"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.50035726399966",
+    "latitude" : "43.65595081000049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New Hampshire\",\"zip\":\"\"}"
+  },
+  "state" : "New Hampshire",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "1318194"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-74.27368565099965",
+    "latitude" : "40.13057159500045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New Jersey\",\"zip\":\"\"}"
+  },
+  "state" : "New Jersey",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "8821155"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-106.24057768899968",
+    "latitude" : "34.520884020000494",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New Mexico\",\"zip\":\"\"}"
+  },
+  "state" : "New Mexico",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "2082224"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-75.54396639699968",
+    "latitude" : "42.82700178100049",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"New York\",\"zip\":\"\"}"
+  },
+  "state" : "New York",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "19465197"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-79.15924924699965",
+    "latitude" : "35.46622096200048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"North Carolina\",\"zip\":\"\"}"
+  },
+  "state" : "North Carolina",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "9656401"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-100.11842599699969",
+    "latitude" : "47.47531892900048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"North Dakota\",\"zip\":\"\"}"
+  },
+  "state" : "North Dakota",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "683932"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-82.40425685299965",
+    "latitude" : "40.06021184000048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Ohio\",\"zip\":\"\"}"
+  },
+  "state" : "Ohio",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "11544951"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-97.52106845499969",
+    "latitude" : "35.472031425000466",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Oklahoma\",\"zip\":\"\"}"
+  },
+  "state" : "Oklahoma",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "3791508"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-120.15502977999972",
+    "latitude" : "44.56745218600048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Oregon\",\"zip\":\"\"}"
+  },
+  "state" : "Oregon",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "3871859"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-77.86069775999965",
+    "latitude" : "40.79373260300048",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Pennsylvania\",\"zip\":\"\"}"
+  },
+  "state" : "Pennsylvania",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "12742886"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.52246918099962",
+    "latitude" : "41.708284362000484",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Rhode Island\",\"zip\":\"\"}"
+  },
+  "state" : "Rhode Island",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "1051302"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-81.04536765699964",
+    "latitude" : "33.99882214300044",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"South Carolina\",\"zip\":\"\"}"
+  },
+  "state" : "South Carolina",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "4679230"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-100.37352811899967",
+    "latitude" : "44.35313049600046",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"South Dakota\",\"zip\":\"\"}"
+  },
+  "state" : "South Dakota",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "824082"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-85.77448642199965",
+    "latitude" : "35.68094014000047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Tennessee\",\"zip\":\"\"}"
+  },
+  "state" : "Tennessee",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "6403353"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-99.4267664729997",
+    "latitude" : "31.827240712000446",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Texas\",\"zip\":\"\"}"
+  },
+  "state" : "Texas",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "25674681"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-111.5871285339997",
+    "latitude" : "39.36070082200047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Utah\",\"zip\":\"\"}"
+  },
+  "state" : "Utah",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "2817222"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-72.51763944499965",
+    "latitude" : "43.62538000100045",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Vermont\",\"zip\":\"\"}"
+  },
+  "state" : "Vermont",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "626431"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-78.45788924199968",
+    "latitude" : "37.542682294000485",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Virginia\",\"zip\":\"\"}"
+  },
+  "state" : "Virginia",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "8096604"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-120.47002746299972",
+    "latitude" : "47.5222894470005",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Washington\",\"zip\":\"\"}"
+  },
+  "state" : "Washington",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "6830038"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-80.71263935099967",
+    "latitude" : "38.66551303900047",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"West Virginia\",\"zip\":\"\"}"
+  },
+  "state" : "West Virginia",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "1855364"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-89.81636715299965",
+    "latitude" : "44.393191877000504",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Wisconsin\",\"zip\":\"\"}"
+  },
+  "state" : "Wisconsin",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "5711767"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-108.10982744299969",
+    "latitude" : "43.235543013000495",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Wyoming\",\"zip\":\"\"}"
+  },
+  "state" : "Wyoming",
+  "state_y_n" : "Y",
+  "year" : "2011",
+  "population" : "568158"
+}
+, {
+  "location" : {
+    "needs_recoding" : false,
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"Total U.S.\",\"zip\":\"\"}"
+  },
+  "state" : "Total U.S.",
+  "state_y_n" : "N",
+  "year" : "2011",
+  "population" : "311591917"
+}
+ ]
