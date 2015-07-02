@@ -4,7 +4,7 @@ app.directive('linePopulationChart', [
   function(PopulationHistory, $rootScope) {
 
     return {
-      restrict: "A",
+      restrict: "E",
       scope: {
 
       }, 
@@ -18,7 +18,7 @@ app.directive('linePopulationChart', [
         var w = 500;
         var metrics = [];
         var padding = 20;
-
+        var format = d3.time.format("%Y");
 
 
         function storeData() {
@@ -39,37 +39,39 @@ app.directive('linePopulationChart', [
           var years = parseYearDomain();
           
           var tooltip = d3.select(".target").append("div")
-                          .attr('class', 'tooltip')
+                          .attr('class', 'line-tooltip')
                           .style('opacity', 0);
 
-          var xScale = d3.time.scale()
+          var xScale = d3.scale.linear()
                          .domain(years)
-                         .range([padding, w - padding]);
+                         .range([0, w]);
 
           var yScale = d3.scale.linear()
-                         .domain([0, parseInt(PopulationHistory.maxPopulation)])
-                         .range([h - padding, 10])
+                         .domain([PopulationHistory.minPopulation, PopulationHistory.maxPopulation])
+                         .range([h, 0])
                          .nice();
 
           var yAxis = d3.svg.axis().scale(yScale).orient('left').ticks(10);
           var xAxis = d3.svg.axis().scale(xScale).orient('bottom');
 
           var lineFun = d3.svg.line()
-                          .x(function(d){ return xScale(parseInt(d.year)); })
-                          .y(function(d){ return yScale(parseInt(d.population)); })
+                          .x(function(d){ return xScale(d.year); })
+                          .y(function(d){ return yScale(d.population); })
                           .interpolate('linear');
 
           var svg = d3.select('.target')
                       .append('svg')
                       .attr({width: w, height: h, "id": "svg-line"});
 
-          var yAxisGen = svg.append('g').call(yAxis)
+          var yAxisGen = svg.append('g')
                             .attr('class', 'y-axis')
-                            .attr('transform', 'translate(' + padding + ', 0)');
+                            .attr('transform', 'translate(' + padding + ', 0)')
+                            .call(yAxis);
 
-          var xAxisGen = svg.append('g').call(xAxis)
+          var xAxisGen = svg.append('g')
                             .attr('class', 'x-axis')
-                            .attr('transform', 'translate(0, ' + (h - padding) + ")");
+                            .attr('transform', 'translate(0, ' + (h - padding) + ")")
+                            .call(xAxis);
           console.log(data);
           var viz = svg.append('path')
                        .attr({
@@ -85,8 +87,8 @@ app.directive('linePopulationChart', [
                         .enter()
                         .append('circle')
                         .attr({
-                          cx: function(d) { return xScale(parseInt(d.year)); },
-                          cy: function(d) { return yScale(parseInt(d.population)); },
+                          cx: function(d) { return xScale(d.year); },
+                          cy: function(d) { return yScale(d.population); },
                           r: 4,
                           'fill': '#666666',
                           class: 'circle'

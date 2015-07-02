@@ -30,17 +30,26 @@ app.factory('PopulationHistory', [
       }
     }
 
-    function determineMaxPop(data) {
-      if (parseInt(data.population) > maxPopulation) {
-        maxPopulation = parseInt(data.population);
+    function determineMaxMinPop(data) {
+      var population = parseInt(data.population);
+      if (population > maxPopulation) {
+        maxPopulation = population;
+      } else if (population < minPopulation) {
+        minPopulation = population;
       }
+
+      if (minPopulation == 0) {
+        minPopulation = population;
+      }
+
+      console.log(minPopulation);
     }
 
     function parseData(data) {
       for (var i = 0; i < data.length; i++) {
         addDateToState(data[i]);
         addDateToList(data[i]);
-        determineMaxPop(data[i]);
+        determineMaxMinPop(data[i]);
       }
     }
 
@@ -48,6 +57,7 @@ app.factory('PopulationHistory', [
       states: states,
       dates: dates,
       maxPopulation: maxPopulation,
+      minPopulation: minPopulation,
       init: function() {
         var deferred = $q.defer();
         d3.json('js/population/population_history.json', function(error, data){
