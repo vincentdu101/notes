@@ -14,10 +14,11 @@ app.directive('linePopulationChart', [
         var states = {},
             dates = {};
         var h = 300;
-        var w = 700;
+        var w = 600;
         var metrics = [];
-        var padding = 50;
+        var padding = 75;
         var format = d3.time.format("%Y");
+        var radius = 6;
 
 
         function storeData() {
@@ -107,22 +108,18 @@ app.directive('linePopulationChart', [
                         .attr({
                           cx: function(d) { return xScale(d.year); },
                           cy: function(d) { return yScale(d.population); },
-                          r: 4,
+                          r: radius,
                           'fill': '#666666',
                           class: 'circle'
                         })
-                      .on('mouseover', function(d){
+                      .on('click', function(d){
+
                         tooltip.transition()
                               .duration(500)
                               .style('opacity', .85)
                         tooltip.html('<strong>Population ' + d.population + "</strong>")
-                              .style('left', (d3.event.pageX) + "px")
-                              .style('top', (d3.event.pageY - 28) + "px");
-                      })
-                      .on('mouseout', function(d){
-                        tooltip.transition()
-                              .duration(300)
-                              .style('opacity', 0);
+                              .style('left', 0 + "px")
+                              .style('top', 350 + "px");
                       });
         
         }

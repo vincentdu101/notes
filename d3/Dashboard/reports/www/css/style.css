@@ -93,6 +93,10 @@ path {
   min-height: 250px;
 }
 
+.line-chart, .bar-graph {
+  flex: 1 auto;
+}
+
 @media all and (min-width: 800px) {
   .map-center {
     flex: 1 auto;
