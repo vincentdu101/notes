@@ -12,19 +12,17 @@ app.directive('linePopulationChart', [
       controller: function($scope) {
 
         var states = {},
-            dates = {},
-            maxPopulation = {};
+            dates = {};
         var h = 300;
-        var w = 500;
+        var w = 700;
         var metrics = [];
-        var padding = 20;
+        var padding = 50;
         var format = d3.time.format("%Y");
 
 
         function storeData() {
           states = PopulationHistory.states;
           dates = PopulationHistory.dates;
-          maxPopulation = PopulationHistory.maxPopulation;
         }
 
         function parseYearDomain() {
@@ -34,9 +32,28 @@ app.directive('linePopulationChart', [
           return [minYear, maxYear];
         }
 
+        function parsePopulationRange(data) {
+          var maxPopulation = 0,
+              minPopulation = 0;          
+          for(var i = 0; i < data.length; i++) {
+            var population = parseInt(data[i].population);
+            if (population > maxPopulation) {
+              maxPopulation = population;
+            } else if (population < minPopulation) {
+              minPopulation = population;
+            }
+
+            if (minPopulation == 0) {
+              minPopulation = population;
+            }            
+          };
+          return [0, maxPopulation];
+        }
+
         function createChart(data) {
 
           var years = parseYearDomain();
+          var popRange = parsePopulationRange(data);
           
           var tooltip = d3.select(".target").append("div")
                           .attr('class', 'line-tooltip')
@@ -47,7 +64,7 @@ app.directive('linePopulationChart', [
                          .range([0, w]);
 
           var yScale = d3.scale.linear()
-                         .domain([PopulationHistory.minPopulation, PopulationHistory.maxPopulation])
+                         .domain(popRange)
                          .range([h, 0])
                          .nice();
 
@@ -61,16 +78,17 @@ app.directive('linePopulationChart', [
 
           var svg = d3.select('.target')
                       .append('svg')
-                      .attr({width: w, height: h, "id": "svg-line"});
+                      .attr({width: w + padding, height: h + padding, "id": "svg-line"})
+                      .style({"padding-left":"70px", "padding-top": "20px"});
 
           var yAxisGen = svg.append('g')
                             .attr('class', 'y-axis')
-                            .attr('transform', 'translate(' + padding + ', 0)')
+                            .attr('transform', 'translate(' + 0 + ', 0)')
                             .call(yAxis);
 
           var xAxisGen = svg.append('g')
                             .attr('class', 'x-axis')
-                            .attr('transform', 'translate(0, ' + (h - padding) + ")")
+                            .attr('transform', 'translate(0, ' + (h) + ")")
                             .call(xAxis);
           console.log(data);
           var viz = svg.append('path')

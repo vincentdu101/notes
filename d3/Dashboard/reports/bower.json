@@ -5,6 +5,7 @@
     "ionic": "driftyco/ionic-bower#1.0.0-rc.5",
     "jquery": "~2.1.4",
     "isteven-angular-multiselect": "~4.0.0",
-    "bootstrap": "~3.3.4"
+    "bootstrap": "~3.3.4",
+    "lodash": "~3.10.0"
   }
 }

@@ -3,9 +3,7 @@ app.factory('PopulationHistory', [
   function($q) {
 
     var states = {},
-        dates = {},
-        minPopulation = 0,
-        maxPopulation = 0;
+        dates = {};
 
     function addDateToState(data) {
       var state = data.state;
@@ -14,7 +12,6 @@ app.factory('PopulationHistory', [
       } else {
         data.population = parseInt(data.population);
       }
-
       data.year = parseInt(data.year);
 
       if (!states[state]) {
@@ -30,34 +27,17 @@ app.factory('PopulationHistory', [
       }
     }
 
-    function determineMaxMinPop(data) {
-      var population = parseInt(data.population);
-      if (population > maxPopulation) {
-        maxPopulation = population;
-      } else if (population < minPopulation) {
-        minPopulation = population;
-      }
-
-      if (minPopulation == 0) {
-        minPopulation = population;
-      }
-
-      console.log(minPopulation);
-    }
 
     function parseData(data) {
       for (var i = 0; i < data.length; i++) {
         addDateToState(data[i]);
         addDateToList(data[i]);
-        determineMaxMinPop(data[i]);
       }
     }
 
     return {
       states: states,
       dates: dates,
-      maxPopulation: maxPopulation,
-      minPopulation: minPopulation,
       init: function() {
         var deferred = $q.defer();
         d3.json('js/population/population_history.json', function(error, data){
