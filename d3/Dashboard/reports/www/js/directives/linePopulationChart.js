@@ -18,7 +18,7 @@ app.directive('linePopulationChart', [
         var metrics = [];
         var padding = 75;
         var format = d3.time.format("%Y");
-        var radius = 6;
+        var radius = 10;
 
 
         function storeData() {
@@ -95,7 +95,7 @@ app.directive('linePopulationChart', [
           var viz = svg.append('path')
                        .attr({
                          d: lineFun(data),
-                         'stroke': 'purple',
+                         'stroke': 'black',
                          'stroke-width': 2,
                          'fill': 'none',
                          'class': 'path'
@@ -109,15 +109,17 @@ app.directive('linePopulationChart', [
                           cx: function(d) { return xScale(d.year); },
                           cy: function(d) { return yScale(d.population); },
                           r: radius,
-                          'fill': '#666666',
-                          class: 'circle'
+                          class: function(d) { return 'bubble bubble-' + d.year}
                         })
                       .on('click', function(d){
-
+                        var output = '<strong>Population ' + d.population + "</strong>";
+                        output += "<br /><strong>Year " + d.year + "</strong";
+                        $(".bubble").css('fill', "#666666");
+                        $(".bubble-" + d.year).css('fill', "#FF6600");
                         tooltip.transition()
                               .duration(500)
-                              .style('opacity', .85)
-                        tooltip.html('<strong>Population ' + d.population + "</strong>")
+                              .style('opacity', 1)
+                        tooltip.html(output)
                               .style('left', 0 + "px")
                               .style('top', 350 + "px");
                       });
@@ -130,6 +132,7 @@ app.directive('linePopulationChart', [
 
         $rootScope.$on('selectState', function(event, data) {
           var focusState = states[data.state];
+          $(".target").empty();
           createChart(focusState);
         });
 

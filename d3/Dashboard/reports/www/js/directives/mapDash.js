@@ -17,7 +17,10 @@ app.directive('mapDash', [
           if (feature) {
             d3.selectAll('path')
               .classed('selected', function(d, i){
-                return d.id !== feature.id;
+                if (d) {
+                  return d.id !== feature.id;
+                }
+                return false;
               });
           }
         }

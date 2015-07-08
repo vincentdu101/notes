@@ -143,3 +143,10 @@ div.line-tooltip {
   font-family: sans-serif;
   font-size: 12px;
 }
+
+.bubble {
+  fill: #666666;
+  fill-opacity: .5;
+  stroke: #fff;
+  stroke-width: .5px;
+}
