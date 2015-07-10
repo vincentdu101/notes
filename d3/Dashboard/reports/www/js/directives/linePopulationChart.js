@@ -19,6 +19,7 @@ app.directive('linePopulationChart', [
         var padding = 75;
         var format = d3.time.format("%Y");
         var radius = 10;
+        var created = false;
 
 
         function storeData() {
@@ -51,6 +52,19 @@ app.directive('linePopulationChart', [
           return [0, maxPopulation];
         }
 
+        function genXScale(years) {
+          return d3.scale.linear()
+                  .domain(years)
+                  .range([0, w]);
+        }
+
+        function genYScale(popRange) {
+          return d3.scale.linear()
+                   .domain(popRange)
+                   .range([h, 0])
+                   .nice();
+        }
+
         function createChart(data) {
 
           var years = parseYearDomain();
@@ -60,14 +74,8 @@ app.directive('linePopulationChart', [
                           .attr('class', 'line-tooltip')
                           .style('opacity', 0);
 
-          var xScale = d3.scale.linear()
-                         .domain(years)
-                         .range([0, w]);
-
-          var yScale = d3.scale.linear()
-                         .domain(popRange)
-                         .range([h, 0])
-                         .nice();
+          var xScale = genXScale(years);
+          var yScale = genYScale(popRange);
 
           var yAxis = d3.svg.axis().scale(yScale).orient('left').ticks(10);
           var xAxis = d3.svg.axis().scale(xScale).orient('bottom');
@@ -78,7 +86,7 @@ app.directive('linePopulationChart', [
                           .interpolate('linear');
 
           var svg = d3.select('.target')
-                      .append('svg')
+                      .select('svg')
                       .attr({width: w + padding, height: h + padding, "id": "svg-line"})
                       .style({"padding-left":"70px", "padding-top": "20px"});
 
@@ -91,8 +99,11 @@ app.directive('linePopulationChart', [
                             .attr('class', 'x-axis')
                             .attr('transform', 'translate(0, ' + (h) + ")")
                             .call(xAxis);
-          console.log(data);
+          
           var viz = svg.append('path')
+                       .transition()
+                       .duration(3000)
+                       .ease('elastic')
                        .attr({
                          d: lineFun(data),
                          'stroke': 'black',
@@ -126,14 +137,63 @@ app.directive('linePopulationChart', [
         
         }
 
+        function updateChart(data) {
+          var years = parseYearDomain();
+          var popRange = parsePopulationRange(data);
+          
+          var tooltip = d3.select(".target").append("div")
+                          .attr('class', 'line-tooltip')
+                          .style('opacity', 0);
+
+          var xScale = genXScale(years);
+          var yScale = genYScale(popRange);
+
+          var yAxis = d3.svg.axis().scale(yScale).orient('left').ticks(10);
+          var xAxis = d3.svg.axis().scale(xScale).orient('bottom');
+
+          var lineFun = d3.svg.line()
+                          .x(function(d){ return xScale(d.year); })
+                          .y(function(d){ return yScale(d.population); })
+                          .interpolate('linear');
+
+          var svg = d3.select('.target').select('svg');
+          
+          var viz = svg.selectAll('path')
+                       .transition()
+                       .duration(500)
+                       .ease('linear')
+                       .attr({
+                         d: lineFun(data),
+                         'stroke': 'purple',
+                         'stroke-width': 2,
+                         'fill': 'none',
+                         'class': 'path'
+                       });
+
+          var dots = svg.selectAll('circle')
+                        .data(data)
+                        .transition()
+                        .attr({
+                          cx: function(d) { return xScale(d.year); },
+                          cy: function(d) { return yScale(d.population); },
+                          r: radius,
+                          class: function(d) { return 'bubble bubble-' + d.year}
+                        });          
+        }
+
         PopulationHistory.init().then(function(){
           storeData();
         });
 
         $rootScope.$on('selectState', function(event, data) {
           var focusState = states[data.state];
-          $(".target").empty();
-          createChart(focusState);
+          if (!created) {
+            created = true;
+            createChart(focusState);
+          } else {
+            $(".line-tooltip").empty();
+            updateChart(focusState);
+          }
         });
 
       }
