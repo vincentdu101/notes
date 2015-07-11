@@ -109,7 +109,7 @@ app.directive('linePopulationChart', [
                          'stroke': 'black',
                          'stroke-width': 2,
                          'fill': 'none',
-                         'class': 'path'
+                         'class': 'path line-path'
                        });
 
           var dots = svg.selectAll('circle')
@@ -140,10 +140,6 @@ app.directive('linePopulationChart', [
         function updateChart(data) {
           var years = parseYearDomain();
           var popRange = parsePopulationRange(data);
-          
-          var tooltip = d3.select(".target").append("div")
-                          .attr('class', 'line-tooltip')
-                          .style('opacity', 0);
 
           var xScale = genXScale(years);
           var yScale = genYScale(popRange);
@@ -158,21 +154,18 @@ app.directive('linePopulationChart', [
 
           var svg = d3.select('.target').select('svg');
           
-          var viz = svg.selectAll('path')
+          var viz = svg.select('.line-path')
                        .transition()
                        .duration(500)
                        .ease('linear')
                        .attr({
                          d: lineFun(data),
-                         'stroke': 'purple',
-                         'stroke-width': 2,
-                         'fill': 'none',
-                         'class': 'path'
                        });
 
           var dots = svg.selectAll('circle')
                         .data(data)
                         .transition()
+                        .duration(500)
                         .attr({
                           cx: function(d) { return xScale(d.year); },
                           cy: function(d) { return yScale(d.population); },
