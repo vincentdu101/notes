@@ -125,8 +125,8 @@ app.directive('linePopulationChart', [
                       .on('click', function(d){
                         var output = '<strong>Population ' + d.population + "</strong>";
                         output += "<br /><strong>Year " + d.year + "</strong";
-                        $(".bubble").css('fill', "#666666");
-                        $(".bubble-" + d.year).css('fill', "#FF6600");
+                        d3.selectAll(".bubble").classed("bubble-selected", false)
+                        d3.select(".bubble-" + d.year).classed("bubble-selected", true)
                         tooltip.transition()
                               .duration(500)
                               .style('opacity', 1)

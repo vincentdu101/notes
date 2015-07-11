@@ -150,3 +150,7 @@ div.line-tooltip {
   stroke: #fff;
   stroke-width: .5px;
 }
+
+.bubble-selected {
+  fill: #FF6600;
+}
